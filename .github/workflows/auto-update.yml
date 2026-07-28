@@ -59,6 +59,7 @@ jobs:
           if ! git diff --cached --quiet; then
             COUNT=$(python3 -c "import json;d=json.load(open('data/news-data.json'));print(d['total_count'])")
             git commit -m "auto-update $(date -u '+%H:%M UTC') - ${COUNT} items"
+            git pull --rebase || true
             git push
           else
             echo "No changes detected"
