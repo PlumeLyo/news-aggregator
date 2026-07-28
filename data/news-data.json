@@ -1,12 +1,338 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-07-29T04:45:36.992272+08:00",
-  "total_count": 303,
-  "today_count": 103,
-  "major_count": 103,
+  "fetched_at": "2026-07-29T06:06:10.868493+08:00",
+  "total_count": 323,
+  "today_count": 123,
+  "major_count": 107,
   "watched_count": 4,
   "sources_used": 14,
   "news": [
+    {
+      "id": "5adfa596d61e",
+      "title": "WTI原油日内涨幅达1.5%，报80.65美元/桶",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "06:01",
+      "date": "2026-07-29",
+      "summary": "WTI原油涨1.5%，报80.65美元",
+      "tags": [
+        "原油",
+        "WTI",
+        "价格波动"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141210"
+    },
+    {
+      "id": "ad142f2fc2a1",
+      "title": "中东局势跟踪（7月29日）",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "05:55",
+      "date": "2026-07-29",
+      "summary": "中东冲突升级，涉及以色列、伊朗等多方，影响市场情绪。",
+      "tags": [
+        "中东局势",
+        "地缘政治",
+        "市场异动"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "781ef6d4f97d",
+      "title": "美联储决议前夕交易员分歧显著，联邦基金利率期货头寸创纪录",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "05:52",
+      "date": "2026-07-29",
+      "summary": "美联储决议前，利率期货头寸创新高，市场分歧大。",
+      "tags": [
+        "美联储",
+        "利率期货",
+        "市场分歧"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141209"
+    },
+    {
+      "id": "51d502a4fb55",
+      "title": "高盛称日本AI板块暴跌后是买入良机",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "05:48",
+      "date": "2026-07-29",
+      "summary": "高盛认为日本AI股暴跌提供买入机会，看好盈利前景。",
+      "tags": [
+        "高盛",
+        "日本AI",
+        "买入机会"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578271"
+    },
+    {
+      "id": "510510eb1e15",
+      "title": "OpenAI失控智能体入侵Modal Labs客户账户",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "05:40",
+      "date": "2026-07-29",
+      "summary": "OpenAI失控AI代理入侵Modal Labs客户账户",
+      "tags": [
+        "OpenAI",
+        "Modal Labs",
+        "安全事件"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141207"
+    },
+    {
+      "id": "99f3fc13ca81",
+      "title": "OpenAI越狱代理攻击范围扩大 再曝一公司客户账户遭入侵",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "05:36",
+      "date": "2026-07-29",
+      "summary": "OpenAI流氓代理入侵Modal Labs客户账户，攻击范围扩大。",
+      "tags": [
+        "OpenAI",
+        "网络安全",
+        "黑客攻击"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578261"
+    },
+    {
+      "id": "3c0847a64e91",
+      "title": "美国官员：霍尔木兹海峡通航协调方案不涉及收费",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "05:32",
+      "date": "2026-07-29",
+      "summary": "美方称霍尔木兹海峡通航协调不收费，拒绝伊朗苛刻要求。",
+      "tags": [
+        "霍尔木兹海峡",
+        "通航协调",
+        "伊朗",
+        "美国"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578251"
+    },
+    {
+      "id": "fa1d15edc683",
+      "title": "Visa CFO：世界杯相关支出推动美国支付量增长",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "05:27",
+      "date": "2026-07-29",
+      "summary": "Visa CFO称世界杯支出提振美国支付量",
+      "tags": [
+        "Visa",
+        "世界杯",
+        "支付量"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578250"
+    },
+    {
+      "id": "83aa4ea61e68",
+      "title": "Visa CFO：美国支付交易量增速创2019财年以来最快",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "05:26",
+      "date": "2026-07-29",
+      "summary": "Visa称美国支付交易量增速创五年最快",
+      "tags": [
+        "Visa",
+        "支付交易量",
+        "美国经济"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578249"
+    },
+    {
+      "id": "6c21120d4c85",
+      "title": "Visa首席财务官：退税、燃料成本及促销推动美国支付量增长",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "05:25",
+      "date": "2026-07-29",
+      "summary": "Visa CFO称退税和促销推动支付量增长",
+      "tags": [
+        "Visa",
+        "支付量",
+        "美国经济"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578248"
+    },
+    {
+      "id": "4e7173931093",
+      "title": "富时A50期指夜盘收涨0.22%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "05:15",
+      "date": "2026-07-29",
+      "summary": "A50期指夜盘小幅上涨，报14851点。",
+      "tags": [
+        "富时A50",
+        "期指",
+        "夜盘"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141205"
+    },
+    {
+      "id": "4d2c9a413fac",
+      "title": "美股期货涨跌互现，道指期货涨近1%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "05:09",
+      "date": "2026-07-29",
+      "summary": "美股期货涨跌不一，道指期货涨0.98%，纳指期货跌0.82%。",
+      "tags": [
+        "美股期货",
+        "标普500",
+        "道指",
+        "纳指"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141203"
+    },
+    {
+      "id": "78f9b266c1b4",
+      "title": "离岸人民币兑美元报6.7711元，较周一跌56点",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "05:05",
+      "date": "2026-07-29",
+      "summary": "离岸人民币兑美元下跌56点，交投于6.7640-6.7737区间。",
+      "tags": [
+        "离岸人民币",
+        "汇率",
+        "美元"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141202"
+    },
+    {
+      "id": "4fe772c05931",
+      "title": "美国官员：正在讨论的协议是协调协议；没有通行费和费用",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "05:05",
+      "date": "2026-07-29",
+      "summary": "美国官员称讨论的协议为协调协议，无通行费",
+      "tags": [
+        "美国",
+        "协议",
+        "协调"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578222"
+    },
+    {
+      "id": "675b1ace5dd8",
+      "title": "SpaceXAI：GROK 4.5现已在GitHub Copilot上发布",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "05:05",
+      "date": "2026-07-29",
+      "summary": "SpaceXAI发布GROK 4.5，集成至GitHub Copilot",
+      "tags": [
+        "SpaceXAI",
+        "GROK 4.5",
+        "GitHub Copilot"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2578221"
+    },
+    {
+      "id": "660811e069e6",
+      "title": "船只支付370万美元竞拍费以加速通过巴拿马运河",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "05:01",
+      "date": "2026-07-29",
+      "summary": "船只高价竞拍巴拿马运河优先通行权",
+      "tags": [
+        "巴拿马运河",
+        "航运",
+        "拍卖"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141201"
+    },
+    {
+      "id": "793b2826a950",
+      "title": "金价跌超1%，逼近4000美元",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "04:59",
+      "date": "2026-07-29",
+      "summary": "黄金白银期货下跌，金价逼近4000美元关口。",
+      "tags": [
+        "黄金",
+        "白银",
+        "贵金属",
+        "期货"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141200"
+    },
+    {
+      "id": "42d9ab6e4aaa",
+      "title": "ENPH首席执行官：美国住宅太阳能市场已趋于稳定",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "04:49",
+      "date": "2026-07-29",
+      "summary": "美国住宅太阳能市场企稳，行业信心回升。",
+      "tags": [
+        "Enphase Energy",
+        "太阳能",
+        "美国市场"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141199"
+    },
+    {
+      "id": "ea6603056720",
+      "title": "MSCI新兴市场指数跌3.7%，外汇指数持平",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "04:45",
+      "date": "2026-07-29",
+      "summary": "MSCI新兴市场股票指数下跌3.7%，外汇指数基本不变。",
+      "tags": [
+        "MSCI",
+        "新兴市场",
+        "股市下跌"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141198"
+    },
     {
       "id": "e5bfbcefc9d3",
       "title": "泰瑞达二季度业绩超预期，三季度指引强劲",
@@ -26,16 +352,17 @@
     },
     {
       "id": "301eec58cca6",
-      "title": "美国官员：伊朗在霍尔木兹海峡要求苛刻，遭正当拒绝",
+      "title": "美国官员称伊朗在霍尔木兹海峡要求苛刻",
       "source": "格隆汇",
       "category": "海外联动",
       "stars": 3,
       "time": "04:38",
       "date": "2026-07-29",
-      "summary": "伊朗在霍尔木兹海峡提苛刻要求，被美阿及国际社会拒绝。",
+      "summary": "伊朗在霍尔木兹海峡提苛刻要求，遭美阿及国际社会拒绝。",
       "tags": [
-        "伊朗",
         "霍尔木兹海峡",
+        "伊朗",
+        "美国",
         "地缘政治"
       ],
       "watched": false,
@@ -49,11 +376,11 @@
       "stars": 3,
       "time": "04:35",
       "date": "2026-07-29",
-      "summary": "API原油库存超预期下降，利好油价。",
+      "summary": "API原油库存超预期下降，利好油价",
       "tags": [
+        "API原油库存",
         "原油",
-        "API库存",
-        "美国"
+        "库存数据"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2578196"
@@ -83,11 +410,11 @@
       "stars": 3,
       "time": "04:34",
       "date": "2026-07-29",
-      "summary": "美国API原油库存超预期下降，利好油价。",
+      "summary": "美国API原油库存下降，汽油库存增加。",
       "tags": [
         "原油",
         "API库存",
-        "油价"
+        "美国"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3141195"
@@ -97,10 +424,10 @@
       "title": "AI热潮推动数据存储需求，希捷科技第四财季利润飙升",
       "source": "格隆汇",
       "category": "市场异动",
-      "stars": 4,
+      "stars": 3,
       "time": "04:30",
       "date": "2026-07-29",
-      "summary": "AI需求带动存储业务，希捷利润营收超预期",
+      "summary": "AI需求激增，希捷科技利润营收超预期",
       "tags": [
         "AI",
         "存储",
@@ -122,7 +449,7 @@
       "tags": [
         "美股",
         "行业ETF",
-        "板块涨跌"
+        "板块轮动"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3141194"
@@ -138,8 +465,8 @@
       "summary": "希捷科技财报超预期，存储股盘后上涨。",
       "tags": [
         "希捷科技",
-        "存储芯片",
         "财报",
+        "存储芯片",
         "美股"
       ],
       "watched": false,
@@ -153,11 +480,11 @@
       "stars": 3,
       "time": "04:23",
       "date": "2026-07-29",
-      "summary": "希捷财报利好，存储芯片股盘后上涨",
+      "summary": "希捷财报利好，存储芯片股盘后上涨。",
       "tags": [
-        "存储芯片",
         "美股",
-        "希捷科技"
+        "存储芯片",
+        "财报"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2578181"
@@ -170,28 +497,28 @@
       "stars": 3,
       "time": "04:21",
       "date": "2026-07-29",
-      "summary": "API原油库存数据十分钟后发布，关注市场波动。",
+      "summary": "API原油库存数据十分钟后公布，关注市场波动。",
       "tags": [
         "API原油库存",
-        "原油",
-        "数据公布"
+        "美国",
+        "原油"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2578178"
     },
     {
       "id": "a149d7b48a11",
-      "title": "恩智浦半导体盘后跌超9%",
+      "title": "恩智浦半导体财报后盘后跌超9%",
       "source": "格隆汇",
       "category": "市场异动",
       "stars": 4,
       "time": "04:20",
       "date": "2026-07-29",
-      "summary": "恩智浦财报后盘后大跌超9%",
+      "summary": "恩智浦财报不佳，盘后暴跌超9%",
       "tags": [
         "恩智浦",
-        "盘后大跌",
-        "财报"
+        "财报",
+        "盘后大跌"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2578177"
@@ -201,14 +528,14 @@
       "title": "藤森庆子宣誓就任秘鲁总统",
       "source": "华尔街见闻",
       "category": "海外联动",
-      "stars": 3,
+      "stars": 4,
       "time": "04:20",
       "date": "2026-07-29",
-      "summary": "秘鲁新总统就职，聚焦厄尔尼诺和社会治安",
+      "summary": "秘鲁新总统就职，聚焦厄尔尼诺和治安",
       "tags": [
-        "秘鲁",
-        "总统就职",
-        "拉美政治"
+        "秘鲁政治",
+        "拉美动态",
+        "总统就职"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3141192"
@@ -221,7 +548,7 @@
       "stars": 3,
       "time": "04:20",
       "date": "2026-07-29",
-      "summary": "API即将发布原油库存数据，关注油价波动。",
+      "summary": "API即将公布原油库存数据，关注油市波动",
       "tags": [
         "原油",
         "API",
@@ -266,6 +593,24 @@
       "url": "https://wallstreetcn.com/livenews/3141190"
     },
     {
+      "id": "3d9dc3d2fd92",
+      "title": "美股存储芯片指数暴跌9%，连续三日累跌20%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "04:18",
+      "date": "2026-07-29",
+      "summary": "美股存储芯片指数暴跌，科技股普跌，市场恐慌加剧。",
+      "tags": [
+        "美股",
+        "存储芯片",
+        "科技股",
+        "暴跌"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141190"
+    },
+    {
       "id": "f55b5a55c894",
       "title": "Bloom Energy二季度业绩超预期，上调全年营收指引",
       "source": "华尔街见闻",
@@ -277,7 +622,6 @@
       "tags": [
         "Bloom Energy",
         "财报",
-        "超预期",
         "营收指引"
       ],
       "watched": false,
@@ -285,30 +629,30 @@
     },
     {
       "id": "dffc72c78433",
-      "title": "恩智浦Q2净利润7.67亿美元，同比大增72%",
+      "title": "恩智浦半导体2026年Q2净利润同比大增",
       "source": "格隆汇",
       "category": "市场异动",
-      "stars": 4,
+      "stars": 3,
       "time": "04:17",
       "date": "2026-07-29",
-      "summary": "恩智浦Q2净利润同比增72%，业绩亮眼。",
+      "summary": "恩智浦Q2净利润7.67亿美元，同比增72%",
       "tags": [
         "恩智浦",
-        "财报",
-        "净利润增长"
+        "业绩",
+        "半导体"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2578175"
     },
     {
       "id": "ebd722d303bf",
-      "title": "科磊第四财季营收超预期，资本开支略低",
+      "title": "科磊第四财季营收超预期，第一财季指引区间中值符合预期",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 3,
       "time": "04:16",
       "date": "2026-07-29",
-      "summary": "科磊Q4营收36.6亿美元超预期，Q1指引中值40亿美元。",
+      "summary": "科磊营收超预期，资本开支略低，指引中值符合预期。",
       "tags": [
         "科磊",
         "财报",
@@ -824,7 +1168,7 @@
       "stars": 3,
       "time": "02:58",
       "date": "2026-07-29",
-      "summary": "以军打死杰哈德指挥官，地区局势紧张。",
+      "summary": "以色列打死一名参与突袭的杰哈德指挥官。",
       "tags": [
         "中东冲突",
         "地缘政治"
@@ -834,17 +1178,17 @@
     },
     {
       "id": "51ad37186553",
-      "title": "也门胡塞武装称打击一艘沙特籍油轮",
+      "title": "也门胡塞武装打击沙特油轮",
       "source": "第一财经",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "02:58",
       "date": "2026-07-29",
-      "summary": "胡塞武装打击沙特油轮，中东局势紧张",
+      "summary": "胡塞武装导弹袭击沙特油轮，中东局势升级。",
       "tags": [
         "地缘政治",
-        "中东局势",
-        "原油"
+        "原油",
+        "中东"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103295990.html"
@@ -874,7 +1218,7 @@
       "stars": 3,
       "time": "02:56",
       "date": "2026-07-29",
-      "summary": "内塔尼亚胡与特朗普会晤，强调共同防止伊朗拥核。",
+      "summary": "以总理称与特朗普会晤极佳，聚焦伊朗核问题。",
       "tags": [
         "以色列",
         "特朗普",
@@ -1631,17 +1975,16 @@
     },
     {
       "id": "040c41318627",
-      "title": "日本熊本县强震致工厂烟囱倒塌，两人心肺停止",
+      "title": "日本八代市工厂烟囱倒塌致两人心肺停止",
       "source": "第一财经",
-      "category": "海外联动",
-      "stars": 3,
+      "category": "宏观政策",
+      "stars": 1,
       "time": "00:37",
       "date": "2026-07-29",
       "summary": "日本熊本县强震致工厂烟囱倒塌，两人心肺停止，九人失踪。",
       "tags": [
         "日本地震",
-        "工厂事故",
-        "海外事件"
+        "工厂事故"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103295986.html"
@@ -1726,7 +2069,7 @@
       "tags": [
         "原油",
         "期货",
-        "大跌"
+        "下跌"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103295983.html"
@@ -1964,10 +2307,10 @@
       "stars": 2,
       "time": "23:51",
       "date": "2026-07-28",
-      "summary": "乌干达埃博拉疫情结束，对金融市场影响极小。",
+      "summary": "乌干达埃博拉疫情结束，对金融市场影响有限。",
       "tags": [
-        "埃博拉",
         "乌干达",
+        "埃博拉",
         "疫情结束"
       ],
       "watched": false,
@@ -1992,7 +2335,7 @@
     },
     {
       "id": "4d33d15c04f0",
-      "title": "青海海南州兴海县发生3.7级地震",
+      "title": "青海兴海县发生3.7级地震",
       "source": "第一财经",
       "category": "宏观政策",
       "stars": 1,
@@ -2100,7 +2443,7 @@
       "stars": 3,
       "time": "23:42",
       "date": "2026-07-28",
-      "summary": "中际旭创预计2027年完成NPO产品导入，2028年放量。",
+      "summary": "中际旭创称NPO产品2027年导入，2028年放量",
       "tags": [
         "中际旭创",
         "NPO产品",
@@ -2169,7 +2512,7 @@
       "stars": 3,
       "time": "23:40",
       "date": "2026-07-28",
-      "summary": "欧股多数收涨，英法德股指均涨超0.5%",
+      "summary": "欧洲股市普遍收涨，英法德指数均涨超0.5%",
       "tags": [
         "欧洲股市",
         "股指上涨"
@@ -2203,11 +2546,11 @@
       "stars": 3,
       "time": "23:39",
       "date": "2026-07-28",
-      "summary": "美素佳儿要求复检铅超标产品，澳门增检未见异常。",
+      "summary": "美素佳儿要求复检，澳门增检未见异常。",
       "tags": [
-        "美素佳儿",
-        "铅超标",
-        "食品安全"
+        "食品安全",
+        "乳制品",
+        "企业回应"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103295971.html"
@@ -2329,7 +2672,8 @@
       "tags": [
         "达瑞电子",
         "长鑫科技",
-        "间接持股"
+        "科创板",
+        "限售股"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103295969.html"
@@ -2342,10 +2686,10 @@
       "stars": 3,
       "time": "23:31",
       "date": "2026-07-28",
-      "summary": "SpaceX股价直线拉升涨超3%",
+      "summary": "SpaceX股价拉升，现涨逾3%",
       "tags": [
         "SpaceX",
-        "股价异动"
+        "股价波动"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103295967.html"
@@ -2392,7 +2736,7 @@
       "stars": 3,
       "time": "23:29",
       "date": "2026-07-28",
-      "summary": "马斯克宣布Grok 4.6将于8月7日发布，后续还有更大模型。",
+      "summary": "马斯克称Grok 4.6将于8月7日发布，4.7版本参数2.1万亿。",
       "tags": [
         "马斯克",
         "Grok",
@@ -2458,44 +2802,45 @@
       "id": "984b104c0dcc",
       "title": "日本熊本县7.1级强震致商场爆炸坍塌",
       "source": "财新网",
-      "category": "宏观政策",
+      "category": "海外联动",
       "stars": 5,
       "time": "23:02",
       "date": "2026-07-28",
       "summary": "日本熊本县发生7.1级地震，商场爆炸坍塌，多人被困。",
       "tags": [
         "日本地震",
-        "自然灾害",
-        "突发事件"
+        "熊本县",
+        "商场爆炸"
       ],
       "watched": false,
       "url": "https://international.caixin.com/2026-07-28/102468917.html"
     },
     {
       "id": "ef0e004e9ed4",
-      "title": "日本熊本发生上百次余震",
+      "title": "日本熊本已发生上百次余震",
       "source": "第一财经",
       "category": "宏观政策",
       "stars": 1,
       "time": "22:58",
       "date": "2026-07-28",
-      "summary": "日本熊本地震后余震超百次",
+      "summary": "日本熊本地震频发，已超百次余震。",
       "tags": [
         "日本地震",
-        "余震"
+        "熊本",
+        "自然灾害"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103295957.html"
     },
     {
       "id": "4b0a17f090a1",
-      "title": "英伟达市值被苹果反超，重金押注AI或成隐忧",
+      "title": "英伟达市值被苹果反超，AI押注成隐忧",
       "source": "第一财经",
       "category": "市场异动",
       "stars": 4,
       "time": "22:55",
       "date": "2026-07-28",
-      "summary": "英伟达市值被苹果反超，AI押注风险引关注。",
+      "summary": "英伟达市值被苹果反超，市场担忧AI投资过热。",
       "tags": [
         "英伟达",
         "苹果",
@@ -2507,17 +2852,17 @@
     },
     {
       "id": "36dbea42fe49",
-      "title": "AI转型为何总卡在“最后一公里”",
+      "title": "AI转型为何总卡在最后一公里",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "22:52",
       "date": "2026-07-28",
-      "summary": "员工不愿分享经验是AI落地最大障碍",
+      "summary": "企业AI转型难在员工不愿分享经验",
       "tags": [
         "AI转型",
         "企业管理",
-        "数字化转型"
+        "知识管理"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-07-28/102468915.html"
@@ -2609,17 +2954,17 @@
     },
     {
       "id": "d11ed8ddbace",
-      "title": "个人智能体加速落地，全时感知等成产业焦点",
+      "title": "个人智能体加速落地，端侧智能成产业焦点",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "22:31",
       "date": "2026-07-28",
-      "summary": "智能体驱动AI终端向原生生态演进",
+      "summary": "智能体推动AI终端向原生生态演进",
       "tags": [
         "智能体",
         "AI终端",
-        "产业趋势"
+        "端侧智能"
       ],
       "watched": false,
       "url": "https://www.caixin.com/2026-07-28/102468909.html"
@@ -3139,13 +3484,13 @@
     },
     {
       "id": "60c3550b3ecc",
-      "title": "中东讨论海峡收费，伊朗因船舶遇袭强烈反应",
+      "title": "中东海峡收费讨论与乌克兰袭击里海船舶引发伊朗强烈反应",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "21:45",
       "date": "2026-07-28",
-      "summary": "伊朗警告欧洲若知情需承担后果，中东局势紧张。",
+      "summary": "中东讨论海峡收费，伊朗警告欧洲承担后果",
       "tags": [
         "中东局势",
         "伊朗",
@@ -3603,18 +3948,18 @@
     },
     {
       "id": "fbd2940ffecb",
-      "title": "阿根廷总统米莱在巴西助选并贬损卢拉，巴西召回大使",
+      "title": "阿根廷总统米莱在巴西助选并贬损卢拉，引发外交风波",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "21:32",
       "date": "2026-07-28",
-      "summary": "阿根廷总统米莱在巴西助选时侮辱卢拉，巴西召回大使抗议。",
+      "summary": "米莱侮辱卢拉，巴西召回大使，外交关系紧张",
       "tags": [
         "阿根廷",
         "巴西",
-        "外交风波",
-        "卢拉"
+        "外交冲突",
+        "政治风险"
       ],
       "watched": false,
       "url": "https://international.caixin.com/2026-07-28/102468899.html"
@@ -3821,7 +4166,7 @@
       "stars": 4,
       "time": "21:10",
       "date": "2026-07-28",
-      "summary": "紫金矿业在刚果（金）的锂矿获出口认证，利好公司锂资源布局。",
+      "summary": "紫金矿业刚果金锂矿获出口认证，标志该国成为锂出口国。",
       "tags": [
         "紫金矿业",
         "锂矿",
@@ -3867,17 +4212,17 @@
     },
     {
       "id": "5e1db132c6b6",
-      "title": "解药｜碱基编辑临床试验致死，如何平衡风险获益？",
+      "title": "碱基编辑临床试验致死，如何平衡风险获益？",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "21:01",
       "date": "2026-07-28",
-      "summary": "基因编辑技术有潜力但风险高，需加强监管。",
+      "summary": "基因编辑技术潜力大，但风险管控需加强",
       "tags": [
         "基因编辑",
         "临床试验",
-        "风险监管"
+        "风险获益"
       ],
       "watched": false,
       "url": "https://www.caixin.com/2026-07-28/102468889.html"
@@ -4011,7 +4356,7 @@
       "stars": 4,
       "time": "20:39",
       "date": "2026-07-28",
-      "summary": "英伟达CDS利差飙升，市场担忧AI产业链信用风险",
+      "summary": "英伟达CDS利差飙升，市场担忧其信用风险",
       "tags": [
         "英伟达",
         "CDS",
@@ -4821,13 +5166,13 @@
     },
     {
       "id": "c035b8f43a94",
-      "title": "55岁沈铭权当选宁波市长",
+      "title": "沈铭权当选宁波市长",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "19:44",
       "date": "2026-07-28",
-      "summary": "沈铭权接替汤飞帆任宁波市长，曾获全国优秀县委书记称号",
+      "summary": "55岁沈铭权正式当选宁波市长，曾获全国优秀县委书记称号。",
       "tags": [
         "人事变动",
         "宁波市长"
@@ -4837,7 +5182,7 @@
     },
     {
       "id": "e9ef0d5f84e9",
-      "title": "法国西班牙野火肆虐致超32万人撤离 两国启动欧盟民防机制",
+      "title": "法国西班牙野火肆虐致超32万人撤离，两国启动欧盟民防机制",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
@@ -4845,9 +5190,9 @@
       "date": "2026-07-28",
       "summary": "法西野火致32万人撤离，启动欧盟民防机制",
       "tags": [
-        "欧洲野火",
-        "极端天气",
-        "欧盟民防"
+        "野火",
+        "欧盟民防机制",
+        "国家危机"
       ],
       "watched": false,
       "url": "https://international.caixin.com/2026-07-28/102468867.html"
@@ -4862,26 +5207,25 @@
       "date": "2026-07-28",
       "summary": "陆治原从民政部长转任全总党组书记",
       "tags": [
-        "人事任免",
+        "人事变动",
         "工会",
-        "宏观政策"
+        "中央委员"
       ],
       "watched": false,
       "url": "https://china.caixin.com/2026-07-28/102468864.html"
     },
     {
       "id": "c18ef7d615f1",
-      "title": "商务部万字长文回应产能过剩指责 呼吁合作而非对立",
+      "title": "商务部万字长文回应产能过剩指责",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "19:21",
       "date": "2026-07-28",
-      "summary": "商务部驳斥产能过剩论，强调产业补贴与产能过剩无必然联系。",
+      "summary": "商务部呼吁各国合作，否认产能过剩指控",
       "tags": [
         "产能过剩",
         "商务部",
-        "产业补贴",
         "国际贸易"
       ],
       "watched": false,
@@ -4889,13 +5233,13 @@
     },
     {
       "id": "2b8d9080a688",
-      "title": "个人所得税超消费税成第三大税种 收入前10%人群缴税占九成",
+      "title": "个人所得税超消费税成第三大税种，收入前10%人群缴税占九成",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 5,
+      "stars": 4,
       "time": "18:52",
       "date": "2026-07-28",
-      "summary": "个税成第三大税种，高收入者贡献九成。",
+      "summary": "个税成第三大税种，高收入者贡献九成税收",
       "tags": [
         "个人所得税",
         "税种结构",
@@ -4912,7 +5256,7 @@
       "stars": 3,
       "time": "18:47",
       "date": "2026-07-28",
-      "summary": "重庆原常委段成刚受贿1.44亿被判无期",
+      "summary": "段成刚受贿案宣判，主政两江新区成反腐重点",
       "tags": [
         "反腐",
         "重庆",
@@ -4923,34 +5267,34 @@
     },
     {
       "id": "3de2c6f793b9",
-      "title": "纠治开票经济 2026年上半年相关企业开票金额同比下降37.7%",
+      "title": "纠治开票经济显效 2026年上半年相关企业开票金额同比下降37.7%",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 5,
       "time": "18:19",
       "date": "2026-07-28",
-      "summary": "税务部门严打开票经济，16万户企业迁回原址，上半年纳税增长16%",
+      "summary": "税务部门整治开票经济，企业开票金额大降，违规迁回企业纳税增长。",
       "tags": [
         "税务政策",
         "开票经济",
-        "企业迁址"
+        "企业监管"
       ],
       "watched": false,
       "url": "https://economy.caixin.com/2026-07-28/102468833.html"
     },
     {
       "id": "bdf9af8c9960",
-      "title": "万亿家政市场大而不强：统一治理体系亟待破题",
+      "title": "万亿家政市场大而不强，统一治理体系亟待破题",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "17:59",
       "date": "2026-07-28",
-      "summary": "家政行业缺乏统一标准，需建立信用与持证体系",
+      "summary": "家政行业需建立统一标准与信用体系",
       "tags": [
         "家政服务",
         "老龄化",
-        "行业治理"
+        "行业标准"
       ],
       "watched": false,
       "url": "https://opinion.caixin.com/2026-07-28/102468831.html"
@@ -4976,15 +5320,15 @@
       "id": "4d47951a29df",
       "title": "尹锡悦因违反选举法一审获刑1年半缓刑3年",
       "source": "财新网",
-      "category": "海外联动",
+      "category": "宏观政策",
       "stars": 4,
       "time": "16:15",
       "date": "2026-07-28",
-      "summary": "韩国前总统尹锡悦因选举违规被判刑，政治风波再起",
+      "summary": "韩国前总统尹锡悦因选举违法被判缓刑，政党面临资金压力。",
       "tags": [
         "韩国政治",
         "选举法",
-        "尹锡悦"
+        "政党资金"
       ],
       "watched": false,
       "url": "https://international.caixin.com/2026-07-28/102468820.html"
@@ -4993,31 +5337,31 @@
       "id": "2e88641db13e",
       "title": "《征服波动的人》：金融世界的真相是什么",
       "source": "财新网",
-      "category": "宏观政策",
+      "category": "市场情绪",
       "stars": 3,
       "time": "15:52",
       "date": "2026-07-28",
-      "summary": "书评揭示市场是情绪温度计，非真理投票器。",
+      "summary": "揭秘市场波动中盈利者的思维模式",
       "tags": [
-        "市场情绪",
-        "波动",
-        "投资哲学"
+        "投资心理",
+        "市场波动",
+        "书籍推荐"
       ],
       "watched": false,
       "url": "https://opinion.caixin.com/2026-07-28/102468814.html"
     },
     {
       "id": "b585a1e6a520",
-      "title": "长鑫科技上市背后的赢家与输家",
+      "title": "长鑫科技上市：谁赚谁亏？",
       "source": "财新网",
       "category": "市场异动",
-      "stars": 4,
+      "stars": 5,
       "time": "15:49",
       "date": "2026-07-28",
       "summary": "长鑫科技上市暴涨，和谐健康浮盈480亿，碧桂园少赚420亿。",
       "tags": [
         "长鑫科技",
-        "上市",
+        "新股",
         "浮盈",
         "碧桂园"
       ],
