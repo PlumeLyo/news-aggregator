@@ -14,8 +14,11 @@ node_modules/
 Thumbs.db
 
 # Data cache (auto-generated)
-data/news-data.json
+news-data.json
 
 # Secrets
 .env
 *.key
+
+# 保留新闻数据文件
+!data/news-data.json
