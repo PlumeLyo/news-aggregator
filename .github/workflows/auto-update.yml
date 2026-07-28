@@ -31,7 +31,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests feedparser
+        run: pip install requests feedparser openai
 
       - name: Fetch RSS & Score (Rule-Based)
         if: ${{ env.OPENAI_API_KEY == '' && env.DEEPSEEK_API_KEY == '' }}
