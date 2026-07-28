@@ -27,6 +27,13 @@ except ImportError:
     print("请先安装依赖: pip install requests feedparser")
     sys.exit(1)
 
+try:
+    from openai import OpenAI
+    HAS_OPENAI = True
+except ImportError:
+    HAS_OPENAI = False
+    print("⚠️ openai 包未安装，将使用规则引擎评分。安装: pip install openai")
+
 # ============================================================
 # 配置区 — 根据需要修改
 # ============================================================
@@ -41,8 +48,12 @@ DEEPSEEK_API_KEY = ""
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 DEEPSEEK_MODEL = "deepseek-chat"
 
-# RSSHub 公共实例（建议自部署）
-RSSHUB_BASE = "https://rsshub.rssforever.com"
+# RSSHub 公共实例（建议自部署）— 主备自动切换
+RSSHUB_BASES = [
+    "https://rsshub.rssforever.com",
+    "https://rsshub.feeded.xyz",
+]
+RSSHUB_BASE = RSSHUB_BASES[0]
 
 # 自定义关注关键词（用于标记高亮）
 WATCH_KEYWORDS = []
@@ -117,34 +128,46 @@ def parse_time(entry) -> str:
 
 
 def fetch_rss(source: Dict) -> List[Dict]:
-    """从单个 RSS 源抓取新闻"""
+    """从单个 RSS 源抓取新闻，主 RSSHub 失败时自动切换备用实例"""
     items = []
-    try:
-        resp = requests.get(source["url"], timeout=15,
-                           headers={"User-Agent": "NewsPulse/1.0"})
-        resp.raise_for_status()
-        feed = feedparser.parse(resp.text)
-        for entry in feed.entries[:20]:  # 每源最多20条
-            title = getattr(entry, 'title', '').strip()
-            if not title or len(title) < 10:
-                continue
-            if is_noise(title):
-                continue
-            summary = getattr(entry, 'summary', '')[:300]
-            link = getattr(entry, 'link', '#')
-            items.append({
-                "title": title,
-                "source": source["name"],
-                "category": CAT_MAP.get(source["cat"], source["cat"]),
-                "time": parse_time(entry),
-                "summary": re.sub(r'<[^>]+>', '', summary)[:200],
-                "url": link,
-                "_source_id": source["id"],
-                "_priority": source["priority"],
-            })
-        print(f"  ✓ {source['name']}: 抓取 {len(items)} 条")
-    except Exception as e:
-        print(f"  ✗ {source['name']}: {str(e)}")
+    # 构建尝试 URL 列表：主实例 + 备用实例
+    urls_to_try = [source["url"]]
+    for backup_base in RSSHUB_BASES[1:]:
+        if source["url"].startswith(RSSHUB_BASES[0]):
+            backup_url = source["url"].replace(RSSHUB_BASES[0], backup_base, 1)
+            urls_to_try.append(backup_url)
+
+    for idx, url in enumerate(urls_to_try):
+        try:
+            resp = requests.get(url, timeout=15,
+                               headers={"User-Agent": "NewsPulse/1.0"})
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.text)
+            for entry in feed.entries[:20]:  # 每源最多20条
+                title = getattr(entry, 'title', '').strip()
+                if not title or len(title) < 10:
+                    continue
+                if is_noise(title):
+                    continue
+                summary = getattr(entry, 'summary', '')[:300]
+                link = getattr(entry, 'link', '#')
+                items.append({
+                    "title": title,
+                    "source": source["name"],
+                    "category": CAT_MAP.get(source["cat"], source["cat"]),
+                    "time": parse_time(entry),
+                    "summary": re.sub(r'<[^>]+>', '', summary)[:200],
+                    "url": link,
+                    "_source_id": source["id"],
+                    "_priority": source["priority"],
+                })
+            base_name = "主" if idx == 0 else f"备用{idx}"
+            print(f"  ✓ {source['name']} ({base_name}): 抓取 {len(items)} 条")
+            break  # 成功则不再尝试备用
+        except Exception as e:
+            if idx == len(urls_to_try) - 1:  # 最后一个也失败了
+                print(f"  ✗ {source['name']}: {str(e)}")
+            continue
     return items
 
 
@@ -175,7 +198,7 @@ def rule_based_score(item: Dict) -> Dict:
     summary = item.get("summary", "")
     text = title + summary
 
-    star = 2  # 默认分
+    star = 3  # 默认分（大部分新闻至少有一定参考价值）
 
     # 5星：最高级别政策
     high_patterns = ["央行.*降准", "降息", "国常会", "国务院",
@@ -239,9 +262,10 @@ def rule_based_score(item: Dict) -> Dict:
 
 def call_llm_ai_score(item: Dict, api_key: str, base_url: str, model: str) -> Optional[Dict]:
     """调用 LLM 进行智能评分"""
+    if not HAS_OPENAI:
+        return None
     try:
-        import openai
-        client = openai.OpenAI(api_key=api_key, base_url=base_url)
+        client = OpenAI(api_key=api_key, base_url=base_url)
 
         prompt = f"""分析以下金融新闻并输出JSON：
 
