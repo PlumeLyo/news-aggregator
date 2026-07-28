@@ -66,38 +66,39 @@ jobs:
 
       # ===== 生成 Obsidian 每日简报 =====
       - name: Generate Obsidian Daily Note
-        run: python3 << 'PYEOF'
-import json
-from datetime import datetime
-
-with open('data/news-data.json', 'r') as f:
-    data = json.load(f)
-
-major = [n for n in data['news'] if n['stars'] >= 4][:10]
-watched = [n for n in data['news'] if n['watched']][:5]
-
-today = datetime.now().strftime('%Y-%m-%d %A')
-md = f'# {today} 每日要闻简报\n\n'
-md += f'**总计 {data["total_count"]} 条 | ≥4★重大 {data["major_count"]} 条 | 关键词命中 {data["watched_count"]} 条**\n\n'
-
-if major:
-    md += '## 🌟 重大事件\n\n'
-    for i, n in enumerate(major, 1):
-        md += f'{i}. **[{n["stars"]}★] [{n["category"]}]** {n["title"]}\n'
-        md += f'   > {n["summary"]}\n\n'
-
-if watched:
-    md += f'\n## ⚡ 关注关键词命中 ({len(watched)}条)\n\n'
-    for n in watched:
-        md += f'- **{n["title"]}** ({n["source"]})\n'
-    md += '\n'
-
-md += f'\n---\n*由 NewsPulse 自动生成 · {data["fetched_at"]} · 数据源: {data["sources_used"]}个RSS*'
-
-with open('obsidian-daily.md', 'w') as f:
-    f.write(md)
-print('✅ Obsidian daily note generated')
-PYEOF
+        run: |
+          python3 -c "
+          import json
+          from datetime import datetime
+          
+          with open('data/news-data.json', 'r') as f:
+              data = json.load(f)
+          
+          major = [n for n in data['news'] if n['stars'] >= 4][:10]
+          watched = [n for n in data['news'] if n['watched']][:5]
+          
+          today = datetime.now().strftime('%Y-%m-%d %A')
+          md = f'# {today} 每日要闻简报\n\n'
+          md += f'**总计 {data["total_count"]} 条 | ≥4★重大 {data["major_count"]} 条 | 关键词命中 {data["watched_count"]} 条**\n\n'
+          
+          if major:
+              md += '## 🌟 重大事件\n\n'
+              for i, n in enumerate(major, 1):
+                  md += f'{i}. **[{n["stars"]}★] [{n["category"]}]** {n["title"]}\n'
+                  md += f'   > {n["summary"]}\n\n'
+          
+          if watched:
+              md += f'\n## ⚡ 关注关键词命中 ({len(watched)}条)\n\n'
+              for n in watched:
+                  md += f'- **{n["title"]}** ({n["source"]})\n'
+              md += '\n'
+          
+          md += f'\n---\n*由 NewsPulse 自动生成 · {data["fetched_at"]} · 数据源: {data["sources_used"]}个RSS*'
+          
+          with open('obsidian-daily.md', 'w') as f:
+              f.write(md)
+          print('✅ Obsidian daily note generated')
+          "
 
       # ===== 提交并推送 =====
       - name: Commit & Push
