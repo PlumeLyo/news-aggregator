@@ -252,6 +252,7 @@ def call_llm_ai_score(item: Dict, api_key: str, base_url: str, model: str) -> Op
 时间：{item['time']}
 {"关注关键词：" + ",".join(WATCH_KEYWORDS) if WATCH_KEYWORDS else ""}
 
+评分标准：5星=重大政策/突发大事，4星=显著影响，3星=有一定参考价值，2星=边缘相关，1星=噪音。默认给3星，只有确实无关才给2星以下。
 输出严格JSON（不要其他文字）：
 {{"star":1-5,"category":"宏观政策|券商动态|公司公告|市场异动|海外联动|市场情绪","title_cleaned":"清洗后标题","summary_ai":"一句话摘要≤50字口语化","tags":["标签1","标签2"],"is_self_stock":true/false}}"""
 
@@ -271,7 +272,7 @@ def call_llm_ai_score(item: Dict, api_key: str, base_url: str, model: str) -> Op
             "title": result.get("title_cleaned", item["title"]),
             "source": item["source"],
             "category": result.get("category", item["category"]),
-            "stars": result.get("star", 2),
+            "stars": result.get("star", 3),
             "time": item["time"],
             "summary": result.get("summary_ai", item.get("summary", "")[:100]),
             "tags": result.get("tags", [])[:4],
