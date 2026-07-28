@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>每日要闻聚合 · AI筛选新闻平台</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/@fontsource-variable/space-grotesk@5.0.10/index.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource-variable/noto-sans-sc@5.2.10/index.css" rel="stylesheet">
+<style>
+:root{
+--bg:#ffffff;--bg-soft:#f5f4f1;--bg-hover:#efeeec;--ink:#37352f;
+--ink-2:#787774;--ink-3:#9b9a97;--line:#ececea;--line-strong:#d3d1cb;
+--accent:oklch(68% 0.14 50);--accent-ink:oklch(42% 0.14 50);
+--cat-macro:#58B2DC;--cat-broker:#B481BB;--cat-announce:#00AA90;
+--cat-market:#E98B2A;--cat-overseas:#86C166;--cat-sentiment:#F7587C;
+--watch-color:#E58522;
+--radius-sm:6px;--radius-md:10px;--radius-lg:14px;--radius-xl:18px;
+--font-display:"Space Grotesk","Noto Sans SC","PingFang SC",sans-serif;
+--font-body:"Space Grotesk","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+}
+@media(prefers-color-scheme:dark){
+:root{--bg:#1a1a1c;--bg-soft:#252528;--bg-hover:#2f2f33;
+--ink:#e6e5e3;--ink-2:#9b9a97;--ink-3:#787774;
+--line:#333338;--line-strong:#44444a;
+--accent:oklch(72% 0.15 50);--accent-ink:oklch(85% 0.12 50);}
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+font-family:var(--font-body);font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+
+.app{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.side{background:var(--bg-soft);border-right:1px solid var(--line);
+padding:16px 12px;display:flex;flex-direction:column;gap:4px}
+.brand{display:flex;align-items:center;gap:10px;padding:8px 6px;border-radius:var(--radius-sm)}
+.brand-icon{width:32px;height:32px;border-radius:var(--radius-md);
+background:linear-gradient(135deg,var(--accent),oklch(58% 0.18 30));
+display:grid;place-items:center;color:#fff;font-size:15px;font-weight:700}
+.brand-name{font-weight:600;font-size:15px;font-family:var(--font-display)}
+.brand-sub{font-size:11px;color:var(--ink-3)}
+.side-section{margin-top:18px;padding:0 6px;color:var(--ink-3);
+font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+.nav{margin-top:6px;display:flex;flex-direction:column;gap:1px}
+.nav-item{display:flex;align-items:center;gap:8px;padding:6px 8px;
+border-radius:var(--radius-sm);color:var(--ink);cursor:pointer;font-size:13px;
+transition:background .12s}
+.nav-item:hover{background:var(--bg-hover)}
+.nav-item.active{background:color-mix(in srgb,var(--accent) 12%,transparent);
+color:var(--accent-ink);font-weight:500}
+.nav-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.nav-count{margin-left:auto;font-size:11px;color:var(--ink-3);
+background:var(--bg);padding:1px 7px;border-radius:999px;font-weight:500}
+.watch-panel{margin-top:16px;padding:14px;background:var(--bg);
+border:1px solid var(--line);border-radius:var(--radius-md)}
+.watch-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.watch-title{font-size:12px;font-weight:600;color:var(--ink-2)}
+.watch-count{font-size:11px;color:var(--watch-color);background:color-mix(in srgb,var(--watch-color) 12%,transparent);
+padding:2px 8px;border-radius:999px;font-weight:500}
+.watch-input{width:100%;height:34px;border:1px solid var(--line-strong);
+border-radius:var(--radius-sm);background:var(--bg-soft);color:var(--ink);
+padding:0 10px;font-size:12px;outline:none;font-family:var(--font-body);
+margin-bottom:8px;transition:border-color .15s}
+.watch-input:focus{border-color:var(--watch-color)}
+.watch-input::placeholder{color:var(--ink-3)}
+.watch-hint{font-size:10px;color:var(--ink-3);line-height:1.4}
+.watch-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.watch-tag{height:20px;display:inline-flex;align-items:center;gap:3px;
+border-radius:999px;background:color-mix(in srgb,var(--watch-color) 12%,transparent);
+color:var(--watch-color);padding:0 8px;font-size:10px;font-weight:500;
+cursor:pointer;transition:all .12s}
+.watch-tag:hover{background:color-mix(in srgb,var(--watch-color) 25%,transparent)}
+.watch-tag .rm{font-size:11px;opacity:.6;line-height:1}
+.stats-box{margin-top:auto;padding:14px;background:var(--bg);
+border-radius:var(--radius-md);border:1px solid var(--line)}
+.stats-row{display:flex;justify-content:space-between;font-size:12px;padding:4px 0}
+.stats-label{color:var(--ink-3)}
+.stats-val{font-weight:600;font-family:var(--font-display);color:var(--ink)}
+.main{display:flex;flex-direction:column;min-width:0}
+.topbar{height:48px;padding:0 20px;border-bottom:1px solid var(--line);
+display:flex;align-items:center;gap:12px;background:var(--bg)}
+.topbar-title{font-weight:600;font-size:14px;font-family:var(--font-display)}
+.topbar-spacer{flex:1}
+.pill-live{display:inline-flex;align-items:center;gap:6px;
+padding:3px 10px 3px 7px;background:var(--bg-soft);
+border:1px solid var(--line-strong);border-radius:999px;
+font-size:12px;color:var(--ink-2)}
+.pill-live .dot{width:7px;height:7px;border-radius:50%;background:#40B43E;
+animation:pulse 2s infinite}
+.pill-live.syncing .dot{background:var(--accent);animation:none}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.page{padding:32px 40px 60px;max-width:1100px;width:100%;align-self:center}
+.page-header{display:flex;align-items:flex-start;justify-content:space-between;
+gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.page-header-left h1{font-family:var(--font-display);font-size:26px;
+font-weight:700;letter-spacing:-0.02em;margin:0 0 4px;color:var(--ink)}
+.page-header-left p{font-size:13px;color:var(--ink-2);margin:0}
+.header-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;
+font-size:13px;color:var(--ink);background:var(--bg);
+border:1px solid var(--line-strong);border-radius:var(--radius-sm);
+cursor:pointer;transition:all .15s;font-family:var(--font-body)}
+.btn:hover{background:var(--bg-hover);border-color:var(--ink-3)}
+.btn.primary{background:var(--accent);color:#fff;border-color:transparent}
+.btn.primary:hover{background:var(--accent-ink)}
+.btn.sm{padding:5px 10px;font-size:12px}
+.toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+margin-bottom:20px;padding:14px 16px;background:var(--bg-soft);
+border:1px solid var(--line);border-radius:var(--radius-lg)}
+.toolbar-group{display:flex;align-items:center;gap:8px}
+.toolbar-label{font-size:12px;color:var(--ink-3);white-space:nowrap;font-weight:500}
+.cat-pills{display:flex;gap:6px;flex-wrap:wrap}
+.cat-pill{height:30px;padding:0 12px;border:1px solid var(--line-strong);
+border-radius:999px;background:var(--bg);color:var(--ink-2);
+font-size:12px;font-weight:500;cursor:pointer;transition:all .15s;
+display:flex;align-items:center;gap:5px}
+.cat-pill:hover{border-color:var(--ink-3)}
+.cat-pill.active{background:color-mix(in srgb,var(--accent) 14%,transparent);
+color:var(--accent-ink);border-color:color-mix(in srgb,var(--accent) 25%,transparent)}
+.cat-pill .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.star-control{display:flex;align-items:center;gap:10px}
+.star-slider{-webkit-appearance:none;appearance:none;width:140px;height:4px;
+border-radius:2px;background:var(--line-strong);outline:none}
+.star-slider::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;
+border-radius:50%;background:var(--accent);cursor:pointer;
+border:2px solid var(--bg);box-shadow:0 1px 4px rgba(0,0,0,.15)}
+.star-label{font-size:12px;font-weight:600;color:var(--accent);
+min-width:52px;font-family:var(--font-display)}
+.search-box{display:flex;align-items:center;gap:8px;flex:1;min-width:180px;max-width:320px}
+.search-box input{flex:1;height:34px;border:1px solid var(--line-strong);
+border-radius:var(--radius-sm);background:var(--bg);color:var(--ink);
+padding:0 12px;font-size:13px;outline:none;font-family:var(--font-body);
+transition:border-color .15s}
+.search-box input:focus{border-color:var(--accent)}
+.search-box input::placeholder{color:var(--ink-3)}
+.kpi-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+background:var(--line);border:1px solid var(--line);
+border-radius:var(--radius-md);overflow:hidden;margin-bottom:24px}
+.kpi{background:var(--bg);padding:16px 18px;display:flex;flex-direction:column;gap:4px}
+.kpi-label{font-size:11px;color:var(--ink-2);letter-spacing:.04em;
+text-transform:uppercase;font-weight:500}
+.kpi-value{font-size:26px;font-weight:700;letter-spacing:-0.02em;
+color:var(--ink);font-family:var(--font-display);font-variant-numeric:tabular-nums}
+.kpi-delta{font-size:12px;color:var(--ink-2)}
+.kpi-delta.up{color:#2b8a3e}
+.news-feed{display:flex;flex-direction:column;gap:12px}
+.news-card{background:var(--bg);border:1px solid var(--line);
+border-radius:var(--radius-lg);padding:16px 18px;
+transition:background .12s,transform .12s;position:relative;overflow:hidden}
+.news-card:hover{background:var(--bg-soft)}
+.news-card.highlighted{border-left:3px solid var(--accent)}
+.news-card.watched{border-left:3px solid var(--watch-color)}
+.news-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.news-cat{height:22px;display:inline-flex;align-items:center;gap:4px;
+border-radius:999px;padding:0 9px;font-size:11px;font-weight:600}
+.news-meta{font-size:11px;color:var(--ink-3);
+display:flex;align-items:center;gap:8px}
+.news-stars{margin-left:auto;display:flex;gap:1px;font-size:12px;letter-spacing:1px}
+.news-stars .filled{color:#EBA400}
+.news-stars .empty{color:var(--line-strong)}
+.news-title{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:6px;color:var(--ink)}
+.news-summary{font-size:13px;color:var(--ink-2);line-height:1.55}
+.news-summary strong{color:var(--ink-3);font-weight:500}
+.news-tags{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.tag{height:20px;display:inline-flex;align-items:center;border-radius:999px;
+background:var(--bg-soft);color:var(--ink-3);padding:0 8px;font-size:10px;font-weight:500}
+.tag-watched{background:color-mix(in srgb,var(--watch-color) 15%,transparent);color:var(--watch-color)}
+.timeline-group{position:relative;padding-left:20px}
+.timeline-group::before{content:'';position:absolute;left:6px;top:12px;
+bottom:12px;width:1.5px;background:var(--line);border-radius:1px}
+.time-label{position:absolute;left:0;top:4px;font-size:11px;font-weight:600;
+color:var(--ink-3);font-family:var(--font-display);width:20px;text-align:right}
+.empty-state{text-align:center;padding:48px 20px;color:var(--ink-3);
+border:1.5px dashed var(--line-strong);border-radius:var(--radius-xl)}
+.empty-state-icon{font-size:36px;margin-bottom:12px}
+.empty-state-text{font-size:14px;margin-bottom:4px}
+.empty-state-hint{font-size:12px}
+.brief-mode .news-card{padding:12px 14px}
+.brief-mode .news-summary,.brief-mode .news-tags,
+.brief-mode .news-meta{display:none}
+.brief-mode .news-title{font-size:13px;margin-bottom:0}
+.footer{text-align:center;padding:32px 0 16px;color:var(--ink-3);
+font-size:11px;border-top:1px solid var(--line);margin-top:40px}
+.footer a{color:var(--ink-2);text-decoration:underline}
+.toast{position:fixed;bottom:24px;left:50%;
+transform:translateX(-80px) translateY(80px);
+background:#1f1f1f;color:#fff;padding:10px 20px;
+border-radius:var(--radius-md);font-size:13px;opacity:0;
+transition:all .3s ease;z-index:100;pointer-events:none}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+/* 数据源指示器 */
+.data-source-badge{display:inline-flex;align-items:center;gap:4px;
+height:18px;padding:0 7px;border-radius:999px;
+font-size:10px;font-weight:500}
+.data-source-badge.demo{background:color-mix(in srgb,#EBA400 15%,transparent);color:#996b00}
+.data-source-badge.live{background:color-mix(in srgb,#40B43E 15%,transparent);color:#2b8a3e}
+@media(max-width:980px){
+.app{grid-template-columns:1fr}.side{display:none}
+.page{padding:20px 16px 40px}.kpi-bar{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:640px){
+.kpi-bar{grid-template-columns:1fr 1fr}
+.toolbar{flex-direction:column;align-items:stretch}
+.search-box{max-width:none}
+.header-actions{width:100%}
+.header-actions .btn{flex:1;justify-content:center}
+}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+<div class="brand"><div class="brand-icon">N</div><div><div class="brand-name">NewsPulse</div><div class="brand-sub">AI 筛选要闻聚合</div></div></div>
+
+<div class="side-section">分类导航</div>
+<nav class="nav" id="sideNav">
+<button class="nav-item active" data-cat="all"><span class="nav-dot" style="background:var(--accent)"></span>全部要闻<span class="nav-count" id="countAll">0</span></button>
+<button class="nav-item" data-cat="宏观政策"><span class="nav-dot" style="background:var(--cat-macro)"></span>宏观政策<span class="nav-count" id="countMacro">0</span></button>
+<button class="nav-item" data-cat="券商动态"><span class="nav-dot" style="background:var(--cat-broker)"></span>券商动态<span class="nav-count" id="countBroker">0</span></button>
+<button class="nav-item" data-cat="公司公告"><span class="nav-dot" style="background:var(--cat-announce)"></span>公司公告<span class="nav-count" id="countAnnounce">0</span></button>
+<button class="nav-item" data-cat="市场异动"><span class="nav-dot" style="background:var(--cat-market)"></span>市场异动<span class="nav-count" id="countMarket">0</span></button>
+<button class="nav-item" data-cat="海外联动"><span class="nav-dot" style="background:var(--cat-overseas)"></span>海外联动<span class="nav-count" id="countOverseas">0</span></button>
+<button class="nav-item" data-cat="市场情绪"><span class="nav-dot" style="background:var(--cat-sentiment)"></span>市场情绪<span class="nav-count" id="countSentiment">0</span></button>
+</nav>
+
+<div class="watch-panel">
+<div class="watch-header"><span class="watch-title">🎯 关注关键词</span><span class="watch-count" id="watchCountBadge">0 条匹配</span></div>
+<input class="watch-input" id="watchInput" placeholder="输入关键词，逗号分隔（如：招商证券,降准,券商）" value="">
+<div class="watch-hint">输入后按回车保存，匹配的新闻会高亮显示。数据保存在本地浏览器。</div>
+<div class="watch-tags" id="watchTags"></div>
+</div>
+
+<div class="stats-box">
+<div class="stats-row"><span class="stats-label">今日总量</span><span class="stats-val" id="statTotal">0</span></div>
+<div class="stats-row"><span class="stats-label">≥4星重大</span><span class="stats-val" id="statMajor">0</span></div>
+<div class="stats-row"><span class="stats-label">关键词命中</span><span class="stats-val" id="statWatched">0</span></div>
+<div class="stats-row"><span class="stats-label">数据来源</span><span class="stats-val" id="statSource">演示</span></div>
+</div>
+</aside>
+
+<main class="main">
+<header class="topbar">
+<span class="topbar-title">📰 每日要闻聚合</span>
+<div class="topbar-spacer"></div>
+<span class="data-source-badge demo" id="dataSourceBadge">📋 演示数据</span>
+<div class="pill-live" id="livePill"><span class="dot"></span><span id="liveText">数据已同步</span></div>
+</header>
+
+<div class="page">
+<div class="page-header">
+<div class="page-header-left">
+<h1>今日市场要闻</h1>
+<p id="dateStr">2026年7月28日 星期二 · AI 自动筛选聚合</p>
+</div>
+<div class="header-actions">
+<button class="btn sm" id="briefBtn" title="切换简报模式">📋 简报</button>
+<button class="btn primary" id="refreshBtn">↻ 刷新数据</button>
+</div>
+</div>
+
+<div class="toolbar">
+<div class="toolbar-group">
+<span class="toolbar-label">分类</span>
+<div class="cat-pills" id="catPills">
+<button class="cat-pill active" data-cat="all"><span class="dot" style="background:var(--accent)"></span>全部</button>
+<button class="cat-pill" data-cat="宏观政策"><span class="dot" style="background:var(--cat-macro)"></span>宏观政策</button>
+<button class="cat-pill" data-cat="券商动态"><span class="dot" style="background:var(--cat-broker)"></span>券商动态</button>
+<button class="cat-pill" data-cat="公司公告"><span class="dot" style="background:var(--cat-announce)"></span>公司公告</button>
+<button class="cat-pill" data-cat="市场异动"><span class="dot" style="background:var(--cat-market)"></span>市场异动</button>
+<button class="cat-pill" data-cat="海外联动"><span class="dot" style="background:var(--cat-overseas)"></span>海外联动</button>
+<button class="cat-pill" data-cat="市场情绪"><span class="dot" style="background:var(--cat-sentiment)"></span>市场情绪</button>
+</div>
+</div>
+<div class="star-control">
+<span class="toolbar-label">AI 重要性</span>
+<input type="range" class="star-slider" id="starSlider" min="1" max="5" step="1" value="3">
+<span class="star-label" id="starLabel">≥ 3★</span>
+</div>
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="搜索标题或摘要...">
+</div>
+</div>
+
+<div class="kpi-bar" id="kpiBar">
+<div class="kpi"><div class="kpi-label">今日要闻总数</div><div class="kpi-value" id="kpiTotal">0</div><div class="kpi-delta">条新闻</div></div>
+<div class="kpi"><div class="kpi-label">重大事件 (≥4★)</div><div class="kpi-value" id="kpiMajor">0</div><div class="kpi-delta up">需重点关注</div></div>
+<div class="kpi"><div class="kpi-label">关键词命中</div><div class="kpi-value" id="kpiWatched">0</div><div class="kpi-delta">条涉及关注词</div></div>
+<div class="kpi"><div class="kpi-label">数据更新于</div><div class="kpi-value" id="kpiUpdated">—</div><div class="kpi-delta" id="kpiUpdateDelta">等待同步</div></div>
+</div>
+
+<div class="news-feed" id="newsFeed"></div>
+<div class="empty-state" id="emptyState" style="display:none">
+<div class="empty-state-icon">🔍</div><div class="empty-state-text">当前筛选条件下暂无新闻</div>
+<div class="empty-state-hint">试试降低重要性门槛或更换分类</div>
+</div>
+
+<footer class="footer">
+<p>NewsPulse · AI 驱动的金融要闻聚合平台 · <a href="#">GitHub</a> · <a href="#">部署指南</a></p>
+<p style="margin-top:4px">管道每 30 分钟自动同步 · 由 GitHub Actions + LLM 驱动</p>
+</footer>
+</div>
+</main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ============================================================
+// NewsPulse v2 — 支持实时数据的完整版
+// ============================================================
+
+// ===== 配置：修改这里切换数据源 =====
+var DATA_CONFIG = {
+  // 实时数据JSON路径（部署后改为你的实际路径）
+  LIVE_DATA_URL: "data/news-data.json",
+  
+  // 自动刷新间隔（毫秒），0 = 不自动刷新
+  AUTO_REFRESH_MS: 0,
+  
+  // 是否在页面加载时立即尝试拉取实时数据
+  TRY_LIVE_FIRST: true
+};
+
+// ===== 演示数据（当无法获取实时数据时的fallback）=====
+var DEMO_DATA=[
+{id:"a1b2c3d4e5f6",title:"央行宣布降准0.5个百分点，释放长期资金约1万亿元",source:"财联社电报",category:"宏观政策",stars:5,time:"09:12",summary:"降准超预期释放万亿流动性，银行券商直接受益，明天开盘重点关注大金融板块表现。信号意义强于实际投放量。",tags:["降准","货币政策","流动性"],url:"#"},
+{id:"b2c3d4e5f6g7",title:"证监会就券商风控指标新规公开征求意见",source:"证券时报",category:"券商动态",stars:4,time:"10:05",summary:"拟优化资本杠杆计算方式，头部券商资本空间或进一步释放。新规若落地直接利好净资本充裕的头部机构。",tags:["监管政策","风控指标","头部券商"],url:"#"},
+{id:"c3d4e5f6g7h8",title:"招商证券：拟每10股派4.49元，分红率创历史新高",source:"巨潮资讯网",category:"公司公告",stars:4,time:"08:47",summary:"2025年度分红方案落地，股息率约2.5%超预期。连续三年提升分红比例，彰显管理层信心。",tags:["分红","600999","年报"],url:"#"},
+{id:"d4e5f6g7h8i9",title:"两市成交额连续三日突破2万亿，两融余额创阶段新高",source:"华尔街见闻",category:"市场异动",stars:4,time:"13:30",summary:"杠杆资金加速入场，券商经纪与两融业务直接受益。市场交投活跃度维持高位，板块景气度上行。",tags:["成交额","两融","市场情绪"],url:"#"},
+{id:"e5f6g7h8i9j0",title:"国常会部署推进资本市场高质量发展若干措施",source:"新华社",category:"宏观政策",stars:5,time:"19:45",summary:"顶层设计再次强调资本市场服务实体经济定位，券商作为核心中介有望持续受益。政策红利期延续。",tags:["国常会","资本市场","顶层设计"],url:"#"},
+{id:"f6g7h8i9j0k1",title:"美联储议息会议纪要：多数委员支持年内再降息一次",source:"华尔街见闻",category:"海外联动",stars:4,time:"06:30",summary:"偏鸽派表述提振全球风险资产，港股券商板块高开。对A股券商间接利好，关注汇率波动影响。",tags:["美联储","降息","海外"],url:"#"},
+{id:"g7h8i9j0k1l2",title:"券商板块午后集体拉升，多只头部券商涨超3%",source:"东方财富",category:"市场异动",stars:3,time:"13:52",summary:"降准预期叠加业绩催化，板块资金净流入居前。成交量显著放大，短期情绪偏多。",tags:["板块行情","资金流向"],url:"#"},
+{id:"h8i9j0k1l2m3",title:"招商证券国际获批香港虚拟资产交易相关资质",source:"财联社",category:"券商动态",stars:3,time:"11:20",summary:"境外子公司业务边界拓展，长期增量尚待观察。合规资质获取反映公司国际化战略持续推进。",tags:["香港","虚拟资产","国际化"],url:"#"},
+{id:"i9j0k1l2m3n4",title:"财政部：将研究出台新一轮稳增长配套措施",source:"第一财经",category:"宏观政策",stars:3,time:"14:10",summary:"表述偏原则性，具体工具与力度需等待细则落地。市场对财政发力预期升温但尚无实质动作。",tags:["财政政策","稳增长"],url:"#"},
+{id:"j0k1l2m3n4o5",title:"北向资金今日净买入超80亿元，重点加仓非银金融",source:"新浪财经",category:"市场异动",stars:3,time:"15:00",summary:"外资对券商板块配置意愿回升，与内资形成共振。陆股通数据显示连续三日净流入趋势明确。",tags:["北向资金","外资","非银金融"],url:"#"},
+{id:"k1l2m3n4o5p6",title:"隔夜美股三大指数集体收涨，道指涨超400点",source:"新浪财经",category:"海外联动",stars:3,time:"07:15",summary:"科技股领涨，VIX指数回落至低位。外围环境改善为A股开盘提供正面情绪支撑。",tags:["美股","道指","纳斯达克"],url:"#"},
+{id:"l2m3n4o5p6q7",title:"中证协发布证券公司数字化转型指引",source:"中国证券报",category:"券商动态",stars:3,time:"09:35",summary:"引导行业加大金融科技投入，头部券商数字化优势将进一步扩大。已在金融科技领域布局的券商将率先受益。",tags:["数字化转型","金融科技"],url:"#"},
+{id:"m3n4o5p6q7r8",title:"某中型券商因投行项目违规被出具警示函",source:"证监会官网",category:"券商动态",stars:2,time:"10:48",summary:"个案性质为主，对板块整体情绪影响有限。监管持续压实中介责任，行业分化加剧趋势延续。",tags:["监管处罚","投行"],url:"#"},
+{id:"n4o5p6q7r8s9",title:"雪球热议：券商板块是否迎来新一轮主升浪？",source:"雪球社区",category:"市场情绪",stars:2,time:"16:20",summary:"社区讨论热度上升，看多情绪占优但分歧仍存。需警惕情绪过热后的回调风险，注意甄别噪音信息。",tags:["社区情绪","散户观点"],url:"#"},
+{id:"o5p6q7r8s9t0",title:"头部券商Q2末经纪业务市占率环比提升",source:"公司公告",category:"公司公告",stars:3,time:"17:00",summary:"市场份额稳步扩张，财富管理转型成效显现。零售客户数量保持行业前三梯队，综合竞争力持续增强。",tags:["市占率","经纪业务","Q2"],url:"#"}
+];
+
+// ===== 运行时状态 =====
+var NEWS_DATA = [];
+var CAT_COLORS={"宏观政策":"var(--cat-macro)","券商动态":"var(--cat-broker)","公司公告":"var(--cat-announce)","市场异动":"var(--cat-market)","海外联动":"var(--cat-overseas)","市场情绪":"var(--cat-sentiment)"};
+var curCat="all",curStar=3,searchQuery="",isBriefMode=false,isLiveMode=false;
+var watchKeywords=[];
+
+function gid(id){return document.getElementById(id);}
+var feed=gid("newsFeed"),empty=gid("emptyState"),starLabel=gid("starLabel");
+var searchInput=gid("searchInput");
+var kpiTotal=gid("kpiTotal"),kpiMajor=gid("kpiMajor"),kpiWatched=gid("kpiWatched"),kpiUpdated=gid("kpiUpdated");
+var statTotal=gid("statTotal"),statMajor=gid("statMajor"),statWatched=gid("statWatched"),statSource=gid("statSource");
+var dataSourceBadge=gid("dataSourceBadge");
+
+// ===== 关键词系统 =====
+function loadWatchKeywords(){try{var s=localStorage.getItem("np_watch");if(s){watchKeywords=JSON.parse(s).filter(function(k){return k.trim().length>0;});}}catch(e){}renderWatchTags();}
+function saveWatchKeywords(){localStorage.setItem("np_watch",JSON.stringify(watchKeywords));renderWatchTags();render();}
+function renderWatchTags(){var c=gid("watchTags");if(!watchKeywords.length){c.innerHTML='<span style="font-size:11px;color:var(--ink-3)">暂无关键词</span>';return;}c.innerHTML="";for(var i=0;i<watchKeywords.length;i++){(function(kw,idx){var t=document.createElement("span");t.className="watch-tag";t.innerHTML=kw+' <span class="rm">×</span>';t.addEventListener("click",function(){watchKeywords.splice(idx,1);saveWatchKeywords();});c.appendChild(t)})(watchKeywords[i],i);}gid("watchCountBadge").textContent=countWatched()+" 条匹配";}
+function isWatched(n){if(!watchKeywords.length)return false;var t=(n.title+" "+n.summary).toLowerCase();for(var i=0;i<watchKeywords.length;i++)if(t.indexOf(watchKeywords[i].toLowerCase())>=0)return true;return false;}
+function countWatched(){if(!watchKeywords.length)return 0;var c=0;for(var i=0;i<NEWS_DATA.length;i++)if(isWatched(NEWS_DATA[i]))c++;return c;}
+
+// ===== 渲染核心 =====
+function starsHtml(n){var s="";for(var i=1;i<=5;i++)s+=i<=n?'<span class="filled">★</span>':'<span class="empty">☆</span>';return s;}
+function catBadge(cat){var color=CAT_COLORS[cat]||"var(--ink-3)";return'<span class="news-cat" style="background:color-mix(in srgb,'+color+' 15%,transparent);color:'+color+'">'+cat+'</span>';}
+
+function render(){
+var filtered=NEWS_DATA.filter(function(n){
+if(curCat!=="all"&&n.category!==curCat)return false;if(n.stars<curStar)return false;
+if(searchQuery&&n.title.toLowerCase().indexOf(searchQuery.toLowerCase())<0&&n.summary.toLowerCase().indexOf(searchQuery.toLowerCase())<0)return false;return true;});
+kpiTotal.textContent=String(NEWS_DATA.length);kpiMajor.textContent=String(NEWS_DATA.filter(function(n){return n.stars>=4}).length);kpiWatched.textContent=String(countWatched());
+var topS=1;for(var ti=0;ti<NEWS_DATA.length;ti++)if(NEWS_DATA[ti].stars>topS)topS=NEWS_DATA[ti].stars;kpiUpdated.textContent=isLiveMode?"LIVE":"DEMO";
+statTotal.textContent=String(NEWS_DATA.length);statMajor.textContent=String(NEWS_DATA.filter(function(n){return n.stars>=4}).length);statWatched.textContent=String(countWatched());statSource.textContent=isLiveMode?"实时":"演示";
+gid("countAll").textContent=String(NEWS_DATA.length);
+gid("countMacro").textContent=String(NEWS_DATA.filter(function(n){return n.category==="宏观政策"}).length);
+gid("countBroker").textContent=String(NEWS_DATA.filter(function(n){return n.category==="券商动态"}).length);
+gid("countAnnounce").textContent=String(NEWS_DATA.filter(function(n){return n.category==="公司公告"}).length);
+gid("countMarket").textContent=String(NEWS_DATA.filter(function(n){return n.category==="市场异动"}).length);
+gid("countOverseas").textContent=String(NEWS_DATA.filter(function(n){return n.category==="海外联动"}).length);
+gid("countSentiment").textContent=String(NEWS_DATA.filter(function(n){return n.category==="市场情绪"}).length);
+gid("watchCountBadge").textContent=countWatched()+" 条匹配";
+empty.style.display=filtered.length?"none":"block";feed.className="news-feed"+(isBriefMode?" brief-mode":"");
+if(!filtered.length){feed.innerHTML="";return;}
+var grouped={};for(var fi=0;fi<filtered.length;fi++){var n=filtered[fi],h=n.time.split(":")[0];if(!grouped[h])grouped[h]=[];grouped[h].push(n);}
+var hours=Object.keys(grouped).sort(),html="";
+for(var hi=0;hi<hours.length;hi++){var h=hours[hi],items=grouped[h];
+html+='<div class="timeline-group"><span class="time-label">'+h+':00</span>';
+for(var ii=0;ii<items.length;ii++){
+var n=items[ii],w=isWatched(n),hlClass="";if(n.stars>=4)hlClass+=" highlighted";if(w)hlClass+=" watched";
+var wTag=w?'<span class="tag tag-watched">🎯 匹配关键词</span>':"",tHtml="";
+for(var ti2=0;ti2<n.tags.length;ti2++)tHtml+='<span class="tag">#'+n.tags[ti2]+'</span>';
+html+='<div class="news-card'+hlClass+'">';
+html+='<div class="news-top">'+catBadge(n.category)+'<span class="news-meta">'+n.source+" · "+n.time+"</span>";
+html+='<span class="news-stars">'+starsHtml(n.stars)+"</span></div>";
+html+='<div class="news-title">'+n.title+"</div>";
+html+='<div class="news-summary"><strong>AI 摘要：</strong>'+n.summary+"</div>";
+html+='<div class="news-tags">'+tHtml+wTag+"</div></div>";}
+html+="</div>";}
+feed.innerHTML=html;}
+
+function toast(msg){var t=gid("toast");t.textContent=msg;t.classList.add("show");setTimeout(function(){t.classList.remove("show")},2200);}
+
+// ===== 数据加载 =====
+function loadLiveData(){
+isLiveMode=false;
+var pill=gid("livePill");pill.classList.add("syncing");gid("liveText").textContent="正在拉取实时数据…";
+fetch(DATA_CONFIG.LIVE_DATA_URL,{cache:"no-store",headers:{"Cache-Control":"no-cache"}})
+.then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
+.then(function(data){
+if(data&&data.news&&Array.isArray(data.news)){
+NEWS_DATA=data.news;isLiveMode=true;
+dataSourceBadge.className="data-source-badge live";dataSourceBadge.textContent="🟢 实时数据";
+if(data.fetched_at){var d=new Date(data.fetched_at);gid("kpiUpdated").textContent=d.getHours()+":"+String(d.getMinutes()).padStart(2,"0");}
+gid("kpiUpdateDelta").textContent="✅ 已同步";
+gid("liveText").textContent="实时数据 · "+NEWS_DATA.length+"条";
+toast("✅ 已加载 "+NEWS_DATA.length+" 条实时新闻");
+}else{throw new Error("Invalid data format");}
+})
+.catch(function(err){
+console.warn("实时数据加载失败，使用演示数据:",err.message);
+NEWS_DATA=DEMO_DATA.slice();isLiveMode=false;
+dataSourceBadge.className="data-source-badge demo";dataSourceBadge.textContent="📋 演示数据";
+gid("kpiUpdateDelta").textContent="使用内置数据";
+gid("liveText").textContent="演示模式";
+toast("⚠️ 使用演示数据（"+DEMO_DATA.length+"条）");
+})
+.then(function(){
+pill.classList.remove("syncing");
+render();
+});
+}
+
+// ===== 事件绑定 =====
+document.querySelectorAll(".cat-pill,.nav-item").forEach(function(b){
+b.addEventListener("click",function(){curCat=b.dataset.cat;
+document.querySelectorAll(".cat-pill").forEach(function(x){x.classList.toggle("active",x.dataset.cat===curCat);});
+document.querySelectorAll(".nav-item").forEach(function(x){x.classList.toggle("active",x.dataset.cat===curCat);});render();});});
+
+gid("starSlider").addEventListener("input",function(e){curStar=Number(e.target.value);starLabel.textContent="≥ "+curStar+"★";render();});
+searchInput.addEventListener("input",function(e){searchQuery=e.target.value.trim();render();});
+gid("briefBtn").addEventListener("click",function(){isBriefMode=!isBriefMode;gid("briefBtn").textContent=isBriefMode?"📋 详情":"📋 简报";render();toast(isBriefMode?"已切换到简报模式":"已切换到详情模式");});
+gid("refreshBtn").addEventListener("click",function(){loadLiveData();});
+gid("watchInput").addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();var val=e.target.value.trim();if(!val)return;val.split(/[,，]/).map(function(s){return s.trim();}).filter(function(s){return s&&watchKeywords.indexOf(s)<0;}).forEach(function(k){watchKeywords.push(k);});saveWatchKeywords();e.target.value="";}});
+
+// ===== 初始化 =====
+var today=new Date(),weekDays=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+gid("dateStr").textContent=today.getFullYear()+"年"+(today.getMonth()+1)+"月"+today.getDate()+"日 "+weekDays[today.getDay()]+" · AI 自动筛选聚合";
+
+loadWatchKeywords();
+
+// 尝试加载实时数据，失败则用演示数据
+if(DATA_CONFIG.TRY_LIVE_FIRST){loadLiveData();}else{NEWS_DATA=DEMO_DATA.slice();render();}
+
+// 自动刷新（如果配置了）
+if(DATA_CONFIG.AUTO_REFRESH_MS>0){setInterval(loadLiveData,DATA_CONFIG.AUTO_REFRESH_MS);}
+</script>
+</body>
+</html>
