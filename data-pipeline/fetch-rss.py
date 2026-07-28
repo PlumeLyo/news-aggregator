@@ -114,17 +114,18 @@ def is_noise(title: str) -> bool:
 
 
 def parse_time(entry) -> str:
-    """解析时间为 HH:MM 格式"""
+    """解析时间为北京时间 HH:MM 格式（RSS published_parsed 是 UTC）"""
+    tz_bj = timezone(timedelta(hours=8))
     try:
         if hasattr(entry, 'published_parsed') and entry.published_parsed:
-            t = datetime(*entry.published_parsed[:6])
-            return t.strftime("%H:%M")
+            t = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+            return t.astimezone(tz_bj).strftime("%H:%M")
         if hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-            t = datetime(*entry.updated_parsed[:6])
-            return t.strftime("%H:%M")
+            t = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+            return t.astimezone(tz_bj).strftime("%H:%M")
     except (ValueError, TypeError):
         pass
-    return datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M")
+    return datetime.now(tz_bj).strftime("%H:%M")
 
 
 def fetch_rss(source: Dict) -> List[Dict]:
