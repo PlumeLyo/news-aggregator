@@ -264,6 +264,9 @@ transition:all .2s;letter-spacing:.01em}
 .tag-watched{background:var(--accent-soft);color:var(--watch-color)}
 
 /* ===== 时间线 — 倒序优化 ===== */
+.date-divider{text-align:center;margin:24px 0 16px;position:relative}
+.date-divider:before{content:"";position:absolute;left:0;right:0;top:50%;border-top:1px solid var(--line)}
+.date-divider span{position:relative;background:var(--bg-glass);backdrop-filter:blur(10px);padding:4px 16px;font-size:12px;font-weight:600;color:var(--ink-3);border-radius:20px;border:1px solid var(--line)}
 .timeline-group{position:relative;padding-left:0;
 animation:card-enter .45s var(--ease-out) both;margin-bottom:20px}
 .timeline-group::before{content:'';position:absolute;left:7px;top:30px;
@@ -521,14 +524,17 @@ gid("watchCountBadge").textContent=countWatched()+" 条匹配";
 
 empty.style.display=filtered.length?"none":"block";feed.className="news-feed"+(isBriefMode?" brief-mode":"");
 if(!filtered.length){feed.innerHTML="";return;}
-var grouped={};for(var fi=0;fi<filtered.length;fi++){var n=filtered[fi],h=n.time.split(":")[0];if(!grouped[h])grouped[h]=[];grouped[h].push(n);}
+var grouped={};for(var fi=0;fi<filtered.length;fi++){var n=filtered[fi];var d=n.date||"";var h=n.time.split(":")[0];var gk=d+"|"+h;if(!grouped[gk])grouped[gk]={date:d,hour:h,items:[]};grouped[gk].items.push(n);}
 
-// ★ 核心：倒序排列 — 最新时间在最前面
-var hours=Object.keys(grouped).sort(function(a,b){return Number(b)-Number(a);}),html="";
-var cardIdx=0;
-for(var hi=0;hi<hours.length;hi++){
-var h=hours[hi],items=grouped[h];
-// 同一组内也按时间倒序（较晚的时间排前面）
+// ★ 核心：按日期+小时倒序排列
+var groups=Object.keys(grouped).sort(function(a,b){return b.localeCompare(a);}),html="";
+var cardIdx=0;var lastDate="";
+var todayStr=new Date().toISOString().slice(0,10);
+var yesterdayStr=new Date(Date.now()-86400000).toISOString().slice(0,10);
+for(var gi=0;gi<groups.length;gi++){
+var g=grouped[groups[gi]];var d=g.date;var h=g.hour;var items=g.items;
+// 日期分隔符
+if(d!==lastDate){lastDate=d;var dateLabel=d===todayStr?"今天":(d===yesterdayStr?"昨天":d);html+='<div class="date-divider"><span>'+dateLabel+'</span></div>';}
 items.sort(function(a,b){ return b.time.localeCompare(a.time); });
 
 html+='<div class="timeline-group" style="animation-delay:'+(cardIdx*0.05)+'s"><span class="time-label">'+h+':00</span>';
