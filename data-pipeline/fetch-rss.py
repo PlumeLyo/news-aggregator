@@ -127,6 +127,52 @@ def parse_time(entry) -> str:
         pass
     return datetime.now(tz_bj).strftime("%H:%M")
 
+def parse_date(entry) -> str:
+    """解析日期为 YYYY-MM-DD 格式（北京时间）"""
+    tz_bj = timezone(timedelta(hours=8))
+    try:
+        if hasattr(entry, 'published_parsed') and entry.published_parsed:
+            t = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+            return t.astimezone(tz_bj).strftime("%Y-%m-%d")
+        if hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+            t = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+            return t.astimezone(tz_bj).strftime("%Y-%m-%d")
+    except (ValueError, TypeError):
+        pass
+    return datetime.now(tz_bj).strftime("%Y-%m-%d")
+
+def merge_with_history(new_items, output_path, max_history=500):
+    """将新新闻与历史数据合并，按 ID 去重，保留最多 max_history 条"""
+    today = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    
+    existing = []
+    try:
+        with open(output_path, "r", encoding="utf-8") as f:
+            old_data = json.load(f)
+            existing = old_data.get("news", [])
+        print("  History loaded: " + str(len(existing)) + " items")
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        print("  No history data, first run")
+
+    for item in new_items:
+        if "date" not in item:
+            item["date"] = today
+
+    merged = {}
+    for item in existing:
+        merged[item["id"]] = item
+    for item in new_items:
+        merged[item["id"]] = item
+
+    result = list(merged.values())
+    result.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
+    
+    if len(result) > max_history:
+        result = result[:max_history]
+        print("  Trimmed to " + str(max_history) + " items")
+
+    print("  Merged total: " + str(len(result)) + " (new: " + str(len(new_items)) + ")")
+    return result
 
 def fetch_rss(source: Dict) -> List[Dict]:
     """从单个 RSS 源抓取新闻，主 RSSHub 失败时自动切换备用实例"""
@@ -157,6 +203,7 @@ def fetch_rss(source: Dict) -> List[Dict]:
                     "source": source["name"],
                     "category": CAT_MAP.get(source["cat"], source["cat"]),
                     "time": parse_time(entry),
+                    "date": parse_date(entry),
                     "summary": re.sub(r'<[^>]+>', '', summary)[:200],
                     "url": link,
                     "_source_id": source["id"],
@@ -254,6 +301,7 @@ def rule_based_score(item: Dict) -> Dict:
         "category": item["category"],
         "stars": star,
         "time": item["time"],
+        "date": item.get("date", ""),
         "summary": ai_summary,
         "tags": tags,
         "watched": watched,
@@ -299,6 +347,7 @@ def call_llm_ai_score(item: Dict, api_key: str, base_url: str, model: str) -> Op
             "category": result.get("category", item["category"]),
             "stars": result.get("star", 3),
             "time": item["time"],
+            "date": item.get("date", ""),
             "summary": result.get("summary_ai", item.get("summary", "")[:100]),
             "tags": result.get("tags", [])[:4],
             "watched": result.get("is_self_stock", False),
@@ -378,15 +427,22 @@ def main():
     # Step 4: 排序（星级优先，时间次之）
     results.sort(key=lambda x: (-x["stars"], x["time"]))
 
-    # Step 5: 输出
+    # Step 5: 合并历史数据
+    print("\n📚 第五步：合并历史数据...")
+    merged_results = merge_with_history(results, args.output, max_history=500)
+
+    # Step 6: 输出
+    today = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    today_count = len([r for r in merged_results if r.get("date", "") == today])
     output = {
-        "version": "1.0",
+        "version": "2.0",
         "fetched_at": datetime.now(timezone(timedelta(hours=8))).isoformat(),
-        "total_count": len(results),
-        "major_count": len([r for r in results if r["stars"] >= 4]),
-        "watched_count": len([r for r in results if r["watched"]]),
+        "total_count": len(merged_results),
+        "today_count": today_count,
+        "major_count": len([r for r in merged_results if r["stars"] >= 4]),
+        "watched_count": len([r for r in merged_results if r["watched"]]),
         "sources_used": len(RSS_SOURCES),
-        "news": results,
+        "news": merged_results,
     }
 
     import os as _os; _os.makedirs(_os.path.dirname(args.output), exist_ok=True) if _os.path.dirname(args.output) else None
@@ -394,7 +450,7 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\n✅ 完成！输出: {args.output}")
-    print(f"   总计: {output['total_count']} 条 | ≥4★: {output['major_count']} 条 | "
+    print(f"   总计: {output['total_count']} 条 (今日新增: {today_count}) | ≥4★: {output['major_count']} 条 | "
           f"关键词命中: {output['watched_count']} 条")
 
 
