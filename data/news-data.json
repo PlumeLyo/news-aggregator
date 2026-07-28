@@ -1,12 +1,992 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-07-28T22:07:10.767932+08:00",
-  "total_count": 151,
-  "today_count": 146,
-  "major_count": 55,
-  "watched_count": 3,
+  "fetched_at": "2026-07-29T00:20:32.270677+08:00",
+  "total_count": 208,
+  "today_count": 8,
+  "major_count": 72,
+  "watched_count": 4,
   "sources_used": 14,
   "news": [
+    {
+      "id": "5064736b09ce",
+      "title": "谷歌推出Gemini支持的评论工作流",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "00:16",
+      "date": "2026-07-29",
+      "summary": "谷歌在文本文档中推出AI评论功能",
+      "tags": [
+        "谷歌",
+        "AI",
+        "文本文档"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141128"
+    },
+    {
+      "id": "351a1c50e399",
+      "title": "德国两年期国债收益率跌超4个基点，油价跌幅在美以领导人会面前扩大",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "00:08",
+      "date": "2026-07-29",
+      "summary": "德债收益率下跌，油价因美以会面预期扩大跌幅",
+      "tags": [
+        "德债收益率",
+        "油价",
+        "美以领导人会面"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141127"
+    },
+    {
+      "id": "31b2b8487806",
+      "title": "依视路陆逊梯卡二季度营收增长8.7%，低于预期",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "00:07",
+      "date": "2026-07-29",
+      "summary": "依视路陆逊梯卡二季度营收增长8.7%，低于分析师预期10.1%。",
+      "tags": [
+        "依视路陆逊梯卡",
+        "营收",
+        "低于预期"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577969"
+    },
+    {
+      "id": "acb967075269",
+      "title": "ASM国际二季度营收10亿欧元 略高于市场预期",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "00:04",
+      "date": "2026-07-29",
+      "summary": "ASM国际二季度营收超预期，运营利润率也略高。",
+      "tags": [
+        "ASM国际",
+        "营收",
+        "业绩"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577963"
+    },
+    {
+      "id": "718701dba014",
+      "title": "布伦特原油期货跌超5%",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "00:00",
+      "date": "2026-07-29",
+      "summary": "布伦特原油期货暴跌超5%，报81.3美元/桶。",
+      "tags": [
+        "原油",
+        "期货",
+        "暴跌"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295983.html"
+    },
+    {
+      "id": "07d0044a1bf9",
+      "title": "依视路陆逊梯卡二季度营收增长8.7%不及预期",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "00:00",
+      "date": "2026-07-29",
+      "summary": "依视路陆逊梯卡二季度营收76.9亿欧元，增长8.7%，低于预期。",
+      "tags": [
+        "依视路陆逊梯卡",
+        "营收",
+        "不及预期"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141126"
+    },
+    {
+      "id": "24ea4bfa70a4",
+      "title": "ASM国际二季度营收10亿欧元，超预期",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "00:00",
+      "date": "2026-07-29",
+      "summary": "ASM国际二季度业绩超预期，三季度指引乐观。",
+      "tags": [
+        "ASM国际",
+        "财报",
+        "半导体"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141125"
+    },
+    {
+      "id": "9aa5d2878763",
+      "title": "今日重点财经数据与事件：2026年7月29日 周三",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "00:00",
+      "date": "2026-07-29",
+      "summary": "关注美国原油库存和澳大利亚CPI等数据",
+      "tags": [
+        "原油库存",
+        "澳大利亚CPI",
+        "经济数据"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "a8bbfc46cac2",
+      "title": "WTI原油日内跌幅达5.0%，报78.43美元/桶",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:59",
+      "date": "2026-07-28",
+      "summary": "WTI原油暴跌5%，跌破79美元",
+      "tags": [
+        "原油",
+        "WTI",
+        "暴跌"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141124"
+    },
+    {
+      "id": "abdc140d9e60",
+      "title": "布伦特原油期货跌幅扩大至5%",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:58",
+      "date": "2026-07-28",
+      "summary": "原油期货大跌，因美伊有望重启谅解备忘录。",
+      "tags": [
+        "原油",
+        "地缘政治",
+        "期货"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577949"
+    },
+    {
+      "id": "e11eb3fca21b",
+      "title": "伊朗否认介入曼德海峡问题，呼吁解决也门危机",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "23:58",
+      "date": "2026-07-28",
+      "summary": "伊朗称不介入胡塞武装行动，呼吁从源头解决也门问题。",
+      "tags": [
+        "伊朗",
+        "胡塞武装",
+        "曼德海峡",
+        "也门"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577947"
+    },
+    {
+      "id": "c0365365d4aa",
+      "title": "伊朗驻华大使称伊朗未介入曼德海峡问题，呼吁从源头解决也门危机",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:57",
+      "date": "2026-07-28",
+      "summary": "伊朗否认介入曼德海峡冲突，呼吁解决也门危机根源。",
+      "tags": [
+        "伊朗",
+        "也门",
+        "曼德海峡",
+        "胡塞武装"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141123"
+    },
+    {
+      "id": "886474719f09",
+      "title": "布伦特原油日内跌幅达5.0%，WTI原油5分钟内下跌0.61美元",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:56",
+      "date": "2026-07-28",
+      "summary": "国际油价大幅下跌，布伦特跌5%，WTI急挫。",
+      "tags": [
+        "原油",
+        "油价暴跌",
+        "海外市场"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141122"
+    },
+    {
+      "id": "774fded40d7c",
+      "title": "WTI原油日内跌幅扩大至4%，布伦特原油跌约4.5%",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:55",
+      "date": "2026-07-28",
+      "summary": "原油价格大幅下跌，WTI跌4%报77.91美元，布伦特跌4.5%报81.5美元。",
+      "tags": [
+        "原油",
+        "WTI",
+        "布伦特",
+        "跌幅扩大"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "28153167d8e7",
+      "title": "英国2/10年期国债收益率跌约5个基点",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:55",
+      "date": "2026-07-28",
+      "summary": "英国国债收益率普遍下跌，2/10年期利差微扩。",
+      "tags": [
+        "英国国债",
+        "收益率下跌",
+        "海外市场"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141121"
+    },
+    {
+      "id": "a5be6959771f",
+      "title": "HBO Max推出竖屏短视频信息流",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "23:55",
+      "date": "2026-07-28",
+      "summary": "华纳兄弟旗下HBO Max推出竖屏短视频功能",
+      "tags": [
+        "华纳兄弟",
+        "HBO Max",
+        "短视频"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577946"
+    },
+    {
+      "id": "37778c287d53",
+      "title": "法国山火持续肆虐，马克龙称面临二战后最艰难形势",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:53",
+      "date": "2026-07-28",
+      "summary": "法国山火严峻，马克龙称二战后最艰难形势",
+      "tags": [
+        "法国",
+        "山火",
+        "欧洲",
+        "气候"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141120"
+    },
+    {
+      "id": "c0f7fa9f5f7e",
+      "title": "中际旭创：预计下半年原材料改善，出货量增加",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:52",
+      "date": "2026-07-28",
+      "summary": "中际旭创预计下半年原材料供应改善，出货量将明显增加。",
+      "tags": [
+        "中际旭创",
+        "原材料",
+        "出货量"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577941"
+    },
+    {
+      "id": "28a216e3346b",
+      "title": "乌干达宣布埃博拉疫情结束",
+      "source": "第一财经",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "23:51",
+      "date": "2026-07-28",
+      "summary": "乌干达埃博拉疫情结束，42天无新增病例。",
+      "tags": [
+        "埃博拉",
+        "乌干达",
+        "疫情结束"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295981.html"
+    },
+    {
+      "id": "8efd22527a43",
+      "title": "xAI面向Grok推出Build模型",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:50",
+      "date": "2026-07-28",
+      "summary": "xAI推出Grok Build模型，面向超级订阅者测试",
+      "tags": [
+        "xAI",
+        "Grok",
+        "AI模型"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577939"
+    },
+    {
+      "id": "4d33d15c04f0",
+      "title": "青海海南州兴海县发生3.7级地震",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 1,
+      "time": "23:48",
+      "date": "2026-07-28",
+      "summary": "青海兴海县发生3.7级地震，震源深度9千米。",
+      "tags": [
+        "地震",
+        "青海"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295979.html"
+    },
+    {
+      "id": "12fcfc05b0d1",
+      "title": "xAI面向Grok推出Build模型",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:47",
+      "date": "2026-07-28",
+      "summary": "xAI推出Grok Build模型，面向超级订阅者测试",
+      "tags": [
+        "xAI",
+        "Grok",
+        "AI模型"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141119"
+    },
+    {
+      "id": "15d326ca57a5",
+      "title": "WTI原油期货跌破80美元",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:46",
+      "date": "2026-07-28",
+      "summary": "国际油价大跌，WTI跌破80美元",
+      "tags": [
+        "原油",
+        "油价下跌",
+        "WTI"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577931"
+    },
+    {
+      "id": "0878aa34da93",
+      "title": "开云集团二季度古驰同店销售下滑2%",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:46",
+      "date": "2026-07-28",
+      "summary": "开云集团古驰销售下滑，但好于预期。",
+      "tags": [
+        "开云集团",
+        "古驰",
+        "同店销售",
+        "二季度"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577932"
+    },
+    {
+      "id": "043017266a87",
+      "title": "中际旭创：预计下半年原材料改善，出货量增加",
+      "source": "华尔街见闻",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "23:44",
+      "date": "2026-07-28",
+      "summary": "中际旭创预计下半年原材料供应改善，出货量将明显增长。",
+      "tags": [
+        "中际旭创",
+        "原材料",
+        "出货量"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141118"
+    },
+    {
+      "id": "fb3aa75e5bb7",
+      "title": "中际旭创：1.6T光模块ASP远高于传言，行业无恶性竞争",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "23:43",
+      "date": "2026-07-28",
+      "summary": "中际旭创称1.6T产品价格高于市场传言，行业需求旺盛。",
+      "tags": [
+        "中际旭创",
+        "光模块",
+        "1.6T",
+        "ASP"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295977.html"
+    },
+    {
+      "id": "1885e1a6da28",
+      "title": "中际旭创：2027年有望完成NPO产品导入",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "23:42",
+      "date": "2026-07-28",
+      "summary": "中际旭创称NPO产品2027年导入，2028年放量。",
+      "tags": [
+        "中际旭创",
+        "NPO产品",
+        "产品导入"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295975.html"
+    },
+    {
+      "id": "4b610b838366",
+      "title": "布伦特原油日内跌幅达4.5%，报81.98美元/桶",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:40",
+      "date": "2026-07-28",
+      "summary": "布伦特原油大跌4.5%，跌破82美元",
+      "tags": [
+        "原油",
+        "布伦特",
+        "大跌"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141117"
+    },
+    {
+      "id": "4dee817cdc40",
+      "title": "布伦特原油日内跌幅扩大至4%，WTI跌超3%",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:40",
+      "date": "2026-07-28",
+      "summary": "原油价格大跌，布伦特跌4%至82.2美元，WTI跌超3%至78.6美元。",
+      "tags": [
+        "原油",
+        "布伦特",
+        "WTI",
+        "大跌"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "6b5956fa4ec2",
+      "title": "开云集团二季度同店销售营收增长2%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:40",
+      "date": "2026-07-28",
+      "summary": "开云集团二季度营收略超预期，古驰下滑低于预期。",
+      "tags": [
+        "开云集团",
+        "古驰",
+        "同店销售"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141116"
+    },
+    {
+      "id": "14d498faa94d",
+      "title": "欧洲主要股指收盘多数上涨",
+      "source": "第一财经",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:40",
+      "date": "2026-07-28",
+      "summary": "欧股多数收涨，英法德指数均涨超0.5%",
+      "tags": [
+        "欧洲股市",
+        "股指上涨"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295973.html"
+    },
+    {
+      "id": "4ac670a5cef8",
+      "title": "胡塞武装袭击沙特阿美炼油厂，40万桶/日产能关闭",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 5,
+      "time": "23:39",
+      "date": "2026-07-28",
+      "summary": "胡塞武装袭击致沙特阿美炼油厂停产，影响全球石油供应。",
+      "tags": [
+        "胡塞武装",
+        "沙特阿美",
+        "炼油厂",
+        "石油供应"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577916"
+    },
+    {
+      "id": "b2dfdc6bb5b7",
+      "title": "美素佳儿就铅超标事件发声明要求复检",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "23:39",
+      "date": "2026-07-28",
+      "summary": "美素佳儿要求复检铅超标奶粉，澳门增检未见异常。",
+      "tags": [
+        "食品安全",
+        "奶粉",
+        "铅超标"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295971.html"
+    },
+    {
+      "id": "37b86851e720",
+      "title": "MSCI北欧国家指数创7月6日以来新高，医疗保健板块领涨",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:38",
+      "date": "2026-07-28",
+      "summary": "MSCI北欧指数涨0.7%创新高，医疗板块领涨，诺维信涨4.88%",
+      "tags": [
+        "MSCI",
+        "北欧指数",
+        "医疗保健",
+        "诺维信"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141115"
+    },
+    {
+      "id": "55d56a27443a",
+      "title": "布伦特原油失守82美元",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:35",
+      "date": "2026-07-28",
+      "summary": "布伦特原油暴跌4.53%，跌破82美元",
+      "tags": [
+        "原油",
+        "大宗商品",
+        "暴跌"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577913"
+    },
+    {
+      "id": "2cf1a99d581c",
+      "title": "路透调查：分析师下调金价预测，但央行买盘料缓解跌势",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:35",
+      "date": "2026-07-28",
+      "summary": "分析师首次下调金价预测，央行买盘或支撑市场。",
+      "tags": [
+        "黄金",
+        "金价预测",
+        "央行买盘"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2577911"
+    },
+    {
+      "id": "e41b6176573b",
+      "title": "中际旭创：1.6T光模块ASP远高于传言，订单已至2027年",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:34",
+      "date": "2026-07-28",
+      "summary": "公司否认1.6T光模块降价，需求旺盛，订单覆盖至2027年。",
+      "tags": [
+        "中际旭创",
+        "1.6T光模块",
+        "订单",
+        "需求旺盛"
+      ],
+      "watched": true,
+      "url": "https://www.gelonghui.com/live/2577908"
+    },
+    {
+      "id": "ffc50d272e0f",
+      "title": "美国监管机构提议对波音737 MAX客机座椅展开检查",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:34",
+      "date": "2026-07-28",
+      "summary": "FAA要求检查波音737 MAX座椅安装问题",
+      "tags": [
+        "波音",
+        "737 MAX",
+        "航空安全",
+        "FAA"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141113"
+    },
+    {
+      "id": "6756cf5159b2",
+      "title": "美国财政部拍卖六周期国债，得标利率3.7%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:32",
+      "date": "2026-07-28",
+      "summary": "美国六周期国债得标利率3.7%，投标倍数2.93。",
+      "tags": [
+        "美国国债",
+        "利率",
+        "拍卖"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141112"
+    },
+    {
+      "id": "49019c887b63",
+      "title": "达瑞电子间接持有长鑫科技约168.86万股",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "23:32",
+      "date": "2026-07-28",
+      "summary": "达瑞电子间接持有长鑫科技股份，股价波动影响财务状况。",
+      "tags": [
+        "达瑞电子",
+        "长鑫科技",
+        "间接持股",
+        "科创板"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295969.html"
+    },
+    {
+      "id": "0911895ab578",
+      "title": "SpaceX涨逾3%",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:31",
+      "date": "2026-07-28",
+      "summary": "SpaceX股价直线拉升，涨逾3%",
+      "tags": [
+        "SpaceX",
+        "股价异动"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295967.html"
+    },
+    {
+      "id": "bf35d2ef8ae4",
+      "title": "欧洲主要股指涨跌互现，德国DAX 30指数初步收涨0.27%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:30",
+      "date": "2026-07-28",
+      "summary": "欧洲股市涨跌不一，德法英上涨，意大利下跌。",
+      "tags": [
+        "欧洲股市",
+        "德国DAX",
+        "法国股指",
+        "意大利股指"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141111"
+    },
+    {
+      "id": "24ea2e95f07c",
+      "title": "欧洲主要股指涨跌互现，STOXX 600微涨0.21%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:30",
+      "date": "2026-07-28",
+      "summary": "欧洲股市小幅波动，整体平稳。",
+      "tags": [
+        "欧洲股市",
+        "指数收盘"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141110"
+    },
+    {
+      "id": "33a1f58eb529",
+      "title": "马斯克：Grok 4.6预计8月7日发布",
+      "source": "第一财经",
+      "category": "市场情绪",
+      "stars": 2,
+      "time": "23:29",
+      "date": "2026-07-28",
+      "summary": "马斯克宣布Grok 4.6将于8月7日发布，4.7版本参数2.1万亿。",
+      "tags": [
+        "AI",
+        "Grok",
+        "马斯克"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295965.html"
+    },
+    {
+      "id": "9db06e49ddf7",
+      "title": "布伦特原油期货跌幅扩大至4%",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:26",
+      "date": "2026-07-28",
+      "summary": "布伦特原油期货大跌4%，报82.27美元/桶。",
+      "tags": [
+        "原油",
+        "期货",
+        "跌幅"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295963.html"
+    },
+    {
+      "id": "ccf1d2f3d287",
+      "title": "WTI原油暴跌4%，美债收益率下行，美股分化",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:25",
+      "date": "2026-07-28",
+      "summary": "原油暴跌，美债涨，美股分化，中东局势或缓和",
+      "tags": [
+        "原油",
+        "美债",
+        "美股",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141109"
+    },
+    {
+      "id": "786730627ad8",
+      "title": "特朗普否认弹药不足致暂停打击伊朗，甩锅拜登",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:23",
+      "date": "2026-07-28",
+      "summary": "特朗普否认弹药不足，指责拜登政府，五角大楼与军工企业扩产。",
+      "tags": [
+        "特朗普",
+        "伊朗",
+        "弹药",
+        "五角大楼"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3141108"
+    },
+    {
+      "id": "984b104c0dcc",
+      "title": "日本熊本县7.1级强震致商场爆炸坍塌",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 5,
+      "time": "23:02",
+      "date": "2026-07-28",
+      "summary": "日本熊本县发生7.1级地震，商场爆炸坍塌，约30人被困。",
+      "tags": [
+        "日本地震",
+        "自然灾害",
+        "海外事件"
+      ],
+      "watched": false,
+      "url": "https://international.caixin.com/2026-07-28/102468917.html"
+    },
+    {
+      "id": "ef0e004e9ed4",
+      "title": "日本熊本发生上百次余震",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 1,
+      "time": "22:58",
+      "date": "2026-07-28",
+      "summary": "熊本地震后余震超百次，影响有限",
+      "tags": [
+        "日本",
+        "地震",
+        "余震"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295957.html"
+    },
+    {
+      "id": "4b0a17f090a1",
+      "title": "英伟达市值被苹果反超，AI押注成隐忧",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "22:55",
+      "date": "2026-07-28",
+      "summary": "英伟达市值被苹果反超，AI投资风险受关注",
+      "tags": [
+        "英伟达",
+        "苹果",
+        "市值",
+        "AI"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103295953.html"
+    },
+    {
+      "id": "36dbea42fe49",
+      "title": "AI转型为何总卡在“最后一公里”",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:52",
+      "date": "2026-07-28",
+      "summary": "员工不愿分享经验是AI落地最大障碍",
+      "tags": [
+        "AI转型",
+        "企业管理",
+        "数字化"
+      ],
+      "watched": false,
+      "url": "https://database.caixin.com/2026-07-28/102468915.html"
+    },
+    {
+      "id": "c80b27d542e6",
+      "title": "第一财经举办2026科技创新产业融合发展大会",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:52",
+      "date": "2026-07-28",
+      "summary": "大会汇聚政产学研投，共探科创生态力量",
+      "tags": [
+        "科技创新",
+        "产业融合",
+        "科创板"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103295944.html"
+    },
+    {
+      "id": "9d6d1cd3819f",
+      "title": "360周鸿祎：算力计价重塑产业逻辑 规模经济破解AI普及难题",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:52",
+      "date": "2026-07-28",
+      "summary": "算力按效付费新范式替代流量模式，重塑AI产业逻辑。",
+      "tags": [
+        "AI",
+        "算力",
+        "新经济范式"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103295950.html"
+    },
+    {
+      "id": "e8bba8d491cd",
+      "title": "久事动娱成立，A股上市公司更名",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "22:51",
+      "date": "2026-07-28",
+      "summary": "久事动娱成立，上市公司更名亮相",
+      "tags": [
+        "久事动娱",
+        "上市公司更名"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103295949.html"
+    },
+    {
+      "id": "6988d280aa9b",
+      "title": "2026第一财经科技创新产业融合发展大会在沪举行",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:50",
+      "date": "2026-07-28",
+      "summary": "上海举办科创产业大会，探讨构建生态赋能创新成长。",
+      "tags": [
+        "科技创新",
+        "产业融合",
+        "政策"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103295948.html"
+    },
+    {
+      "id": "d5ceb9bf1eb5",
+      "title": "国家税务总局：上半年企业利润等指标实现较好增长",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "22:49",
+      "date": "2026-07-28",
+      "summary": "上半年企业利润增长，经济态势良好",
+      "tags": [
+        "国家税务总局",
+        "企业利润",
+        "经济增长"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103295947.html"
+    },
+    {
+      "id": "d11ed8ddbace",
+      "title": "个人智能体加速落地，端侧智能成产业焦点",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:31",
+      "date": "2026-07-28",
+      "summary": "AI终端从单点功能向原生生态演进",
+      "tags": [
+        "智能体",
+        "AI终端",
+        "端侧智能"
+      ],
+      "watched": false,
+      "url": "https://www.caixin.com/2026-07-28/102468909.html"
+    },
     {
       "id": "e0d17a9315da",
       "title": "中国网络空间安全协会召开大模型与网络安全技术研讨会",
@@ -522,18 +1502,18 @@
     },
     {
       "id": "60c3550b3ecc",
-      "title": "中东海峡收费讨论与乌克兰袭击里海船舶引发伊朗反应",
+      "title": "中东海峡收费潜在方案讨论，乌克兰袭击里海船舶引伊朗强烈反应",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "21:45",
       "date": "2026-07-28",
-      "summary": "中东讨论海峡收费，乌克兰袭击里海船舶引发伊朗强烈反应。",
+      "summary": "中东局势紧张，伊朗警告欧洲国家承担后果，特朗普威胁恢复军事行动。",
       "tags": [
         "中东局势",
-        "海峡收费",
         "伊朗",
-        "乌克兰"
+        "特朗普",
+        "军事行动"
       ],
       "watched": false,
       "url": "https://international.caixin.com/2026-07-28/102468903.html"
@@ -986,13 +1966,13 @@
     },
     {
       "id": "fbd2940ffecb",
-      "title": "阿根廷总统米莱在巴西助选并贬损卢拉，巴西召回大使",
+      "title": "阿根廷总统米莱在巴西助选并贬损卢拉引发外交风波",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "21:32",
       "date": "2026-07-28",
-      "summary": "巴西召回驻阿根廷大使，抗议米莱侮辱卢拉，外交风波升级。",
+      "summary": "巴西召回大使抗议米莱助选言论，外交关系紧张。",
       "tags": [
         "阿根廷",
         "巴西",
@@ -1198,13 +2178,13 @@
     },
     {
       "id": "e3d497c7be2b",
-      "title": "刚果（金）正式成为锂出口国，紫金矿业当地锂矿获出口认证",
+      "title": "刚果（金）正式成为锂出口国 紫金矿业当地锂矿获出口认证",
       "source": "财新网",
-      "category": "海外联动",
+      "category": "宏观政策",
       "stars": 4,
       "time": "21:10",
       "date": "2026-07-28",
-      "summary": "紫金矿业在刚果（金）的锂矿获出口认证，利好公司锂资源布局。",
+      "summary": "紫金矿业刚果锂矿获出口认证，利好资源供应",
       "tags": [
         "紫金矿业",
         "锂矿",
@@ -1250,17 +2230,17 @@
     },
     {
       "id": "5e1db132c6b6",
-      "title": "碱基编辑临床试验致死，如何平衡风险获益？",
+      "title": "碱基编辑临床试验致死，风险获益如何平衡？",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "21:01",
       "date": "2026-07-28",
-      "summary": "基因编辑技术潜力巨大，但风险管控需加强。",
+      "summary": "基因编辑临床试验致死引发监管讨论，需平衡风险与获益。",
       "tags": [
         "基因编辑",
         "临床试验",
-        "风险管控"
+        "监管"
       ],
       "watched": false,
       "url": "https://www.caixin.com/2026-07-28/102468889.html"
@@ -2210,7 +3190,7 @@
       "stars": 3,
       "time": "19:44",
       "date": "2026-07-28",
-      "summary": "55岁沈铭权正式当选宁波市长，曾获全国优秀县委书记称号。",
+      "summary": "55岁沈铭权接替54岁汤飞帆任宁波市长",
       "tags": [
         "人事变动",
         "宁波市长"
@@ -2229,9 +3209,8 @@
       "summary": "法西野火致32万人撤离，启动欧盟民防机制",
       "tags": [
         "野火",
-        "撤离",
-        "欧盟民防",
-        "极端天气"
+        "欧盟民防机制",
+        "国家危机"
       ],
       "watched": false,
       "url": "https://international.caixin.com/2026-07-28/102468867.html"
@@ -2244,7 +3223,7 @@
       "stars": 3,
       "time": "19:37",
       "date": "2026-07-28",
-      "summary": "陆治原从民政部长转任全总党组书记，属于人事调整。",
+      "summary": "陆治原从民政部转任全总领导职务",
       "tags": [
         "人事变动",
         "工会",
@@ -2261,11 +3240,11 @@
       "stars": 4,
       "time": "19:21",
       "date": "2026-07-28",
-      "summary": "商务部发文驳斥产能过剩论，强调合作共赢",
+      "summary": "商务部回应产能过剩指责，强调合作而非对立。",
       "tags": [
         "产能过剩",
         "商务部",
-        "国际贸易"
+        "国际合作"
       ],
       "watched": false,
       "url": "https://economy.caixin.com/2026-07-28/102468860.html"
@@ -2278,7 +3257,7 @@
       "stars": 4,
       "time": "18:52",
       "date": "2026-07-28",
-      "summary": "个税增长快，高收入者贡献九成，中低收入基本免税。",
+      "summary": "个税收入结构失衡，高收入群体贡献九成，政策或调整。",
       "tags": [
         "个人所得税",
         "税制改革",
@@ -2295,7 +3274,7 @@
       "stars": 3,
       "time": "18:47",
       "date": "2026-07-28",
-      "summary": "重庆原常委段成刚因受贿被判无期徒刑，涉及金额1.44亿元。",
+      "summary": "重庆原高官段成刚因受贿被判无期徒刑。",
       "tags": [
         "反腐",
         "重庆",
@@ -2306,13 +3285,13 @@
     },
     {
       "id": "3de2c6f793b9",
-      "title": "纠治开票经济 2026年上半年相关企业开票金额同比下降37.7%",
+      "title": "纠治开票经济显效，2026上半年相关企业开票金额同比降37.7%",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 5,
       "time": "18:19",
       "date": "2026-07-28",
-      "summary": "税务部门整治开票经济，企业开票金额大降，异地注册企业迁回后纳税增长。",
+      "summary": "税务部门整治开票经济，16万户企业迁回原址，纳税同比增长16%",
       "tags": [
         "税务政策",
         "开票经济",
@@ -2323,34 +3302,35 @@
     },
     {
       "id": "bdf9af8c9960",
-      "title": "万亿家政市场大而不强，统一治理体系亟待破题",
+      "title": "万亿家政市场大而不强：统一治理体系亟待破题",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "17:59",
       "date": "2026-07-28",
-      "summary": "家政行业需建立统一标准，推动持证上岗和信用体系。",
+      "summary": "家政行业需建立统一标准，应对老龄化挑战",
       "tags": [
         "家政服务",
-        "行业治理",
-        "政策建议"
+        "老龄化",
+        "行业治理"
       ],
       "watched": false,
       "url": "https://opinion.caixin.com/2026-07-28/102468831.html"
     },
     {
       "id": "b542d800811c",
-      "title": "开闭源之争再起：Kimi K3正式开源，Anthropic拒签支持开源模型联名信",
+      "title": "开闭源之争再起：Kimi K3正式开源，Anthropic拒签联名信",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "17:51",
       "date": "2026-07-28",
-      "summary": "Kimi K3开源，Anthropic拒签联名信，AI开源争议升级。",
+      "summary": "月之暗面开源Kimi K3，Anthropic拒绝支持开源联名信",
       "tags": [
-        "AI开源",
+        "AI",
+        "开源",
         "大模型",
-        "行业动态"
+        "政策"
       ],
       "watched": false,
       "url": "https://www.caixin.com/2026-07-28/102468826.html"
@@ -2363,7 +3343,7 @@
       "stars": 4,
       "time": "16:15",
       "date": "2026-07-28",
-      "summary": "韩国前总统尹锡悦被判刑，执政党面临资金和党内压力",
+      "summary": "韩国前总统尹锡悦被判刑，执政党面临资金与政治压力",
       "tags": [
         "韩国政治",
         "选举法",
@@ -2380,10 +3360,10 @@
       "stars": 3,
       "time": "15:52",
       "date": "2026-07-28",
-      "summary": "揭示市场波动本质，非投机指南。",
+      "summary": "书评揭示市场波动中赚钱的秘诀是理解情绪而非真理。",
       "tags": [
-        "波动",
-        "市场情绪",
+        "书评",
+        "市场波动",
         "投资心理"
       ],
       "watched": false,
@@ -2391,18 +3371,18 @@
     },
     {
       "id": "b585a1e6a520",
-      "title": "长鑫科技上市背后的赢家与输家",
+      "title": "长鑫科技上市：幸运儿浮盈480亿，碧桂园少赚420亿",
       "source": "财新网",
       "category": "市场异动",
       "stars": 4,
       "time": "15:49",
       "date": "2026-07-28",
-      "summary": "长鑫科技上市暴涨，和谐健康浮盈480亿，碧桂园少赚420亿。",
+      "summary": "长鑫科技上市暴涨，和谐健康浮盈480亿，碧桂园提前卖出少赚420亿。",
       "tags": [
         "长鑫科技",
-        "上市",
+        "新股上市",
         "浮盈",
-        "投资"
+        "碧桂园"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-07-28/102468810.html"
