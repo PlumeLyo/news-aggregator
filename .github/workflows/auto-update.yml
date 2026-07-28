@@ -92,7 +92,7 @@ if watched:
         md += f'- **{n["title"]}** ({n["source"]})\n'
     md += '\n'
 
-md += f'\n---\n*由 NewsPulse 自动生成 · {data["fetched_at"]} · 数据源: {data["sources_used"]}个RSS*
+md += f'\n---\n*由 NewsPulse 自动生成 · {data["fetched_at"]} · 数据源: {data["sources_used"]}个RSS*'
 
 with open('obsidian-daily.md', 'w') as f:
     f.write(md)
