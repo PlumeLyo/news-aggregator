@@ -32,7 +32,10 @@ jobs:
 
       # ===== 方案A：规则引擎评分（免费，无需API Key）=====
       - name: Fetch RSS & Score (Rule-Based)
-        if: ${{ secrets.OPENAI_API_KEY == '' && secrets.DEEPSEEK_API_KEY == '' }}
+        if: ${{ env.OPENAI_API_KEY == '' && env.DEEPSEEK_API_KEY == '' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           python data-pipeline/fetch-rss.py \
             --output data/news-data.json \
@@ -43,26 +46,28 @@ jobs:
 
       # ===== 方案B：OpenAI AI 评分（更精准）=====
       - name: Fetch RSS & Score (OpenAI)
-        if: ${{ secrets.OPENAI_API_KEY != '' }}
+        if: ${{ env.OPENAI_API_KEY != '' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           python data-pipeline/fetch-rss.py \
             --output data/news-data.json \
             --api-key ${{ secrets.OPENAI_API_KEY }} \
             --keywords "${{ secrets.WATCH_KEYWORDS }}"
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       # ===== 方案C：DeepSeek AI 评分（性价比最高）=====
       - name: Fetch RSS & Score (DeepSeek)
-        if: ${{ secrets.DEEPSEEK_API_KEY != '' && secrets.OPENAI_API_KEY == '' }}
+        if: ${{ env.DEEPSEEK_API_KEY != '' && env.OPENAI_API_KEY == '' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           python data-pipeline/fetch-rss.py \
             --output data/news-data.json \
             --use-deepseek \
             --deepseek-key ${{ secrets.DEEPSEEK_API_KEY }} \
             --keywords "${{ secrets.WATCH_KEYWORDS }}"
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       # ===== 生成 Obsidian 每日简报 =====
       - name: Generate Obsidian Daily Note
