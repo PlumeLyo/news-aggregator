@@ -282,6 +282,10 @@ animation:fade-up .4s var(--ease-out)}
 .empty-state-hint{font-size:12px}
 
 /* ===== 简报模式 ===== */
+.news-link{display:inline-flex;align-items:center;gap:4px;margin-top:10px;
+font-size:12px;font-weight:600;color:var(--accent);
+transition:all .2s var(--ease-out);text-decoration:none}
+.news-link:hover{gap:6px;color:var(--accent-ink);text-decoration:underline}
 .brief-mode .news-card{padding:14px 16px}
 .brief-mode .news-summary,.brief-mode .news-tags,
 .brief-mode .news-meta{display:none}
@@ -523,7 +527,10 @@ html+='<div class="news-top">'+catBadge(n.category)+'<span class="news-meta">'+n
 html+='<span class="news-stars">'+starsHtml(n.stars)+"</span></div>";
 html+='<div class="news-title">'+n.title+"</div>";
 html+='<div class="news-summary"><strong>AI 摘要：</strong>'+n.summary+"</div>";
-html+='<div class="news-tags">'+tHtml+wTag+"</div></div>";
+html+='<div class="news-tags">'+tHtml+wTag+'</div>';
+var linkUrl=n.url&&n.url!=="#"?n.url:"";
+if(linkUrl){html+='<a href="'+linkUrl+'" target="_blank" rel="noopener" class="news-link">查看原文 →</a>';}
+html+='</div>';
 cardIdx++;}
 html+="</div>";}
 feed.innerHTML=html;}
