@@ -144,16 +144,16 @@ animation:pulse-ring 2s infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* ===== 页面内容 ===== */
-.page{padding:40px 36px 64px;max-width:1200px;margin:0 auto;width:100%;min-width:0;box-sizing:border-box}
+.page{padding:48px 40px 72px;max-width:1200px;margin:0 auto;width:100%;min-width:0;box-sizing:border-box}
 
 .page-header{display:flex;align-items:flex-start;justify-content:space-between;
-gap:18px;margin-bottom:32px;flex-wrap:wrap;animation:fade-up .5s var(--ease-out) .1s both}
+gap:18px;margin-bottom:36px;flex-wrap:wrap;animation:fade-up .5s var(--ease-out) .1s both}
 @keyframes fade-up{from{transform:translateY(18px);opacity:0}to{transform:translateY(0);opacity:1}}
-.page-header-left h1{font-family:var(--font-display);font-size:32px;
+.page-header-left h1{font-family:var(--font-display);font-size:34px;
 font-weight:800;letter-spacing:-0.03em;margin:0 0 8px;color:var(--ink);
 background:linear-gradient(135deg,var(--ink) 0%,var(--ink-2) 100%);
 -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.page-left p{font-size:13px;color:var(--ink-2);margin:0}
+.page-header-left p{font-size:13px;color:var(--ink-2);margin:0}
 
 .header-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;
@@ -169,8 +169,8 @@ box-shadow:0 4px 16px rgba(255,107,53,.28)}
 .btn.sm{padding:7px 13px;font-size:12px}
 
 /* ===== 工具栏 ===== */
-.toolbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
-margin-bottom:24px;padding:16px 20px;background:var(--bg-soft);
+.toolbar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+margin-bottom:28px;padding:18px 22px;background:var(--bg-soft);
 border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);
 animation:fade-up .5s var(--ease-out) .2s both}
 .toolbar-group{display:flex;align-items:center;gap:8px}
@@ -205,7 +205,7 @@ transition:all .2s}
 .search-box input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
 
 /* ===== KPI 卡片 ===== */
-.kpi-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:32px;
+.kpi-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:36px;
 animation:fade-up .5s var(--ease-out) .3s both}
 .kpi{background:var(--bg-soft);border:1px solid var(--line);
 border-radius:var(--radius-md);padding:20px 22px;position:relative;overflow:hidden;
@@ -223,10 +223,10 @@ line-height:1.15}
 .kpi-delta.up{color:#10B981}
 
 /* ===== 新闻卡片 — 核心优化区域 ===== */
-.news-feed{display:flex;flex-direction:column;gap:18px;width:100%;min-width:0}
+.news-feed{display:flex;flex-direction:column;gap:20px;width:100%;min-width:0}
 
 .news-card{background:var(--bg-soft);border:1px solid var(--line);
-border-radius:var(--radius-lg);padding:22px 24px;
+border-radius:var(--radius-lg);padding:24px 26px;
 transition:all .3s var(--ease-out);position:relative;
 box-shadow:var(--shadow-sm);
 animation:card-enter .45s var(--ease-out) both;word-break:break-word;overflow-wrap:anywhere;box-sizing:border-box;width:100%}
@@ -589,7 +589,7 @@ document.querySelectorAll(".nav-item").forEach(function(x){x.classList.toggle("a
 
 gid("starSlider").addEventListener("input",function(e){curStar=Number(e.target.value);starLabel.textContent="≥ "+curStar+"★";render();});
 searchInput.addEventListener("input",function(e){searchQuery=e.target.value.trim();render();});
-gid("briefBtn").addEventListener("click",function(){isBriefMode=!isBriefMode;gid("briefBtn").textContent=isBriefMode?"📋 详情":"📋 简报";render(toast(isBriefMode?"已切换到简报模式":"已切换到详情模式"));});
+gid("briefBtn").addEventListener("click",function(){isBriefMode=!isBriefMode;gid("briefBtn").textContent=isBriefMode?"📋 详情":"📋 简报";render();toast(isBriefMode?"已切换到简报模式":"已切换到详情模式");});
 gid("refreshBtn").addEventListener("click",function(){loadLiveData();});
 gid("watchInput").addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();var val=e.target.value.trim();if(!val)return;
 val.split(/[,，]/).map(function(s){return s.trim();}).filter(function(s){return s&&watchKeywords.indexOf(s)<0;}).forEach(function(k){watchKeywords.push(k);});saveWatchKeywords();e.target.value="";}});
