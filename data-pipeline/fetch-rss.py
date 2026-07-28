@@ -42,7 +42,7 @@ DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 DEEPSEEK_MODEL = "deepseek-chat"
 
 # RSSHub 公共实例（建议自部署）
-RSSHUB_BASE = "https://rsshub.app"
+RSSHUB_BASE = "https://rsshub.rssforever.com"
 
 # 自定义关注关键词（用于标记高亮）
 WATCH_KEYWORDS = []
