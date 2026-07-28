@@ -363,6 +363,7 @@ def main():
         "news": results,
     }
 
+    import os as _os; _os.makedirs(_os.path.dirname(args.output), exist_ok=True) if _os.path.dirname(args.output) else None
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
