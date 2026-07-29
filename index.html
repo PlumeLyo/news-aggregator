@@ -51,7 +51,7 @@ a{color:inherit;text-decoration:none}
 button{font-family:var(--font-body)}
 
 /* ===== 布局 ===== */
-.app{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.app{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
 
 /* ===== 侧边栏 ===== */
 .side{background:var(--bg-glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
@@ -125,10 +125,10 @@ transition:all .18s;border:none;background:none;width:100%;text-align:left}
 /* ===== 主区域 ===== */
 .main{display:flex;flex-direction:column;min-width:0;flex:1;overflow:visible}
 
-.page{padding:32px 36px 64px;max-width:960px;margin:0 auto;width:100%;min-width:0;box-sizing:border-box}
+.page{padding:28px 20px 64px;max-width:960px;margin:0 auto;width:100%;min-width:0;box-sizing:border-box}
 
 .page-header{display:flex;align-items:flex-start;justify-content:space-between;
-gap:18px;margin-bottom:24px;flex-wrap:wrap;animation:fade-up .4s var(--ease-out)}
+gap:18px;margin-bottom:20px;flex-wrap:wrap;animation:fade-up .4s var(--ease-out)}
 @keyframes fade-up{from{transform:translateY(14px);opacity:0}to{transform:translateY(0);opacity:1}}
 .page-title{font-family:var(--font-display);font-size:28px;font-weight:800;
 letter-spacing:-.02em;margin:0 0 6px;color:var(--ink)}
@@ -162,14 +162,14 @@ animation:pulse-ring 2s infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* ===== 分类标签栏 ===== */
-.cat-bar{display:flex;align-items:center;gap:0;margin-bottom:24px;
+.cat-bar{display:flex;align-items:center;gap:0;margin-bottom:20px;
 border-bottom:1px solid var(--line);animation:fade-up .4s var(--ease-out) .05s both}
-.cat-tab{position:relative;padding:8px 16px;font-size:14px;font-weight:500;
+.cat-tab{position:relative;padding:8px 14px;font-size:14px;font-weight:500;
 color:var(--ink-2);cursor:pointer;border:none;background:none;
 transition:color .2s;white-space:nowrap;display:flex;align-items:center;gap:6px}
 .cat-tab:hover{color:var(--ink)}
 .cat-tab.active{color:var(--accent);font-weight:600}
-.cat-tab.active::after{content:'';position:absolute;bottom:-1px;left:16px;right:16px;
+.cat-tab.active::after{content:'';position:absolute;bottom:-1px;left:14px;right:14px;
 height:2px;background:var(--accent);border-radius:1px}
 .cat-tab .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;transition:transform .2s}
 .cat-tab.active .dot{transform:scale(1.3)}
@@ -177,7 +177,7 @@ height:2px;background:var(--accent);border-radius:1px}
 
 /* ===== 工具栏 ===== */
 .toolbar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;
-margin-bottom:24px;animation:fade-up .4s var(--ease-out) .1s both}
+margin-bottom:20px;animation:fade-up .4s var(--ease-out) .1s both}
 .toolbar-group{display:flex;align-items:center;gap:8px}
 .toolbar-label{font-size:12px;color:var(--ink-3);white-space:nowrap;font-weight:600}
 
@@ -206,34 +206,51 @@ cursor:pointer;transition:all .2s;font-family:var(--font-body)}
 .search-btn:hover{background:var(--green);transform:translateY(-1px)}
 
 /* ===== KPI 卡片 ===== */
-.kpi-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:28px;
+.kpi-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px;
 animation:fade-up .4s var(--ease-out) .15s both}
 .kpi{background:var(--bg-soft);border:1px solid var(--line);
-border-radius:var(--radius-md);padding:18px 20px;position:relative;overflow:hidden;
+border-radius:var(--radius-md);padding:16px 18px;position:relative;overflow:hidden;
 transition:all .3s var(--ease-out);box-shadow:var(--shadow-sm)}
 .kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
 .kpi-label{font-size:11px;color:var(--ink-3);letter-spacing:.04em;
 text-transform:uppercase;font-weight:600;margin-bottom:6px}
-.kpi-value{font-size:26px;font-weight:800;letter-spacing:-.03em;
+.kpi-value{font-size:24px;font-weight:800;letter-spacing:-.03em;
 color:var(--ink);font-family:var(--font-display);font-variant-numeric:tabular-nums;
 line-height:1.15}
 .kpi-delta{font-size:11px;color:var(--ink-3);margin-top:4px;font-weight:500}
 .kpi-delta.up{color:var(--green-dark)}
 
-/* ===== 新闻卡片 ===== */
-.news-feed{display:flex;flex-direction:column;gap:14px;width:100%;min-width:0}
+/* ===== 日期分隔栏 ===== */
+.date-divider{margin:0 0 16px;padding:0;font-size:14px;font-weight:700;
+color:var(--ink);font-family:var(--font-display);display:flex;align-items:center;gap:4px}
+.date-divider .date-count{font-size:12px;color:var(--ink-3);font-weight:500;margin-left:2px}
 
+/* ===== 新闻流：时间列 + 卡片 ===== */
+.news-feed{display:flex;flex-direction:column;gap:0;width:100%;min-width:0}
+
+.news-row{display:flex;gap:16px;align-items:flex-start;
+animation:card-enter .35s var(--ease-out) both}
+@keyframes card-enter{from{transform:translateY(8px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+/* 左侧时间列 */
+.news-time-col{width:64px;flex-shrink:0;padding-top:18px;
+display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.news-time-text{font-size:12px;font-weight:600;color:var(--ink-2);
+font-variant-numeric:tabular-nums;font-family:var(--font-display)}
+.news-time-dot{width:8px;height:8px;border-radius:50%;background:var(--green);
+flex-shrink:0}
+
+/* 右侧卡片 */
 .news-card{background:var(--bg-soft);border:1px solid var(--line);
-border-radius:var(--radius-lg);padding:20px 22px;
+border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:16px;
 transition:all .25s var(--ease-out);position:relative;
 box-shadow:var(--shadow-sm);
-animation:card-enter .35s var(--ease-out) both;word-break:break-word;overflow-wrap:anywhere;box-sizing:border-box;width:100%}
-@keyframes card-enter{from{transform:translateY(10px);opacity:0}to{transform:translateY(0);opacity:1}}
+word-break:break-word;overflow-wrap:anywhere;box-sizing:border-box;flex:1;min-width:0}
 .news-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:var(--line-strong)}
 .news-card.highlighted{border-left:3px solid var(--accent)}
 .news-card.watched{border-left:3px solid var(--watch-color)}
 
-.news-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.news-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
 .news-cat{height:22px;display:inline-flex;align-items:center;gap:5px;
 border-radius:6px;padding:0 9px;font-size:10.5px;font-weight:700}
 .news-meta{font-size:11px;color:var(--ink-3);
@@ -242,41 +259,32 @@ display:flex;align-items:center;gap:8px}
 .news-stars .filled{color:var(--yellow);text-shadow:0 1px 2px rgba(255,204,0,.2)}
 .news-stars .empty{color:var(--line-strong)}
 
-.news-title{font-size:16px;font-weight:700;line-height:1.5;margin-bottom:8px;color:var(--ink);
+.news-title{font-size:15px;font-weight:700;line-height:1.5;margin-bottom:6px;color:var(--ink);
 transition:color .2s;overflow-wrap:anywhere;letter-spacing:-.005em;cursor:pointer}
 .news-card:hover .news-title{color:var(--accent)}
 
-.news-summary{font-size:13.5px;color:var(--ink-2);line-height:1.7;overflow-wrap:anywhere}
+.news-summary{font-size:13px;color:var(--ink-2);line-height:1.65;overflow-wrap:anywhere}
 .news-summary strong{color:var(--ink-3);font-weight:600}
 
-.news-tags{display:flex;gap:6px;margin-top:12px;flex-wrap:wrap}
+.news-tags{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
 .tag{height:22px;display:inline-flex;align-items:center;border-radius:6px;
 background:var(--tag-bg);color:var(--tag-text);padding:0 9px;font-size:10.5px;font-weight:500;
 transition:all .2s;cursor:pointer}
 .tag:hover{background:var(--line-strong);color:var(--ink-2)}
 .tag-watched{background:var(--accent-light);color:var(--watch-color)}
 
-.news-link{display:inline-flex;align-items:center;gap:4px;margin-top:11px;
+.news-link{display:inline-flex;align-items:center;gap:4px;margin-top:10px;
 font-size:12px;font-weight:600;color:var(--accent);
 transition:all .2s var(--ease-out)}
 .news-link:hover{gap:6px;text-decoration:underline}
 
-/* ===== 时间线 ===== */
-.date-divider{text-align:center;margin:20px 0 14px;position:relative}
-.date-divider:before{content:"";position:absolute;left:0;right:0;top:50%;border-top:1px solid var(--line)}
-.date-divider span{position:relative;background:var(--bg-glass);backdrop-filter:blur(10px);
-padding:4px 16px;font-size:12px;font-weight:600;color:var(--ink-3);border-radius:20px;border:1px solid var(--line)}
-.timeline-group{position:relative;padding-left:0;
-animation:card-enter .35s var(--ease-out) both;margin-bottom:14px}
-.time-label{display:block;font-size:13px;font-weight:700;
-color:var(--ink);font-family:var(--font-display);padding:0 0 10px;letter-spacing:.01em}
-
 /* ===== 简报模式 ===== */
-.brief-mode .news-card{padding:14px 18px}
+.brief-mode .news-card{padding:12px 16px;margin-bottom:10px}
 .brief-mode .news-summary,.brief-mode .news-tags,
 .brief-mode .news-meta{display:none}
 .brief-mode .news-title{font-size:13.5px;margin-bottom:0}
 .brief-mode .news-card:hover{transform:none}
+.brief-mode .news-time-col{padding-top:14px}
 
 /* ===== 空状态 ===== */
 .empty-state{text-align:center;padding:60px 28px;color:var(--ink-3);
@@ -310,7 +318,7 @@ box-shadow:var(--shadow-lg);backdrop-filter:blur(10px)}
 @media(max-width:980px){
 .app{grid-template-columns:1fr}
 .side{display:none}
-.page{padding:24px 18px 48px}
+.page{padding:20px 16px 48px}
 .kpi-bar{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:640px){
@@ -319,10 +327,12 @@ box-shadow:var(--shadow-lg);backdrop-filter:blur(10px)}
 .search-box{max-width:none}
 .header-actions{width:100%}
 .header-actions .btn{flex:1;justify-content:center}
-.kpi-value{font-size:22px}
+.kpi-value{font-size:20px}
 .page-title{font-size:22px}
-.news-card{padding:16px}
+.news-card{padding:14px 16px}
 .cat-tab{padding:6px 10px;font-size:13px}
+.news-time-col{width:48px;padding-top:14px}
+.news-time-text{font-size:11px}
 }
 </style>
 </head>
@@ -516,26 +526,41 @@ gid("watchCountBadge").textContent=countWatched()+" 条匹配";
 
 empty.style.display=filtered.length?"none":"block";feed.className="news-feed"+(isBriefMode?" brief-mode":"");
 if(!filtered.length){feed.innerHTML="";return;}
-var grouped={};for(var fi=0;fi<filtered.length;fi++){var n=filtered[fi];var d=n.date||"";var h=n.time.split(":")[0];var gk=d+"|"+h;if(!grouped[gk])grouped[gk]={date:d,hour:h,items:[]};grouped[gk].items.push(n);}
 
-// ★ 核心：按日期+小时倒序排列
+// 按日期分组
+var grouped={};for(var fi=0;fi<filtered.length;fi++){var n=filtered[fi];var d=n.date||"";if(!grouped[d])grouped[d]=[];grouped[d].push(n);}
+
 var groups=Object.keys(grouped).sort(function(a,b){return b.localeCompare(a);}),html="";
 var cardIdx=0;var lastDate="";
 var todayStr=new Date().toISOString().slice(0,10);
 var yesterdayStr=new Date(Date.now()-86400000).toISOString().slice(0,10);
-for(var gi=0;gi<groups.length;gi++){
-var g=grouped[groups[gi]];var d=g.date;var h=g.hour;var items=g.items;
-// 日期分隔符
-if(d!==lastDate){lastDate=d;var dateLabel=d===todayStr?"今天":(d===yesterdayStr?"昨天":d);html+='<div class="date-divider"><span>'+dateLabel+'</span></div>';}
-items.sort(function(a,b){ return b.time.localeCompare(a.time); });
+var weekDays=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
 
-html+='<div class="timeline-group" style="animation-delay:'+(cardIdx*0.05)+'s"><span class="time-label">'+h+':00</span>';
+for(var gi=0;gi<groups.length;gi++){
+var d=groups[gi];var items=grouped[d];
+items.sort(function(a,b){return b.time.localeCompare(a.time);});
+
+// 日期分隔栏
+var dateLabel=d===todayStr?"今天":(d===yesterdayStr?"昨天":d);
+var dObj=d?new Date(d+"T00:00:00"):new Date();
+var wDay=weekDays[dObj.getDay()]||"";
+var dateText=d===todayStr?(today.getMonth()+1)+"月"+today.getDate()+"日 "+wDay:dateLabel;
+html+='<div class="date-divider">'+dateText+'<span class="date-count">·'+items.length+'条</span></div>';
+
 for(var ii=0;ii<items.length;ii++){
 var n=items[ii],w=isWatched(n),hlClass="";if(n.stars>=4)hlClass+=" highlighted";if(w)hlClass+=" watched";
 var wTag=w?'<span class="tag tag-watched">匹配关键词</span>':"",tHtml="";
 for(var ti2=0;ti2<n.tags.length;ti2++)tHtml+='<span class="tag">#'+n.tags[ti2]+'</span>';
-html+='<div class="news-card'+hlClass+'" style="animation-delay:'+(cardIdx*0.04)+'s">';
-html+='<div class="news-top">'+catBadge(n.category)+'<span class="news-meta">'+n.source+" · "+n.time+"</span>";
+
+// 左侧时间列 + 右侧卡片
+html+='<div class="news-row" style="animation-delay:'+(cardIdx*0.04)+'s">';
+html+='<div class="news-time-col">';
+html+='<span class="news-time-text">'+n.time+'</span>';
+html+='<span class="news-time-dot"></span>';
+html+='</div>';
+
+html+='<div class="news-card'+hlClass+'">';
+html+='<div class="news-top">'+catBadge(n.category)+'<span class="news-meta">'+n.source+'</span>';
 html+='<span class="news-stars">'+starsHtml(n.stars)+"</span></div>";
 html+='<div class="news-title">'+n.title+"</div>";
 html+='<div class="news-summary"><strong>AI 摘要：</strong>'+n.summary+"</div>";
@@ -543,8 +568,9 @@ html+='<div class="news-tags">'+tHtml+wTag+'</div>';
 var linkUrl=n.url&&n.url!=="#"?n.url:"";
 if(linkUrl){html+='<a href="'+linkUrl+'" target="_blank" rel="noopener" class="news-link">查看原文 →</a>';}
 html+='</div>';
+html+='</div>';
 cardIdx++;}
-html+="</div>";}
+}
 feed.innerHTML=html;}
 
 function toast(msg){var t=gid("toast");t.textContent=msg;t.classList.add("show");setTimeout(function(){t.classList.remove("show")},2200);}
@@ -594,8 +620,8 @@ gid("watchInput").addEventListener("keydown",function(e){if(e.key==="Enter"){e.p
 val.split(/[,，]/).map(function(s){return s.trim();}).filter(function(s){return s&&watchKeywords.indexOf(s)<0;}).forEach(function(k){watchKeywords.push(k);});saveWatchKeywords();e.target.value="";}});
 
 // ===== 初始化 =====
-var today=new Date(),weekDays=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
-gid("dateStr").textContent=today.getFullYear()+"年"+(today.getMonth()+1)+"月"+today.getDate()+"日 "+weekDays[today.getDay()]+" · AI 自动筛选聚合";
+var today=new Date(),weekDays2=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+gid("dateStr").textContent=today.getFullYear()+"年"+(today.getMonth()+1)+"月"+today.getDate()+"日 "+weekDays2[today.getDay()]+" · AI 自动筛选聚合";
 
 var dataSourceBadge=gid("dataSourceBadge");
 
