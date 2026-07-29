@@ -1,0 +1,73 @@
+name: NewsPulse Auto Update
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data-pipeline/fetch-rss.py'
+      - 'rss-sources.json'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      WATCH_KEYWORDS: ${{ secrets.WATCH_KEYWORDS }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests feedparser openai
+
+      - name: Fetch RSS & Score (Rule-Based)
+        if: ${{ env.OPENAI_API_KEY == '' && env.DEEPSEEK_API_KEY == '' }}
+        run: |
+          python data-pipeline/fetch-rss.py             --output data/news-data.json             --no-ai             --keywords "${{ env.WATCH_KEYWORDS }}"
+
+      - name: Fetch RSS & Score (OpenAI)
+        if: ${{ env.OPENAI_API_KEY != '' }}
+        run: |
+          python data-pipeline/fetch-rss.py             --output data/news-data.json             --api-key ${{ secrets.OPENAI_API_KEY }}             --keywords "${{ env.WATCH_KEYWORDS }}"
+
+      - name: Fetch RSS & Score (DeepSeek)
+        if: ${{ env.DEEPSEEK_API_KEY != '' && env.OPENAI_API_KEY == '' }}
+        run: |
+          python data-pipeline/fetch-rss.py             --output data/news-data.json             --use-deepseek             --deepseek-key ${{ secrets.DEEPSEEK_API_KEY }}             --keywords "${{ env.WATCH_KEYWORDS }}"
+
+      - name: Generate Obsidian Daily Note
+        run: python3 data-pipeline/gen-daily.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name "NewsPulse Bot"
+          git config user.email "bot@newspulse.dev"
+          git add data/news-data.json obsidian-daily.md
+          if ! git diff --cached --quiet; then
+            COUNT=$(python3 -c "import json;d=json.load(open('data/news-data.json'));print(d['total_count'])")
+            git commit -m "auto-update $(date -u '+%H:%M UTC') - ${COUNT} items"
+            git pull --rebase || true
+            git push
+          else
+            echo "No changes detected"
+          fi
+
+      - name: Upload News Data Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-data-latest
+          path: data/news-data.json
+          retention-days: 7
