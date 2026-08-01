@@ -1,12 +1,722 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-08-01T12:03:58.080737+08:00",
+  "fetched_at": "2026-08-01T15:04:14.677902+08:00",
   "total_count": 500,
-  "today_count": 259,
-  "major_count": 167,
-  "watched_count": 13,
+  "today_count": 302,
+  "major_count": 172,
+  "watched_count": 11,
   "sources_used": 14,
   "news": [
+    {
+      "id": "2319cba7259a",
+      "title": "生猪价格继续走低",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 2,
+      "time": "14:54",
+      "date": "2026-08-01",
+      "summary": "生猪出栏增加，价格下跌，关注养殖板块。",
+      "tags": [
+        "生猪",
+        "价格下跌"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587450"
+    },
+    {
+      "id": "d22f52ef5187",
+      "title": "超强厄尔尼诺事件正在形成 或为150年来最强",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "14:52",
+      "date": "2026-08-01",
+      "summary": "厄尔尼诺或达150年最强，影响农业和气候，需关注。",
+      "tags": [
+        "厄尔尼诺",
+        "气候",
+        "农业"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301692.html"
+    },
+    {
+      "id": "42c886356c55",
+      "title": "俄方称始终对与乌克兰谈判持开放态度",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "14:51",
+      "date": "2026-08-01",
+      "summary": "俄方表示愿与乌谈判，但乌方中断。",
+      "tags": [
+        "俄乌谈判",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587445"
+    },
+    {
+      "id": "de03077e2c0a",
+      "title": "中国稀土集团与中国有研科技集团会谈",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "14:51",
+      "date": "2026-08-01",
+      "summary": "稀土央企间合作，关注产业协同发展。",
+      "tags": [
+        "稀土",
+        "央企合作"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587444"
+    },
+    {
+      "id": "57e95c3ff773",
+      "title": "三部门调拨1.1万件中央救灾物资支持吉林黑龙江",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "14:46",
+      "date": "2026-08-01",
+      "summary": "中央调拨救灾物资支援吉林黑龙江暴雨洪涝灾害",
+      "tags": [
+        "救灾",
+        "物资调拨"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301688.html"
+    },
+    {
+      "id": "366075694705",
+      "title": "长三角多地发放结婚消费券",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "14:46",
+      "date": "2026-08-01",
+      "summary": "长三角发放结婚消费券，促进婚庆消费。",
+      "tags": [
+        "消费券",
+        "婚庆市场"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587441"
+    },
+    {
+      "id": "96047d1acba3",
+      "title": "森峰激光北交所IPO将于8月7日上会",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "14:44",
+      "date": "2026-08-01",
+      "summary": "森峰激光北交所IPO上会，关注审核结果。",
+      "tags": [
+        "IPO",
+        "北交所"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587439"
+    },
+    {
+      "id": "93ae7e38ed74",
+      "title": "充电桩CCC认证今起强制实施",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "14:40",
+      "date": "2026-08-01",
+      "summary": "充电桩强制认证今起实施，保障安全。",
+      "tags": [
+        "充电桩",
+        "CCC认证",
+        "新能源汽车"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301684.html"
+    },
+    {
+      "id": "083118550bba",
+      "title": "科威特称正在应对无人机袭击",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "14:40",
+      "date": "2026-08-01",
+      "summary": "科威特防空系统应对无人机袭击，地缘风险升级。",
+      "tags": [
+        "科威特",
+        "无人机",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301686.html"
+    },
+    {
+      "id": "3839594d40d9",
+      "title": "中国AI价格被打下来",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "14:29",
+      "date": "2026-08-01",
+      "summary": "中国AI开源模型普及，下载量破百亿，走向世界。",
+      "tags": [
+        "AI",
+        "开源",
+        "普惠"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587433"
+    },
+    {
+      "id": "57361ef5d766",
+      "title": "科威特军方拦截伊朗导弹",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 5,
+      "time": "14:27",
+      "date": "2026-08-01",
+      "summary": "科威特拦截伊朗导弹，中东局势升级，市场避险情绪升温。",
+      "tags": [
+        "地缘政治",
+        "中东局势",
+        "避险"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "d71946cbc3e6",
+      "title": "科威特军方拦截伊朗导弹",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 5,
+      "time": "14:27",
+      "date": "2026-08-01",
+      "summary": "科威特拦截伊朗导弹，中东局势升级",
+      "tags": [
+        "地缘政治",
+        "军事冲突",
+        "原油"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587432"
+    },
+    {
+      "id": "b2a2cf887433",
+      "title": "深圳住宅7月网签8324套，同比增长13.8%",
+      "source": "华尔街见闻",
+      "category": "市场情绪",
+      "stars": 3,
+      "time": "14:26",
+      "date": "2026-08-01",
+      "summary": "深圳楼市7月成交同比增13.8%，市场活跃。",
+      "tags": [
+        "深圳楼市",
+        "网签数据"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143566"
+    },
+    {
+      "id": "bfe0ad0814b9",
+      "title": "深圳7月住宅网签8324套同比增13.8%",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "14:24",
+      "date": "2026-08-01",
+      "summary": "深圳楼市7月成交活跃，新房二手房均增长。",
+      "tags": [
+        "深圳楼市",
+        "网签数据"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587431"
+    },
+    {
+      "id": "2909f3e89302",
+      "title": "伊朗议长称已赢得战争，需扩大最高领袖权威",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "14:21",
+      "date": "2026-08-01",
+      "summary": "伊朗议长称已赢得战争，需巩固胜利并扩大领袖权威。",
+      "tags": [
+        "伊朗",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587430"
+    },
+    {
+      "id": "dd7829c184f9",
+      "title": "俄方称扎波罗热一大巴遭乌袭击致1死12伤",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "14:20",
+      "date": "2026-08-01",
+      "summary": "俄乌冲突致平民伤亡，对金融市场影响有限。",
+      "tags": [
+        "俄乌冲突",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301682.html"
+    },
+    {
+      "id": "4e0276a401c3",
+      "title": "乌称基辅遭俄军袭击已致9死28伤",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "14:19",
+      "date": "2026-08-01",
+      "summary": "俄军大规模打击基辅，致9死28伤，地缘冲突升级。",
+      "tags": [
+        "俄乌冲突",
+        "地缘政治",
+        "军事打击"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301680.html"
+    },
+    {
+      "id": "fb820ac6dcfe",
+      "title": "金山办公WPS新版本上线",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 2,
+      "time": "14:19",
+      "date": "2026-08-01",
+      "summary": "金山办公WPS更新存储管理功能，首次参展ChinaJoy。",
+      "tags": [
+        "金山办公",
+        "WPS"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587427"
+    },
+    {
+      "id": "b2b5a1605da4",
+      "title": "国内航行海船强制配备智能监控系统",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 5,
+      "time": "14:16",
+      "date": "2026-08-01",
+      "summary": "交通运输部新规，海船强制装智能监控，利好航运安全科技。",
+      "tags": [
+        "航运",
+        "智能监控",
+        "政策"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587425"
+    },
+    {
+      "id": "e3418883645a",
+      "title": "欧洲政治右翼分化观察",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "14:15",
+      "date": "2026-08-01",
+      "summary": "欧洲极右政党在移民问题上更趋强硬，政治生态右转。",
+      "tags": [
+        "欧洲政治",
+        "极右翼"
+      ],
+      "watched": false,
+      "url": "https://international.caixin.com/2026-08-01/102470492.html"
+    },
+    {
+      "id": "642481ac63b8",
+      "title": "充电桩CCC认证8月1日起强制实施",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "14:14",
+      "date": "2026-08-01",
+      "summary": "充电桩强制认证实施，利好合规企业。",
+      "tags": [
+        "充电桩",
+        "CCC认证",
+        "政策"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587424"
+    },
+    {
+      "id": "254edc7be05a",
+      "title": "比亚迪路天：8月大唐产能持续提升，冲击1.5万台",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "14:07",
+      "date": "2026-08-01",
+      "summary": "比亚迪8月大唐产能提升，冲击月销1.5万台。",
+      "tags": [
+        "比亚迪",
+        "产能提升"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587422"
+    },
+    {
+      "id": "79ea9f50717b",
+      "title": "部分美国企业改用中国大模型降本",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "14:05",
+      "date": "2026-08-01",
+      "summary": "美国企业转向中国大模型，降低成本引关注。",
+      "tags": [
+        "中国大模型",
+        "美国企业",
+        "成本降低"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2587420"
+    },
+    {
+      "id": "2facffa3fd42",
+      "title": "阿曼海域油轮附近发生爆炸事件",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "13:58",
+      "date": "2026-08-01",
+      "summary": "阿曼海域油轮附近爆炸，未报告受损，关注地缘风险。",
+      "tags": [
+        "地缘政治",
+        "原油",
+        "航运"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "13c75ecd71c3",
+      "title": "匈牙利核电站因水位过低关闭反应堆，发电量降至额定容量四分之一以下",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "13:53",
+      "date": "2026-08-01",
+      "summary": "匈牙利核电站因水位低关闭反应堆，发电量骤降。",
+      "tags": [
+        "匈牙利",
+        "核电站",
+        "水位过低"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143565"
+    },
+    {
+      "id": "2eff2c8050c2",
+      "title": "俄军大规模打击基辅军工企业",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "13:41",
+      "date": "2026-08-01",
+      "summary": "俄军夜间大规模打击基辅军工企业，地缘风险升级。",
+      "tags": [
+        "俄乌冲突",
+        "地缘政治",
+        "军工"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143564"
+    },
+    {
+      "id": "add4cbc5135e",
+      "title": "水利部启动黑龙江洪水防御Ⅳ级应急响应",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "13:40",
+      "date": "2026-08-01",
+      "summary": "东北暴雨，黑龙江可能发洪水，启动应急响应。",
+      "tags": [
+        "洪水",
+        "应急响应",
+        "黑龙江"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143563"
+    },
+    {
+      "id": "69f051ac936c",
+      "title": "房企前七月销售1.8万亿，高层定调稳楼市",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "13:34",
+      "date": "2026-08-01",
+      "summary": "百强房企销售季节性回落，高层再提稳楼市。",
+      "tags": [
+        "房地产",
+        "销售数据",
+        "政策"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301674.html"
+    },
+    {
+      "id": "30ae802ac7f2",
+      "title": "上汽通用五菱7月全球销量12万辆",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "13:22",
+      "date": "2026-08-01",
+      "summary": "上汽通用五菱7月全球销量12万辆，新能源占6成。",
+      "tags": [
+        "销量",
+        "新能源"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301673.html"
+    },
+    {
+      "id": "101e916083da",
+      "title": "上海发布高温雷电大风三预警",
+      "source": "华尔街见闻",
+      "category": "市场情绪",
+      "stars": 1,
+      "time": "13:22",
+      "date": "2026-08-01",
+      "summary": "上海气象预警，注意防范，与金融无关。",
+      "tags": [
+        "天气预警",
+        "上海"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143562"
+    },
+    {
+      "id": "30a86e880f8c",
+      "title": "我国首次依托水上通信渠道推送北极航道海冰预报",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "13:10",
+      "date": "2026-08-01",
+      "summary": "我国首次通过水上通信推送北极海冰预报，提升极地航运服务。",
+      "tags": [
+        "北极航道",
+        "海冰预报",
+        "航运"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301671.html"
+    },
+    {
+      "id": "612d5dc564f0",
+      "title": "油轮在阿曼海域遭袭",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "12:51",
+      "date": "2026-08-01",
+      "summary": "油轮遭袭失控，地缘风险升温",
+      "tags": [
+        "油轮",
+        "袭击",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143561"
+    },
+    {
+      "id": "8e52bd105893",
+      "title": "美国五角大楼拟购百亿美元拦截导弹",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "12:50",
+      "date": "2026-08-01",
+      "summary": "美国防部申请百亿美元采购导弹，影响军工及地缘局势。",
+      "tags": [
+        "美国",
+        "导弹",
+        "国防"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143560"
+    },
+    {
+      "id": "d0c0c614b863",
+      "title": "澳门7月博彩收入同比下降8.4%，低于预期",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "12:48",
+      "date": "2026-08-01",
+      "summary": "澳门7月博彩收入降8.4%，不及预期，全年累计仍增4.4%。",
+      "tags": [
+        "澳门博彩",
+        "博彩收入",
+        "经济数据"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143559"
+    },
+    {
+      "id": "2196f105a125",
+      "title": "中央安全生产考核巡查组向上海市反馈明查暗访情况",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "12:33",
+      "date": "2026-08-01",
+      "summary": "中央巡查组向上海反馈安全生产检查情况，要求整改到位。",
+      "tags": [
+        "安全生产",
+        "巡查反馈"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301661.html"
+    },
+    {
+      "id": "664af59126d2",
+      "title": "天津新任市委常委谢元兼任教育工委书记",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "12:29",
+      "date": "2026-08-01",
+      "summary": "天津市委常委谢元兼任教育工委书记，系“75后”干部。",
+      "tags": [
+        "人事任命",
+        "天津"
+      ],
+      "watched": false,
+      "url": "https://china.caixin.com/2026-08-01/102470485.html"
+    },
+    {
+      "id": "9583a8bde0a5",
+      "title": "蔚来7月交付35934台，同比增长71%",
+      "source": "第一财经",
+      "category": "市场情绪",
+      "stars": 3,
+      "time": "12:18",
+      "date": "2026-08-01",
+      "summary": "蔚来7月交付量大增，同比涨71%。",
+      "tags": [
+        "蔚来",
+        "交付量",
+        "新能源汽车"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301660.html"
+    },
+    {
+      "id": "b054e520658a",
+      "title": "蔚来7月交付35934台，同比增长71%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "12:16",
+      "date": "2026-08-01",
+      "summary": "蔚来7月交付量大增，三品牌均创新高。",
+      "tags": [
+        "蔚来",
+        "交付量",
+        "新能源车"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143558"
+    },
+    {
+      "id": "7134c56239ab",
+      "title": "极狐汽车7月交付量大增",
+      "source": "第一财经",
+      "category": "市场情绪",
+      "stars": 2,
+      "time": "12:10",
+      "date": "2026-08-01",
+      "summary": "极狐7月交付2.35万台，同比增150%。",
+      "tags": [
+        "新能源汽车",
+        "销量数据"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301658.html"
+    },
+    {
+      "id": "3323a164c811",
+      "title": "岚图汽车7月交付13189辆",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 2,
+      "time": "12:09",
+      "date": "2026-08-01",
+      "summary": "岚图7月交付1.3万辆，累计同比增31%。",
+      "tags": [
+        "岚图汽车",
+        "交付量"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301656.html"
+    },
+    {
+      "id": "727719ecf6d3",
+      "title": "小鹏集团7月交付新车38027台",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 2,
+      "time": "12:08",
+      "date": "2026-08-01",
+      "summary": "小鹏7月交付3.8万台，同比微增4%。",
+      "tags": [
+        "小鹏",
+        "交付量"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301654.html"
+    },
+    {
+      "id": "da91bb1e02b4",
+      "title": "中国与乌兹别克斯坦AEO互认安排正式实施",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "12:06",
+      "date": "2026-08-01",
+      "summary": "中乌海关AEO互认实施，提升贸易便利化。",
+      "tags": [
+        "AEO",
+        "贸易便利化",
+        "中乌关系"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103301650.html"
+    },
+    {
+      "id": "b050391c84bb",
+      "title": "小鹏汽车7月交付38037辆",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "12:02",
+      "date": "2026-08-01",
+      "summary": "小鹏7月交付3.8万辆，表现不错。",
+      "tags": [
+        "小鹏汽车",
+        "交付量"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143557"
+    },
     {
       "id": "594b8b1758fc",
       "title": "黄岩岛国家级自然保护区管理办法发布",
@@ -40,6 +750,23 @@
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2587353"
+    },
+    {
+      "id": "8a11644443d3",
+      "title": "黄岩岛国家级自然保护区管理办法发布",
+      "source": "华尔街见闻",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "12:01",
+      "date": "2026-08-01",
+      "summary": "四部门联合发布黄岩岛保护区管理办法，严格保护生态。",
+      "tags": [
+        "黄岩岛",
+        "自然保护区",
+        "政策"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3143556"
     },
     {
       "id": "fa211e90b689",
@@ -186,9 +913,9 @@
       "stars": 1,
       "time": "11:49",
       "date": "2026-08-01",
-      "summary": "文章讲述个人旅行感悟，与金融无关。",
+      "summary": "文章对比小本经营与宏大叙事，强调多元共存。",
       "tags": [
-        "旅行",
+        "文化",
         "随笔"
       ],
       "watched": false,
@@ -229,16 +956,16 @@
     },
     {
       "id": "70c70469e820",
-      "title": "《功夫女足》票房突破21亿元",
+      "title": "影片《功夫女足》票房突破21亿元",
       "source": "华尔街见闻",
       "category": "市场情绪",
-      "stars": 2,
+      "stars": 1,
       "time": "11:42",
       "date": "2026-08-01",
-      "summary": "电影票房数据，与金融市场关联度低。",
+      "summary": "电影票房数据，与金融无关。",
       "tags": [
-        "票房",
-        "电影"
+        "电影",
+        "票房"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3143555"
@@ -267,7 +994,7 @@
       "stars": 3,
       "time": "11:41",
       "date": "2026-08-01",
-      "summary": "黑龙江五常暴雨红色预警，累计雨量或超100毫米。",
+      "summary": "黑龙江暴雨红色预警，五常局地雨量或超100毫米。",
       "tags": [
         "暴雨",
         "预警",
@@ -301,7 +1028,7 @@
       "stars": 3,
       "time": "11:39",
       "date": "2026-08-01",
-      "summary": "吉阿两国签署同盟条约，涉及多领域合作。",
+      "summary": "吉阿签署同盟条约，涉及多领域合作。",
       "tags": [
         "吉尔吉斯斯坦",
         "阿塞拜疆",
@@ -331,14 +1058,14 @@
       "id": "a5f4bc26b4de",
       "title": "日本熊本地震致36人死亡、欧洲野火持续",
       "source": "财新网",
-      "category": "宏观政策",
-      "stars": 1,
+      "category": "海外联动",
+      "stars": 2,
       "time": "11:31",
       "date": "2026-08-01",
-      "summary": "日本地震和欧洲野火，与国内金融市场无关。",
+      "summary": "日本地震和欧洲野火，对A股影响有限。",
       "tags": [
-        "日本地震",
-        "欧洲野火"
+        "自然灾害",
+        "海外"
       ],
       "watched": false,
       "url": "https://photos.caixin.com/2026-08-01/102470434.html"
@@ -377,24 +1104,6 @@
       "url": "https://www.yicai.com/news/103301636.html"
     },
     {
-      "id": "da91bb1e02b4",
-      "title": "中国与乌兹别克斯坦AEO互认安排正式实施",
-      "source": "格隆汇",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "11:21",
-      "date": "2026-08-01",
-      "summary": "中乌AEO互认实施，贸易便利化提升。",
-      "tags": [
-        "AEO",
-        "贸易便利化",
-        "中国",
-        "乌兹别克斯坦"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2587324"
-    },
-    {
       "id": "79c3b40e7ec2",
       "title": "马航飞行员走私毒品被捕",
       "source": "财新网",
@@ -402,9 +1111,10 @@
       "stars": 1,
       "time": "11:21",
       "date": "2026-08-01",
-      "summary": "马航飞行员走私毒品，与金融无关。",
+      "summary": "马航飞行员走私毒品，与金融市场无关。",
       "tags": [
-        "社会新闻"
+        "社会新闻",
+        "毒品"
       ],
       "watched": false,
       "url": "https://photos.caixin.com/2026-08-01/102470426.html"
@@ -417,7 +1127,7 @@
       "stars": 2,
       "time": "11:16",
       "date": "2026-08-01",
-      "summary": "吉林省部分地区山洪风险高，注意防范。",
+      "summary": "吉林部分地区山洪风险高，注意防范。",
       "tags": [
         "山洪预警",
         "吉林"
@@ -433,10 +1143,10 @@
       "stars": 2,
       "time": "11:16",
       "date": "2026-08-01",
-      "summary": "日本青森县海域发生5.8级地震，无海啸风险。",
+      "summary": "日本青森县海域发生5.8级地震，无海啸风险，对市场影响有限。",
       "tags": [
-        "日本",
-        "地震"
+        "日本地震",
+        "自然灾害"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3143551"
@@ -520,23 +1230,23 @@
       "tags": [
         "鸿蒙智行",
         "交付量",
-        "新能源汽车"
+        "新能源车"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3143550"
     },
     {
       "id": "12e31d806585",
-      "title": "零跑汽车7月交付破10万台，创单月新高",
+      "title": "零跑汽车7月交付破10万台创新高",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 4,
       "time": "11:08",
       "date": "2026-08-01",
-      "summary": "零跑7月交付超10万台，创纪录，计划推新车。",
+      "summary": "零跑7月交付超10万台，创单月新高，计划推新车型。",
       "tags": [
         "零跑汽车",
-        "交付量",
+        "交付数据",
         "造车新势力"
       ],
       "watched": false,
@@ -554,7 +1264,7 @@
       "tags": [
         "极氪",
         "交付量",
-        "新能源车"
+        "新能源汽车"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3143548"
@@ -584,7 +1294,7 @@
       "stars": 3,
       "time": "11:06",
       "date": "2026-08-01",
-      "summary": "长鑫存储LPDDR6接近验证尾声，量产前重要一步。",
+      "summary": "长鑫存储LPDDR6接近量产前验证尾声，利好国产存储。",
       "tags": [
         "半导体",
         "存储芯片"
@@ -812,13 +1522,13 @@
     },
     {
       "id": "a69347ec082b",
-      "title": "中国大宗商品指数周跌2.73%，燃料油领跌9%",
+      "title": "中国大宗商品指数周跌2.73% 燃料油领跌9.00%",
       "source": "财新网",
-      "category": "宏观政策",
+      "category": "市场异动",
       "stars": 3,
       "time": "10:23",
       "date": "2026-08-01",
-      "summary": "受地缘情绪消退和原油成本回落影响，燃料油期价大跌。",
+      "summary": "地缘情绪消退和原油成本回落，燃料油期价大幅下跌。",
       "tags": [
         "大宗商品",
         "燃料油",
@@ -896,19 +1606,19 @@
     },
     {
       "id": "b9681b64b820",
-      "title": "万科董事会换届落定，徐恩利任董事长",
+      "title": "万科董事会换届落定，徐恩利就任董事长",
       "source": "财新网",
       "category": "公司公告",
-      "stars": 4,
+      "stars": 3,
       "time": "10:01",
       "date": "2026-08-01",
-      "summary": "万科新一届董事会选举徐恩利为董事长，深圳国资正式入主。",
+      "summary": "万科新董事长上任，管理层稳定，关注后续发展。",
       "tags": [
         "万科",
         "人事变动",
-        "国资入主"
+        "董事会"
       ],
-      "watched": true,
+      "watched": false,
       "url": "https://www.caixin.com/2026-08-01/102470364.html"
     },
     {
@@ -996,17 +1706,17 @@
     },
     {
       "id": "a461620355f5",
-      "title": "连云港消防回应火灾母女坠楼：救援条件受限",
+      "title": "连云港消防回应火灾母女坠楼",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 2,
+      "stars": 3,
       "time": "09:04",
       "date": "2026-08-01",
-      "summary": "消防回应火灾救援受限，母女坠楼事件引关注。",
+      "summary": "消防回应火灾母女坠楼，救援受限。",
       "tags": [
+        "消防",
         "火灾",
-        "救援",
-        "社会新闻"
+        "坠楼"
       ],
       "watched": false,
       "url": "https://mini.caixin.com/2026-08-01/102470331.html"
@@ -1016,13 +1726,14 @@
       "title": "魏尚进：美国正在背离自由放任传统？",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "08:36",
       "date": "2026-08-01",
-      "summary": "美国经济成功靠务实混合模式，非教条主义。",
+      "summary": "美国经济成功秘诀是务实兼顾市场与国家，而非教条。",
       "tags": [
         "美国经济",
-        "政策模式"
+        "政策转向",
+        "魏尚进"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-01/102470328.html"
@@ -1052,11 +1763,11 @@
       "stars": 3,
       "time": "08:30",
       "date": "2026-08-01",
-      "summary": "婚恋App诱导男用户充值，女用户分成，存在套路骗局。",
+      "summary": "揭秘交友App套路男用户充值骗局。",
       "tags": [
         "婚恋交友",
         "骗局",
-        "App"
+        "监管"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-01/102470324.html"
@@ -1069,7 +1780,7 @@
       "stars": 3,
       "time": "08:27",
       "date": "2026-08-01",
-      "summary": "基因编辑临床研究争议，监管需完善。",
+      "summary": "基因编辑临床研究监管需加强，引发行业反思。",
       "tags": [
         "基因编辑",
         "医疗监管"
@@ -1085,24 +1796,23 @@
       "stars": 4,
       "time": "08:23",
       "date": "2026-08-01",
-      "summary": "摩托车行业呼吁以检代废，政策讨论升温。",
+      "summary": "摩托车行业呼吁以检代废，政策讨论或影响市场。",
       "tags": [
         "摩托车",
-        "强制报废",
-        "高端市场"
+        "报废政策"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-01/102470318.html"
     },
     {
       "id": "f42f555b9964",
-      "title": "朱学东：“大名件”丝瓜烧油面筋｜饮食",
+      "title": "朱学东：大名件丝瓜烧油面筋",
       "source": "财新网",
       "category": "市场情绪",
       "stars": 1,
       "time": "08:22",
       "date": "2026-08-01",
-      "summary": "一篇关于丝瓜烧油面筋的饮食文化随笔，与金融无关。",
+      "summary": "美食散文，与金融无关。",
       "tags": [
         "饮食",
         "文化"
@@ -1121,7 +1831,7 @@
       "summary": "国产AI短剧出海加速，但竞争加剧。",
       "tags": [
         "AI短剧",
-        "海外市场",
+        "出海",
         "竞争"
       ],
       "watched": false,
@@ -1129,15 +1839,15 @@
     },
     {
       "id": "44480ff86a5a",
-      "title": "广东副省长唐屹峰任省委常委",
+      "title": "广东副省长、佛山书记唐屹峰任广东省委常委",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "08:17",
       "date": "2026-08-01",
-      "summary": "广东副省长唐屹峰升任省委常委，属人事变动。",
+      "summary": "唐屹峰升任广东省委常委，属地方人事变动。",
       "tags": [
-        "人事任命",
+        "人事变动",
         "广东"
       ],
       "watched": false,
@@ -1145,15 +1855,15 @@
     },
     {
       "id": "e1dcaa9cdd72",
-      "title": "49岁蒋成华任商务部副部长",
+      "title": "国务院任命蒋成华为商务部副部长",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "08:13",
       "date": "2026-08-01",
-      "summary": "蒋成华升任商务部副部长，系国务院部门最年轻副职。",
+      "summary": "49岁蒋成华任商务部副部长，系国务院部门最年轻副职。",
       "tags": [
-        "人事任命",
+        "人事任免",
         "商务部"
       ],
       "watched": false,
@@ -1161,16 +1871,16 @@
     },
     {
       "id": "1c8a83c07da7",
-      "title": "马尔康红旗大桥垮塌调查：地质勘察造假，7人被立案",
+      "title": "马尔康红旗特大桥垮塌调查：地质勘察弄虚作假",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "08:09",
       "date": "2026-08-01",
-      "summary": "大桥垮塌调查认定勘察造假，7人涉罪被查。",
+      "summary": "大桥垮塌调查认定勘察造假，7人被立案。",
       "tags": [
-        "工程安全",
-        "事故调查"
+        "安全事故",
+        "工程造假"
       ],
       "watched": false,
       "url": "https://china.caixin.com/2026-08-01/102470302.html"
@@ -7664,723 +8374,6 @@
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103300946.html"
-    },
-    {
-      "id": "c365a6afd638",
-      "title": "华峰化学上半年净利19.83亿元，同比增101.64%",
-      "source": "格隆汇",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "17:34",
-      "date": "2026-07-31",
-      "summary": "华峰化学上半年净利大增，Q2环比涨96%。",
-      "tags": [
-        "业绩报告",
-        "净利润增长"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585992"
-    },
-    {
-      "id": "2da8ebef98de",
-      "title": "航旅纵横APP再次出现服务异常",
-      "source": "华尔街见闻",
-      "category": "市场情绪",
-      "stars": 2,
-      "time": "17:34",
-      "date": "2026-07-31",
-      "summary": "航旅纵横APP下午服务异常，用户无法查询航班动态。",
-      "tags": [
-        "航旅纵横",
-        "服务异常"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143126"
-    },
-    {
-      "id": "961ec5d803c9",
-      "title": "中创智领拟回购3亿至4亿元A股股份",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "17:33",
-      "date": "2026-07-31",
-      "summary": "中创智领拟回购3-4亿元股份，用于注销和激励。",
-      "tags": [
-        "回购",
-        "注销",
-        "股权激励"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103300944.html"
-    },
-    {
-      "id": "7655d3484604",
-      "title": "太极股份总裁仲恺因个人原因辞职",
-      "source": "财联社电报",
-      "category": "公司公告",
-      "stars": 2,
-      "time": "17:33",
-      "date": "2026-07-31",
-      "summary": "太极股份总裁仲恺辞职，不影响经营。",
-      "tags": [
-        "高管辞职",
-        "太极股份"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "861528e05692",
-      "title": "斯迪克：磁性材料产业化有序推进",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:32",
-      "date": "2026-07-31",
-      "summary": "斯迪克回应磁性材料业务进展，产业化推进中。",
-      "tags": [
-        "斯迪克",
-        "磁性材料",
-        "产业化"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585987"
-    },
-    {
-      "id": "950612126667",
-      "title": "奥克股份：OXOE产品不直接用于工业清洗",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "17:32",
-      "date": "2026-07-31",
-      "summary": "公司澄清产品非直接应用，影响有限。",
-      "tags": [
-        "奥克股份",
-        "产品澄清"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585986"
-    },
-    {
-      "id": "a64c9f6a26d0",
-      "title": "证监会责令改正国元证券，涉尽职调查不充分等问题",
-      "source": "财联社电报",
-      "category": "券商动态",
-      "stars": 4,
-      "time": "17:31",
-      "date": "2026-07-31",
-      "summary": "证监会责令国元证券改正，因尽调不充分、质控不严等。",
-      "tags": [
-        "证监会",
-        "国元证券",
-        "责令改正"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "31bb2e26836b",
-      "title": "证监会责令改正国元证券",
-      "source": "第一财经",
-      "category": "券商动态",
-      "stars": 4,
-      "time": "17:31",
-      "date": "2026-07-31",
-      "summary": "国元证券因尽调不充分等问题被证监会责令改正。",
-      "tags": [
-        "证监会",
-        "国元证券",
-        "责令改正"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103300940.html"
-    },
-    {
-      "id": "d40c8cc6d740",
-      "title": "华峰化学上半年净利润同比增长101.64%",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:31",
-      "date": "2026-07-31",
-      "summary": "华峰化学上半年净利大增，Q2环比涨96%。",
-      "tags": [
-        "业绩增长",
-        "化工"
-      ],
-      "watched": true,
-      "url": ""
-    },
-    {
-      "id": "889f6f65233c",
-      "title": "瑞银上调哈门那目标价至405美元",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:31",
-      "date": "2026-07-31",
-      "summary": "瑞银大幅上调哈门那目标价并升评级，利好股价。",
-      "tags": [
-        "瑞银",
-        "哈门那",
-        "目标价上调"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585983"
-    },
-    {
-      "id": "642e9725c80a",
-      "title": "2026年8月财经大事件前瞻",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:31",
-      "date": "2026-07-31",
-      "summary": "格隆汇发布8月全球财经大事件图解，供投资者参考。",
-      "tags": [
-        "财经日历",
-        "事件前瞻"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585982"
-    },
-    {
-      "id": "5a3b8a18e181",
-      "title": "信义光能上半年净利同比减少94.8%",
-      "source": "财联社电报",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "17:29",
-      "date": "2026-07-31",
-      "summary": "信义光能上半年净利大降94.8%，仅3900万元。",
-      "tags": [
-        "信义光能",
-        "业绩下滑"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "4b639ceec1e3",
-      "title": "用分子考古还原烈士面容和生活",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 1,
-      "time": "17:29",
-      "date": "2026-07-31",
-      "summary": "考古研究烈士遗骸，非金融新闻。",
-      "tags": [
-        "考古",
-        "烈士"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103300934.html"
-    },
-    {
-      "id": "ff4ff12c34a3",
-      "title": "第12批药品集采首轮报价结束 265家企业拟中选",
-      "source": "华尔街见闻",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "17:28",
-      "date": "2026-07-31",
-      "summary": "药品集采首轮报价，265家企业拟中选，120家将复活报价。",
-      "tags": [
-        "药品集采",
-        "医药行业"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143121"
-    },
-    {
-      "id": "bd244e6ca036",
-      "title": "大摩上调通用动力目标价至465美元",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:28",
-      "date": "2026-07-31",
-      "summary": "大摩上调通用动力目标价，维持增持评级。",
-      "tags": [
-        "摩根士丹利",
-        "通用动力",
-        "目标价上调"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585977"
-    },
-    {
-      "id": "b78bda5e6810",
-      "title": "中欧专利审查高速路试点将于2026年8月1日启动",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "17:26",
-      "date": "2026-07-31",
-      "summary": "中欧专利审查高速路试点启动，便利双方申请人。",
-      "tags": [
-        "中欧专利",
-        "审查高速路"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103300933.html"
-    },
-    {
-      "id": "351acc9b0e95",
-      "title": "四方达：散热产品以多晶金刚石散热片为主",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "17:26",
-      "date": "2026-07-31",
-      "summary": "四方达回应投资者，散热产品以多晶金刚石散热片为主。",
-      "tags": [
-        "四方达",
-        "散热",
-        "金刚石"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585973"
-    },
-    {
-      "id": "45f36ab63bad",
-      "title": "科创板7月暴跌26%全球垫底，恒指大涨13%",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "17:25",
-      "date": "2026-07-31",
-      "summary": "全球股市两极分化，科创板暴跌，恒指大涨。",
-      "tags": [
-        "科创板",
-        "恒指",
-        "全球股市"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585972"
-    },
-    {
-      "id": "ee399434ca17",
-      "title": "兆易创新拟10-20亿元回购股份",
-      "source": "华尔街见闻",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "17:25",
-      "date": "2026-07-31",
-      "summary": "兆易创新拟回购10-20亿元股份用于注销，利好股价。",
-      "tags": [
-        "回购",
-        "兆易创新",
-        "注销"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143120"
-    },
-    {
-      "id": "1fb9cd9c8ab7",
-      "title": "欧洲央行管委Kocher：不确定性和波动性仍然很高",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:25",
-      "date": "2026-07-31",
-      "summary": "欧央行官员称市场不确定性和波动性仍高",
-      "tags": [
-        "欧洲央行",
-        "不确定性",
-        "波动性"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143118"
-    },
-    {
-      "id": "345419885086",
-      "title": "华海药业获替米沙坦氢氯噻嗪片注册证书",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "17:24",
-      "date": "2026-07-31",
-      "summary": "华海药业新药获批，丰富产品线，利好公司。",
-      "tags": [
-        "华海药业",
-        "药品注册",
-        "高血压"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103300931.html"
-    },
-    {
-      "id": "2c5d895ee27c",
-      "title": "中证投服中心新一代投资者损失测算系统上线",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "17:23",
-      "date": "2026-07-31",
-      "summary": "中证投服中心新系统上线，提升损失测算效率。",
-      "tags": [
-        "投资者保护",
-        "损失测算",
-        "系统上线"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103300929.html"
-    },
-    {
-      "id": "dec549fc0abe",
-      "title": "美团联合苏州上线“等灯停表” 全国20城试点",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:23",
-      "date": "2026-07-31",
-      "summary": "美团在苏州上线骑手等灯停表功能，全国20城试点。",
-      "tags": [
-        "美团",
-        "外卖骑手",
-        "交通管理"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143117"
-    },
-    {
-      "id": "393c36c63d6f",
-      "title": "国民技术：针对机器人小脑、关节等模块进行MCU产品布局",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:23",
-      "date": "2026-07-31",
-      "summary": "国民技术回应机器人MCU布局，未确认具体客户。",
-      "tags": [
-        "国民技术",
-        "机器人",
-        "MCU"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2585967"
-    },
-    {
-      "id": "19aeefa9ce99",
-      "title": "上半年上海智能车载设备、机器人销售收入同比增长61.5%和17.5%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:20",
-      "date": "2026-07-31",
-      "summary": "上海新兴产业增长快，智能车载和机器人销售大增。",
-      "tags": [
-        "上海",
-        "智能车载设备",
-        "机器人",
-        "新兴产业"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143115"
-    },
-    {
-      "id": "e343d895cab7",
-      "title": "工信部：截至6月末5G基站总数达510.2万个",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "17:20",
-      "date": "2026-07-31",
-      "summary": "工信部公布5G基站数量，行业稳步发展。",
-      "tags": [
-        "5G",
-        "工信部"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103300925.html"
-    },
-    {
-      "id": "8a1579ea3eab",
-      "title": "工信部对部分车企开展监督检查",
-      "source": "华尔街见闻",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "17:16",
-      "date": "2026-07-31",
-      "summary": "工信部检查奇瑞、蔚来等车企，规范生产一致性。",
-      "tags": [
-        "工信部",
-        "汽车行业",
-        "监督检查"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143113"
-    },
-    {
-      "id": "c9671e4282bd",
-      "title": "万科完成董事会换届，持续推进化险与发展",
-      "source": "华尔街见闻",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "17:04",
-      "date": "2026-07-31",
-      "summary": "万科完成董事会换届，新董事长徐恩利上任，续聘黄宇为总裁。",
-      "tags": [
-        "万科",
-        "董事会换届",
-        "人事变动"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143107"
-    },
-    {
-      "id": "027d123f8222",
-      "title": "国务院公布出境入境管理新规",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:02",
-      "date": "2026-07-31",
-      "summary": "新规规范出境入境，保障权益，2026年施行。",
-      "tags": [
-        "出境入境",
-        "政策法规"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143106"
-    },
-    {
-      "id": "fa358fc8bd7a",
-      "title": "国务院出境入境新规9月15日施行",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:01",
-      "date": "2026-07-31",
-      "summary": "新规规范出境入境，保障权益，维护安全。",
-      "tags": [
-        "出境入境",
-        "政策法规"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143104"
-    },
-    {
-      "id": "161a13373ff2",
-      "title": "意大利7月调和CPI环比初值 -1%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "17:01",
-      "date": "2026-07-31",
-      "summary": "意大利通胀数据符合预期，影响有限。",
-      "tags": [
-        "意大利",
-        "CPI"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143103"
-    },
-    {
-      "id": "adda86990b8a",
-      "title": "意大利7月CPI环比初值0.2%低于预期",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "17:01",
-      "date": "2026-07-31",
-      "summary": "意大利通胀略低于预期，影响有限。",
-      "tags": [
-        "意大利",
-        "CPI",
-        "通胀"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143102"
-    },
-    {
-      "id": "a641f212159d",
-      "title": "意大利7月CPI同比初值2.8%符合预期",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:00",
-      "date": "2026-07-31",
-      "summary": "意大利通胀符合预期，数据平稳。",
-      "tags": [
-        "意大利",
-        "CPI",
-        "通胀"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143101"
-    },
-    {
-      "id": "ae6f339a0a84",
-      "title": "欧元区7月核心CPI同比初值2.5%超预期",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:00",
-      "date": "2026-07-31",
-      "summary": "欧元区核心通胀略超预期，影响海外市场情绪。",
-      "tags": [
-        "欧元区",
-        "CPI",
-        "通胀"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143100"
-    },
-    {
-      "id": "37eee203370a",
-      "title": "欧元区7月调和CPI环比初值0.2%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:00",
-      "date": "2026-07-31",
-      "summary": "欧元区通胀环比转正，略超预期。",
-      "tags": [
-        "欧元区",
-        "CPI",
-        "通胀"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143099"
-    },
-    {
-      "id": "31b65f306895",
-      "title": "欧元区7月调和CPI同比初值2.9%符合预期",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:00",
-      "date": "2026-07-31",
-      "summary": "欧元区通胀符合预期，影响有限。",
-      "tags": [
-        "欧元区",
-        "CPI",
-        "通胀"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3143098"
-    },
-    {
-      "id": "3d459d461e19",
-      "title": "2026年6月风电招标数据环比同比均上涨",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "16:36",
-      "date": "2026-07-31",
-      "summary": "风电招标数据上涨，行业景气度提升。",
-      "tags": [
-        "风电",
-        "招标数据"
-      ],
-      "watched": false,
-      "url": "https://database.caixin.com/2026-07-31/102470054.html"
-    },
-    {
-      "id": "c6dc3c9b5e85",
-      "title": "票据市场告别零利率 成交价稳定在0.5%",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "16:24",
-      "date": "2026-07-31",
-      "summary": "票据市场利率自律管理见效，零利率不再，成交价稳在0.5%。",
-      "tags": [
-        "票据市场",
-        "利率自律",
-        "中小银行"
-      ],
-      "watched": false,
-      "url": "https://finance.caixin.com/2026-07-31/102470045.html"
-    },
-    {
-      "id": "f26f710075f4",
-      "title": "米莱下令可驱逐“仇恨阿根廷”的外国人，涉世界杯负面舆情",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "16:20",
-      "date": "2026-07-31",
-      "summary": "米莱称可驱逐反阿根廷外国人，涉世界杯冲突。",
-      "tags": [
-        "米莱",
-        "世界杯",
-        "外交政策"
-      ],
-      "watched": false,
-      "url": "https://international.caixin.com/2026-07-31/102470036.html"
-    },
-    {
-      "id": "fc866ad48edd",
-      "title": "富途老虎期权内幕交易案缩小冻结范围",
-      "source": "财新网",
-      "category": "券商动态",
-      "stars": 3,
-      "time": "16:10",
-      "date": "2026-07-31",
-      "summary": "富途老虎期权案冻结范围缩小，涉及账户减少。",
-      "tags": [
-        "富途",
-        "老虎证券",
-        "内幕交易"
-      ],
-      "watched": false,
-      "url": "https://finance.caixin.com/2026-07-31/102470026.html"
-    },
-    {
-      "id": "4157406b7104",
-      "title": "土耳其对Temu罚款56万元 因阻碍检查",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "15:47",
-      "date": "2026-07-31",
-      "summary": "土耳其罚Temu56万，因阻碍检查，未启动反垄断调查。",
-      "tags": [
-        "Temu",
-        "土耳其",
-        "罚款"
-      ],
-      "watched": false,
-      "url": "https://www.caixin.com/2026-07-31/102470016.html"
-    },
-    {
-      "id": "efaca04d188c",
-      "title": "联博：美科技股资本开支近上限 下半年AI赛道波动或加大",
-      "source": "财新网",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "15:45",
-      "date": "2026-07-31",
-      "summary": "AI资本开支将放缓，科技股波动或加大。",
-      "tags": [
-        "AI",
-        "科技股",
-        "资本开支"
-      ],
-      "watched": false,
-      "url": "https://database.caixin.com/2026-07-31/102470015.html"
-    },
-    {
-      "id": "1b9d437434c3",
-      "title": "GPT周报：字节跳动、MiniMax同日发布新模型；英伟达等支持开源模型",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "15:41",
-      "date": "2026-07-31",
-      "summary": "AI行业动态汇总，多家公司发布新模型，开源模型获支持。",
-      "tags": [
-        "AI",
-        "开源模型",
-        "科技公司"
-      ],
-      "watched": false,
-      "url": "https://www.caixin.com/2026-07-31/102470008.html"
     }
   ]
 }
