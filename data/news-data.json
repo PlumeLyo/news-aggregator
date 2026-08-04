@@ -1,12 +1,904 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-08-04T22:10:49.607456+08:00",
+  "fetched_at": "2026-08-05T00:29:08.076789+08:00",
   "total_count": 500,
-  "today_count": 500,
-  "major_count": 154,
-  "watched_count": 14,
+  "today_count": 12,
+  "major_count": 142,
+  "watched_count": 15,
   "sources_used": 14,
   "news": [
+    {
+      "id": "49d6a6335c0c",
+      "title": "高盛警告俄罗斯柴油供应风险加剧",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "00:24",
+      "date": "2026-08-05",
+      "summary": "高盛称俄罗斯柴油供应中断风险令人担忧，影响全球燃料市场。",
+      "tags": [
+        "柴油",
+        "俄罗斯",
+        "高盛"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144876"
+    },
+    {
+      "id": "6c24f1d4fbbe",
+      "title": "美股三大指数涨幅扩大，半导体指数涨超6%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "00:22",
+      "date": "2026-08-05",
+      "summary": "美股大涨，半导体领涨，关注海外联动。",
+      "tags": [
+        "美股",
+        "半导体",
+        "市场异动"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144875"
+    },
+    {
+      "id": "ffcf5338ad5b",
+      "title": "日本古河电工投1000亿日元扩产光纤，产能翻倍",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "00:22",
+      "date": "2026-08-05",
+      "summary": "日本古河电工扩产光纤，响应数据中心需求，2028年量产。",
+      "tags": [
+        "光纤",
+        "数据中心",
+        "日本",
+        "扩产"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592755"
+    },
+    {
+      "id": "e96fd59780bb",
+      "title": "伊朗与阿曼就霍尔木兹海峡过境谈判继续",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "00:22",
+      "date": "2026-08-05",
+      "summary": "伊朗称与阿曼谈判霍尔木兹海峡过境问题，关注地缘风险。",
+      "tags": [
+        "伊朗",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592756"
+    },
+    {
+      "id": "1caaac9737b6",
+      "title": "伊朗与阿曼谈判保障霍尔木兹海峡航运安全",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "00:20",
+      "date": "2026-08-05",
+      "summary": "伊朗与阿曼就霍尔木兹海峡安全通行谈判继续，影响油运。",
+      "tags": [
+        "伊朗",
+        "阿曼",
+        "霍尔木兹海峡",
+        "航运安全"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144874"
+    },
+    {
+      "id": "964fb998622a",
+      "title": "伊拉克经霍尔木兹海峡原油出口锐减71%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "00:17",
+      "date": "2026-08-05",
+      "summary": "伊拉克原油出口大降，影响全球供应。",
+      "tags": [
+        "原油",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144873"
+    },
+    {
+      "id": "4dab1b94799e",
+      "title": "德国两年期国债收益率跌6个基点，投资者关注油价下跌",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "00:15",
+      "date": "2026-08-05",
+      "summary": "德债收益率下跌，油价影响市场。",
+      "tags": [
+        "德国国债",
+        "收益率",
+        "油价"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144871"
+    },
+    {
+      "id": "0c226dc02970",
+      "title": "Blue Owl完成欧洲净租赁基金募集，承诺资本超16亿欧元",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "00:06",
+      "date": "2026-08-05",
+      "summary": "Blue Owl欧洲基金募资超16亿欧元，专注投资级租户。",
+      "tags": [
+        "基金募集",
+        "欧洲市场",
+        "房地产"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592747"
+    },
+    {
+      "id": "e286319e2d46",
+      "title": "美国司法部与OpenAI和解，指控其歧视本土员工",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "00:04",
+      "date": "2026-08-05",
+      "summary": "OpenAI因歧视本土员工与美司法部和解。",
+      "tags": [
+        "OpenAI",
+        "司法部",
+        "歧视"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592745"
+    },
+    {
+      "id": "1f505f922267",
+      "title": "Waymo自动驾驶服务在达拉斯全面开放",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "00:02",
+      "date": "2026-08-05",
+      "summary": "Waymo自动驾驶服务向达拉斯全体民众开放。",
+      "tags": [
+        "Waymo",
+        "自动驾驶",
+        "达拉斯"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592743"
+    },
+    {
+      "id": "4708bf63bdd6",
+      "title": "四川宜宾高县发生3.6级地震",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 1,
+      "time": "00:02",
+      "date": "2026-08-05",
+      "summary": "四川宜宾高县发生3.6级地震，影响有限。",
+      "tags": [
+        "地震",
+        "四川"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592741"
+    },
+    {
+      "id": "29177b530d1a",
+      "title": "今日重点财经数据与事件：2026年8月5日周三",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "00:00",
+      "date": "2026-08-05",
+      "summary": "关注美国原油库存、美联储讲话及多国PMI数据。",
+      "tags": [
+        "财经数据",
+        "PMI",
+        "原油库存"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "f4944fd9f55a",
+      "title": "英国两年期国债收益率跌超7个基点",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:58",
+      "date": "2026-08-04",
+      "summary": "英国国债收益率下跌，两年期跌超7个基点。",
+      "tags": [
+        "英国国债",
+        "收益率"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144867"
+    },
+    {
+      "id": "60ac467ba97c",
+      "title": "伊朗高官：美试图阻挠伊朗阿曼就霍尔木兹海峡谈判",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:55",
+      "date": "2026-08-04",
+      "summary": "美方阻挠伊朗阿曼霍尔木兹海峡谈判，但谈判已进入新阶段。",
+      "tags": [
+        "霍尔木兹海峡",
+        "伊朗",
+        "阿曼",
+        "美国"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144866"
+    },
+    {
+      "id": "a565f82af2ed",
+      "title": "加拿大自美国进口额创新高 受数据中心建设推动",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:55",
+      "date": "2026-08-04",
+      "summary": "加拿大6月自美进口创新高，因数据中心处理器需求激增。",
+      "tags": [
+        "加拿大",
+        "进口",
+        "数据中心",
+        "人工智能"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592719"
+    },
+    {
+      "id": "0743f86677b6",
+      "title": "央行开展5000亿元买断式逆回购操作",
+      "source": "金十数据",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "23:53",
+      "date": "2026-08-04",
+      "summary": "央行大额逆回购，释放流动性，利好市场。",
+      "tags": [
+        "央行",
+        "逆回购",
+        "流动性"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "237c9637c659",
+      "title": "纳指涨幅扩大至2% 费城半导体指数涨6.2%",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:50",
+      "date": "2026-08-04",
+      "summary": "美股大涨，芯片股领涨，纳指涨2%。",
+      "tags": [
+        "美股",
+        "芯片股",
+        "纳指"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592715"
+    },
+    {
+      "id": "9be6a18a58e5",
+      "title": "MSCI北欧国家指数涨1%，诺基亚领涨",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:50",
+      "date": "2026-08-04",
+      "summary": "北欧股市上涨，工业板块领涨，诺基亚涨6.5%。",
+      "tags": [
+        "MSCI",
+        "北欧",
+        "诺基亚"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144865"
+    },
+    {
+      "id": "f7bc54258cdb",
+      "title": "美股费城半导体指数大涨6%，多只芯片股飙升",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:48",
+      "date": "2026-08-04",
+      "summary": "美股芯片股大涨，费城半导体指数涨6%，英特尔涨超9%。",
+      "tags": [
+        "美股",
+        "半导体",
+        "芯片股"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144863"
+    },
+    {
+      "id": "fc4f78d14e46",
+      "title": "光通信概念股普遍上涨，Lumentum涨超10%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:48",
+      "date": "2026-08-04",
+      "summary": "美股光通信股大涨，相关板块受关注。",
+      "tags": [
+        "光通信",
+        "美股"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144864"
+    },
+    {
+      "id": "8ffe90636675",
+      "title": "交易员不再预计英国央行今年加息25个基点",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:46",
+      "date": "2026-08-04",
+      "summary": "英国央行加息预期降温，市场情绪受影响。",
+      "tags": [
+        "英国央行",
+        "加息预期"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592712"
+    },
+    {
+      "id": "29ad388219f8",
+      "title": "市场削减英央行加息押注，年底加息概率跌破100%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:45",
+      "date": "2026-08-04",
+      "summary": "市场对英央行年底加息预期降温，概率首次低于100%。",
+      "tags": [
+        "英国央行",
+        "加息预期",
+        "油价下跌"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144862"
+    },
+    {
+      "id": "964c84965001",
+      "title": "费城半导体指数涨幅扩大至6%",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:45",
+      "date": "2026-08-04",
+      "summary": "费半大涨6%，ARM涨超14%，芯片股集体走强。",
+      "tags": [
+        "费城半导体",
+        "芯片股",
+        "美股"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305349.html"
+    },
+    {
+      "id": "262a5c073789",
+      "title": "伊朗或允许欧洲在霍尔木兹海峡排雷",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:43",
+      "date": "2026-08-04",
+      "summary": "伊朗考虑允许欧洲排雷，或助航运正常化",
+      "tags": [
+        "伊朗",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592707"
+    },
+    {
+      "id": "6cefbb336067",
+      "title": "WTI原油期货大跌6%，布伦特原油失守79美元",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "23:43",
+      "date": "2026-08-04",
+      "summary": "原油期货暴跌，布伦特失守79美元。",
+      "tags": [
+        "原油",
+        "期货",
+        "下跌"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592706"
+    },
+    {
+      "id": "d5ee7d3987ae",
+      "title": "银行如何利用AI赋能实体经济？陆家嘴金融沙龙2026年第二十六期与您相约",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "23:43",
+      "date": "2026-08-04",
+      "summary": "银行AI赋能实体经济，沙龙探讨转型与风险管理。",
+      "tags": [
+        "银行",
+        "AI",
+        "实体经济"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305324.html"
+    },
+    {
+      "id": "1cfbec0cb245",
+      "title": "苹果请求法院禁止OpenAI使用其商业秘密",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:42",
+      "date": "2026-08-04",
+      "summary": "苹果指控OpenAI窃密，请求禁令保护商业机密。",
+      "tags": [
+        "苹果",
+        "OpenAI",
+        "商业秘密",
+        "法律诉讼"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144861"
+    },
+    {
+      "id": "ac620297b141",
+      "title": "欧股收盘集体上涨 德法股市再创新高",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:42",
+      "date": "2026-08-04",
+      "summary": "欧股普涨，德法创新高，意大利领涨。",
+      "tags": [
+        "欧股",
+        "德国DAX",
+        "法国CAC"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2592703"
+    },
+    {
+      "id": "ba8b817dbd04",
+      "title": "欧洲主要股指收盘集体上涨",
+      "source": "第一财经",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:41",
+      "date": "2026-08-04",
+      "summary": "欧股集体收涨，德指领涨0.85%。",
+      "tags": [
+        "欧洲股市",
+        "收盘上涨"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305347.html"
+    },
+    {
+      "id": "6787ce535759",
+      "title": "伊朗软化立场，或允许欧洲排雷霍尔木兹海峡",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:39",
+      "date": "2026-08-04",
+      "summary": "伊朗或允许欧洲排雷，海峡安全有望恢复，利好航运保险。",
+      "tags": [
+        "伊朗",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144859"
+    },
+    {
+      "id": "fbca468e487b",
+      "title": "布伦特原油跌至79美元/桶，日内跌超4.9%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:36",
+      "date": "2026-08-04",
+      "summary": "原油价格大跌，布伦特跌超4.9%，WTI跌5%。",
+      "tags": [
+        "原油",
+        "布伦特",
+        "WTI"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144857"
+    },
+    {
+      "id": "a091a9ffa881",
+      "title": "马拉松石油：汽油、柴油及航空煤油需求保持韧性，美国6月航空煤油需求创历史新高",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:35",
+      "date": "2026-08-04",
+      "summary": "美国航空煤油需求创新高，油品需求韧性足。",
+      "tags": [
+        "石油需求",
+        "航空煤油"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144856"
+    },
+    {
+      "id": "9fcea57d663b",
+      "title": "美国财政部拍卖六周期和52周期国债",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:32",
+      "date": "2026-08-04",
+      "summary": "美债拍卖结果平稳，利率略降，需求尚可。",
+      "tags": [
+        "美国国债",
+        "拍卖",
+        "利率"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144855"
+    },
+    {
+      "id": "7f2dcdac1fff",
+      "title": "金属铱价格暴涨远超黄金",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "23:31",
+      "date": "2026-08-04",
+      "summary": "铱价飙升超黄金，AI新能源需求推动。",
+      "tags": [
+        "铱",
+        "贵金属",
+        "AI",
+        "新能源"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144854"
+    },
+    {
+      "id": "77634541fa68",
+      "title": "欧洲主要股指收涨，德国DAX涨0.8%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:30",
+      "date": "2026-08-04",
+      "summary": "欧股普涨，德法意英股指均收高。",
+      "tags": [
+        "欧洲股市",
+        "股指收涨"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144853"
+    },
+    {
+      "id": "d6ba467bbf85",
+      "title": "欧洲主要股指创收盘历史新高",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "23:30",
+      "date": "2026-08-04",
+      "summary": "欧洲股市集体收涨，主要指数创历史新高。",
+      "tags": [
+        "欧洲股市",
+        "历史新高"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144852"
+    },
+    {
+      "id": "934e1e47da6d",
+      "title": "铱价暴涨远超黄金价格",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "23:30",
+      "date": "2026-08-04",
+      "summary": "铱价逆势大涨，成贵金属市场黑马。",
+      "tags": [
+        "铱价",
+        "贵金属"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305343.html"
+    },
+    {
+      "id": "1f0fd375effe",
+      "title": "蜘蛛侠票房六天破10亿美元",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "23:27",
+      "date": "2026-08-04",
+      "summary": "蜘蛛侠票房六天破10亿美元，与A股关联度低。",
+      "tags": [
+        "电影",
+        "票房"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3144851"
+    },
+    {
+      "id": "378eafd75112",
+      "title": "菲律宾三宝颜市暴发登革热疫情致12人死亡",
+      "source": "第一财经",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "23:27",
+      "date": "2026-08-04",
+      "summary": "菲律宾三宝颜市登革热疫情致12人死亡，对A股影响有限。",
+      "tags": [
+        "菲律宾",
+        "登革热",
+        "疫情"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305341.html"
+    },
+    {
+      "id": "16bb66ea8682",
+      "title": "追凉航线订单暴涨500%",
+      "source": "第一财经",
+      "category": "市场情绪",
+      "stars": 2,
+      "time": "23:02",
+      "date": "2026-08-04",
+      "summary": "暑运避暑航线订单大增，芜湖至贵阳增5倍。",
+      "tags": [
+        "暑运",
+        "避暑航线"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305338.html"
+    },
+    {
+      "id": "e899b2b94a13",
+      "title": "强制性国标出炉，自动驾驶行业要变天？",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "22:59",
+      "date": "2026-08-04",
+      "summary": "自动驾驶国标转向安全，行业面临重大调整。",
+      "tags": [
+        "自动驾驶",
+        "国标",
+        "安全"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103305335.html"
+    },
+    {
+      "id": "47133f19a5e7",
+      "title": "我国如何进一步加速服务贸易发展？",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:52",
+      "date": "2026-08-04",
+      "summary": "商务部称上半年服务贸易快速增长，但逆差仍大。",
+      "tags": [
+        "服务贸易",
+        "逆差"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103305334.html"
+    },
+    {
+      "id": "5f3374939905",
+      "title": "营业部最青睐个股曝光 8股净买入超亿元",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "22:51",
+      "date": "2026-08-04",
+      "summary": "龙虎榜营业部资金净买入25.64亿，8股净买入超亿元。",
+      "tags": [
+        "龙虎榜",
+        "营业部",
+        "净买入"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305333.html"
+    },
+    {
+      "id": "833ce99f8763",
+      "title": "广东消保新规如何“长出牙齿”",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:51",
+      "date": "2026-08-04",
+      "summary": "广东消保条例10月施行，强化执行避免纸面权利。",
+      "tags": [
+        "消费者权益",
+        "地方立法"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305323.html"
+    },
+    {
+      "id": "afff0cf5c74a",
+      "title": "沪股通现身10只个股龙虎榜",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "22:51",
+      "date": "2026-08-04",
+      "summary": "沪股通资金现身龙虎榜，涉及多只个股买卖。",
+      "tags": [
+        "沪股通",
+        "龙虎榜",
+        "资金动向"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305331.html"
+    },
+    {
+      "id": "902fd417da30",
+      "title": "上半年我国服务贸易进出口表现亮眼",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:50",
+      "date": "2026-08-04",
+      "summary": "上半年服务贸易增长快，专家解读背后因素。",
+      "tags": [
+        "服务贸易",
+        "进出口",
+        "经济数据"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103305329.html"
+    },
+    {
+      "id": "9b85541f959a",
+      "title": "深股通现身15只个股龙虎榜",
+      "source": "第一财经",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "22:50",
+      "date": "2026-08-04",
+      "summary": "深股通资金活跃，现身多只个股龙虎榜。",
+      "tags": [
+        "深股通",
+        "龙虎榜"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305328.html"
+    },
+    {
+      "id": "115013fccc53",
+      "title": "美伊谈判“罗生门”：谁在掌握霍尔木兹海峡通航主动权？",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:46",
+      "date": "2026-08-04",
+      "summary": "美伊谈判僵局影响霍尔木兹海峡通航，关注地缘风险。",
+      "tags": [
+        "美伊谈判",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103305326.html"
+    },
+    {
+      "id": "a1f26dbba937",
+      "title": "美国拟禁止进口中国数通设备，光通信板块大涨",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "22:45",
+      "date": "2026-08-04",
+      "summary": "美国拟禁中国数通设备，光通信板块大涨",
+      "tags": [
+        "光通信",
+        "美国禁令",
+        "A股"
+      ],
+      "watched": true,
+      "url": "https://www.caixin.com/2026-08-04/102471255.html"
+    },
+    {
+      "id": "8212666e2708",
+      "title": "AI重构投研体系，人才与组织成核心壁垒！陆家嘴金融沙龙第二十五期落幕",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:44",
+      "date": "2026-08-04",
+      "summary": "陆家嘴金融沙龙探讨AI在量化投资的应用，强调人才与组织重要性。",
+      "tags": [
+        "AI",
+        "量化投资",
+        "投研体系"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305325.html"
+    },
+    {
+      "id": "c47735f6f528",
+      "title": "美伊战事推升油价 沙特阿美二季度净利增33%至334亿美元",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "22:34",
+      "date": "2026-08-04",
+      "summary": "沙特阿美二季度净利大增33%，受油价上涨推动。",
+      "tags": [
+        "油价",
+        "沙特阿美",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": "https://www.caixin.com/2026-08-04/102471251.html"
+    },
+    {
+      "id": "ec2c69adfb59",
+      "title": "丰田汽车季度营收创新高但利润率下滑",
+      "source": "第一财经",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "22:33",
+      "date": "2026-08-04",
+      "summary": "丰田营收创新高，但利润率降至6%以下，受汇兑收益影响。",
+      "tags": [
+        "丰田",
+        "财报",
+        "利润率"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305305.html"
+    },
+    {
+      "id": "76183fb0c50f",
+      "title": "华为否认投诉电商平台下架竹知了商品",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 2,
+      "time": "22:29",
+      "date": "2026-08-04",
+      "summary": "华为澄清未投诉或要求下架竹知了商品，属公司声明。",
+      "tags": [
+        "华为",
+        "竹知了",
+        "辟谣"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103305321.html"
+    },
     {
       "id": "2971c832c5e4",
       "title": "美国国务卿：伊朗谈判有进展，霍尔木兹海峡有望重开",
@@ -914,28 +1806,27 @@
       "id": "94ddb8f10b80",
       "title": "中国AI模型百花齐放 美国同业陷入死亡地带",
       "source": "财新网",
-      "category": "宏观政策",
+      "category": "市场情绪",
       "stars": 3,
       "time": "21:30",
       "date": "2026-08-04",
-      "summary": "中国AI模型竞争激烈，美国同业面临压力。",
+      "summary": "中国AI模型竞争激烈，美国同业压力大。",
       "tags": [
         "AI",
-        "竞争",
-        "市场动态"
+        "竞争"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-04/102471249.html"
     },
     {
       "id": "107e2c5308a2",
-      "title": "美国起草禁令限制中国数据中心元件进口",
+      "title": "美国起草针对中国数据中心元件禁令",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 5,
+      "stars": 4,
       "time": "21:22",
       "date": "2026-08-04",
-      "summary": "美国拟禁中国数据中心元件，中方敦促理性。",
+      "summary": "美拟禁中国数据中心元件，中方敦促理性。",
       "tags": [
         "美国禁令",
         "数据中心",
@@ -1003,10 +1894,11 @@
       "stars": 4,
       "time": "21:08",
       "date": "2026-08-04",
-      "summary": "银行公布个贷成本上限，助贷新规补丁或限制分润。",
+      "summary": "银行公布个贷成本上限，最高24%，助贷监管加码。",
       "tags": [
         "个贷成本",
-        "助贷监管"
+        "助贷监管",
+        "银行"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-04/102471235.html"
@@ -1053,11 +1945,11 @@
       "stars": 4,
       "time": "20:02",
       "date": "2026-08-04",
-      "summary": "美国干预日元汇率，或加大对日贸易和利率施压。",
+      "summary": "美国干预日元汇率，或加剧对日贸易和利率施压。",
       "tags": [
         "日元汇率",
-        "美日贸易",
-        "利率政策"
+        "美国政策",
+        "日本央行"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-04/102471233.html"
@@ -2039,7 +2931,7 @@
       "stars": 1,
       "time": "18:46",
       "date": "2026-08-04",
-      "summary": "岳麓秦简研究价值高，但非金融新闻。",
+      "summary": "介绍岳麓秦简的学术价值，与金融无关。",
       "tags": [
         "学术",
         "历史"
@@ -2049,13 +2941,13 @@
     },
     {
       "id": "49acee2cc67c",
-      "title": "执行局长索贿骚扰事件折射体制问题",
+      "title": "执行局长索贿骚扰事件反映体制问题",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "18:09",
       "date": "2026-08-04",
-      "summary": "法院局长索贿骚扰，反映体制内监督失效。",
+      "summary": "法院局长索贿骚扰，暴露体制内监督缺失。",
       "tags": [
         "司法腐败",
         "体制监督"
@@ -2068,31 +2960,32 @@
       "title": "中国信达发布盈利警告：上半年净利润同比下降约20%至25%",
       "source": "财新网",
       "category": "公司公告",
-      "stars": 3,
+      "stars": 4,
       "time": "17:44",
       "date": "2026-08-04",
-      "summary": "信达上半年净利预降20%-25%，业绩承压。",
+      "summary": "信达上半年净利预降20%-25%，受经济下行和房地产低迷影响。",
       "tags": [
         "中国信达",
         "盈利警告",
-        "AMC"
+        "AMC",
+        "房地产"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-04/102471191.html"
     },
     {
       "id": "a6bb1a303d31",
-      "title": "工信部叫停废旧动力电池梯次利用 强化质量安全标准",
+      "title": "工信部叫停废旧动力电池梯次利用，强化质量安全标准",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 4,
+      "stars": 5,
       "time": "17:25",
       "date": "2026-08-04",
-      "summary": "工信部加强动力电池回收监管，提升安全标准。",
+      "summary": "工信部加强废旧电池梯次利用监管，提升安全标准。",
       "tags": [
         "动力电池",
         "梯次利用",
-        "政策监管"
+        "质量安全"
       ],
       "watched": false,
       "url": "https://www.caixin.com/2026-08-04/102471177.html"
@@ -2183,10 +3076,10 @@
     },
     {
       "id": "54ee3efb05aa",
-      "title": "河南“三支一扶”考试舞弊 人事考试中心负责人停职",
+      "title": "河南三支一扶考试舞弊，人事考试中心负责人停职",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 2,
       "time": "17:14",
       "date": "2026-08-04",
       "summary": "河南三支一扶考试舞弊，负责人停职，警方介入。",
@@ -2936,10 +3829,10 @@
       "title": "涉案财产问题应为刑诉法修改重中之重",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "16:43",
       "date": "2026-08-04",
-      "summary": "刑诉法修改应重视财产权保护，避免重人权轻财权问题。",
+      "summary": "刑诉法修改应重视财产权，防止远洋捕捞等问题。",
       "tags": [
         "刑诉法",
         "财产权"
@@ -3019,10 +3912,10 @@
       "title": "国际足联主席因凡蒂诺急撤出售股权提案 连任之路蒙上阴影",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 4,
+      "stars": 3,
       "time": "16:34",
       "date": "2026-08-04",
-      "summary": "因凡蒂诺撤提案，连任受阻，欧足联欲结束其任期。",
+      "summary": "因凡蒂诺撤提案，连任受质疑，欧足联欲换帅。",
       "tags": [
         "国际足联",
         "因凡蒂诺",
@@ -3123,7 +4016,7 @@
       "stars": 3,
       "time": "16:18",
       "date": "2026-08-04",
-      "summary": "AI游戏增多，投资人提醒注重创新和真实需求。",
+      "summary": "游戏公司应专注内容创新，而非仅靠AI技术。",
       "tags": [
         "AI",
         "游戏",
@@ -3134,13 +4027,13 @@
     },
     {
       "id": "26de2ce0a9af",
-      "title": "美国25个民主党主政州起诉挑战特朗普新全球关税",
+      "title": "美国25州起诉特朗普新关税",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 5,
       "time": "15:57",
       "date": "2026-08-04",
-      "summary": "25州起诉特朗普关税，要求停止征收并退还已缴税款。",
+      "summary": "25个民主党州起诉特朗普新关税，要求停止征收并退款。",
       "tags": [
         "美国",
         "关税",
@@ -3151,16 +4044,16 @@
     },
     {
       "id": "c5390b9e9bc2",
-      "title": "晋煤富豪张新明再遭公诉 涉组织领导黑社会性质组织等17宗罪名",
+      "title": "晋煤富豪张新明再遭公诉 涉黑等17宗罪名",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "15:54",
       "date": "2026-08-04",
-      "summary": "晋煤富豪张新明因涉黑等17项罪名再被公诉，曾因行贿骗贷获刑。",
+      "summary": "晋煤富豪张新明涉黑被公诉，非法获利8亿。",
       "tags": [
         "张新明",
-        "黑社会",
+        "涉黑",
         "公诉"
       ],
       "watched": false,
@@ -7493,911 +8386,6 @@
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103303740.html"
-    },
-    {
-      "id": "b9456507682c",
-      "title": "投行：日本使用美联储工具或考验日元决心",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "03:32",
-      "date": "2026-08-04",
-      "summary": "日本或借美联储工具避免抛美债，但长期依赖或引市场试探。",
-      "tags": [
-        "日本",
-        "美联储",
-        "日元",
-        "美债"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144335"
-    },
-    {
-      "id": "e9fdd8c7d5d9",
-      "title": "塔可钟召回前数周已与密歇根州沟通寄生虫疫情",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "03:32",
-      "date": "2026-08-04",
-      "summary": "塔可钟在召回前数周已与州卫生部门沟通寄生虫疫情。",
-      "tags": [
-        "食品安全",
-        "疫情",
-        "召回"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144336"
-    },
-    {
-      "id": "6e0eaae9c901",
-      "title": "美国参议院领袖达成两党协议确保政府资金",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "03:31",
-      "date": "2026-08-04",
-      "summary": "美国两党协议避免政府停摆，利好市场稳定。",
-      "tags": [
-        "美国政治",
-        "政府资金",
-        "两党协议"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103303738.html"
-    },
-    {
-      "id": "60549a6e48dc",
-      "title": "美军继续海上封锁伊朗，已改变44艘商船航线",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "03:30",
-      "date": "2026-08-04",
-      "summary": "美军强化对伊封锁，影响航运及油价，关注地缘风险。",
-      "tags": [
-        "地缘政治",
-        "航运",
-        "油价"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103303736.html"
-    },
-    {
-      "id": "99c800d341db",
-      "title": "全美25州提起诉讼，反对美政府最新关税措施",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "03:29",
-      "date": "2026-08-04",
-      "summary": "美国25州起诉政府，反对最新关税措施，称其超出权限。",
-      "tags": [
-        "美国",
-        "关税",
-        "诉讼"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144334"
-    },
-    {
-      "id": "ce19da65ec29",
-      "title": "日元亚太早盘显著拉升",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "03:28",
-      "date": "2026-08-04",
-      "summary": "日元早盘拉升，美元兑日元跌至156.85。",
-      "tags": [
-        "日元",
-        "汇率"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144333"
-    },
-    {
-      "id": "6bfc6f309253",
-      "title": "美元指数持平，交投区间99.418-100.017",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "03:25",
-      "date": "2026-08-04",
-      "summary": "美元指数持平，日内震荡上扬。",
-      "tags": [
-        "美元指数",
-        "外汇市场"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144332"
-    },
-    {
-      "id": "7e6103c85e51",
-      "title": "纽约可可期货涨约9.4%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "03:23",
-      "date": "2026-08-04",
-      "summary": "纽约可可期货大涨9.4%，其他农产品涨跌互现。",
-      "tags": [
-        "可可期货",
-        "农产品",
-        "海外市场"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144331"
-    },
-    {
-      "id": "a462699b5356",
-      "title": "伊朗高级官员：不允许美在霍尔木兹海峡开辟非伊朗航线",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "03:17",
-      "date": "2026-08-04",
-      "summary": "伊朗强硬表态，威胁攻击美军舰，地缘风险升温。",
-      "tags": [
-        "伊朗",
-        "霍尔木兹海峡",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144330"
-    },
-    {
-      "id": "f36b81cb8a88",
-      "title": "伊朗顾问警告美国：若不撤销封锁，美军基地和战舰将成打击目标",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "03:16",
-      "date": "2026-08-04",
-      "summary": "伊朗警告美国若不解除封锁将打击美军基地，地缘风险升级。",
-      "tags": [
-        "伊朗",
-        "美国",
-        "地缘政治",
-        "军事冲突"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144329"
-    },
-    {
-      "id": "e95bb1acfb31",
-      "title": "芝加哥玉米小麦期货涨超1.9%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "03:16",
-      "date": "2026-08-04",
-      "summary": "芝加哥谷物期货普涨，玉米小麦领涨超1.9%。",
-      "tags": [
-        "期货",
-        "农产品",
-        "海外市场"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144328"
-    },
-    {
-      "id": "6db8d976d1a0",
-      "title": "伊朗警告：若开辟霍尔木兹海峡第二航道将打击军舰",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "03:15",
-      "date": "2026-08-04",
-      "summary": "伊朗警告若军舰进入霍尔木兹海峡开辟新航道将遭打击，地缘风险升级。",
-      "tags": [
-        "伊朗",
-        "霍尔木兹海峡",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144327"
-    },
-    {
-      "id": "adf956d4c794",
-      "title": "全美25州起诉美政府最新关税措施",
-      "source": "财联社电报",
-      "category": "宏观政策",
-      "stars": 5,
-      "time": "03:11",
-      "date": "2026-08-04",
-      "summary": "美国25州联合起诉政府，反对新关税，称其违法。",
-      "tags": [
-        "美国",
-        "关税",
-        "诉讼"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "8ae0d9454a2c",
-      "title": "美国财政部上调季度借款预估至7390亿美元",
-      "source": "财联社电报",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "03:04",
-      "date": "2026-08-04",
-      "summary": "美国财政部上调本季度借款预估，因现金流预期下调。",
-      "tags": [
-        "美国财政部",
-        "借款预估",
-        "现金流"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "fdf0eaee7bed",
-      "title": "在岸人民币兑美元较上周五夜盘收盘跌35点",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "03:04",
-      "date": "2026-08-04",
-      "summary": "在岸人民币兑美元收报6.7560元，较上周五夜盘跌35点。",
-      "tags": [
-        "人民币",
-        "汇率"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "c9ee339daed6",
-      "title": "伊朗高官：不允许美国在霍尔木兹海峡开辟非伊朗航线",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "02:54",
-      "date": "2026-08-04",
-      "summary": "伊朗强硬表态，威胁攻击美舰，地缘风险升级。",
-      "tags": [
-        "伊朗",
-        "霍尔木兹海峡",
-        "地缘政治",
-        "原油"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "1a808202bbc3",
-      "title": "泽连斯基解除多名驻外大使职务",
-      "source": "财联社电报",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "02:43",
-      "date": "2026-08-04",
-      "summary": "乌克兰总统解除多名大使职务，对A股影响甚微。",
-      "tags": [
-        "乌克兰",
-        "外交人事变动"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "5e19b0e485fa",
-      "title": "国际原油期货结算价收跌约5%",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "02:31",
-      "date": "2026-08-04",
-      "summary": "国际油价大跌5%，WTI和布伦特均显著下挫。",
-      "tags": [
-        "原油",
-        "期货",
-        "油价下跌"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "d12160c80597",
-      "title": "美银：美联储若说不清抗通胀方案，美债将重拾跌势",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "02:30",
-      "date": "2026-08-04",
-      "summary": "美银警告，若美联储不明确抗通胀路径，美债跌势或重现。",
-      "tags": [
-        "美联储",
-        "美债",
-        "通胀"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "2904306e358c",
-      "title": "西班牙警方：约7.35万名移民已从休达返回摩洛哥",
-      "source": "财联社电报",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "02:21",
-      "date": "2026-08-04",
-      "summary": "西班牙移民危机缓解，休达秩序恢复，对金融市场影响有限。",
-      "tags": [
-        "移民",
-        "西班牙",
-        "摩洛哥"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "5b4b6c21127d",
-      "title": "特朗普批评石油公司赚太多",
-      "source": "财联社电报",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:17",
-      "date": "2026-08-04",
-      "summary": "特朗普称石油公司赚太多，或影响油价预期。",
-      "tags": [
-        "特朗普",
-        "石油公司",
-        "油价"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "ce73a3dfc165",
-      "title": "特朗普：若霍尔木兹海峡收费，应由美国收取",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:14",
-      "date": "2026-08-04",
-      "summary": "特朗普称美国将控制霍尔木兹海峡收费权，地缘风险升级。",
-      "tags": [
-        "特朗普",
-        "霍尔木兹海峡",
-        "地缘政治",
-        "油价"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144306"
-    },
-    {
-      "id": "d16914bd31f7",
-      "title": "特朗普称霍尔木兹海峡或明天重开，纳指涨幅扩大至2%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:13",
-      "date": "2026-08-04",
-      "summary": "特朗普称霍尔木兹海峡或明天重开，纳指涨2%。",
-      "tags": [
-        "霍尔木兹海峡",
-        "特朗普",
-        "纳斯达克"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144305"
-    },
-    {
-      "id": "5412280f3ffa",
-      "title": "特朗普：若他国在霍尔木兹海峡收费，美国也将收费",
-      "source": "格隆汇",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "02:13",
-      "date": "2026-08-04",
-      "summary": "特朗普威胁对霍尔木兹海峡收费，影响油价和航运。",
-      "tags": [
-        "特朗普",
-        "霍尔木兹海峡",
-        "油价"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590375"
-    },
-    {
-      "id": "eab108341229",
-      "title": "特朗普：若他国在霍尔木兹海峡收费，美国也将收费",
-      "source": "金十数据",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:12",
-      "date": "2026-08-04",
-      "summary": "特朗普威胁对霍尔木兹海峡收费，地缘风险升温。",
-      "tags": [
-        "特朗普",
-        "霍尔木兹海峡",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "d24581058449",
-      "title": "特朗普：不会让伊朗在霍尔木兹海峡收取费用",
-      "source": "金十数据",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "02:12",
-      "date": "2026-08-04",
-      "summary": "特朗普强硬表态，地缘风险升温，油价或受提振。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "霍尔木兹海峡",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "a9c85bb2f032",
-      "title": "特朗普：不会让伊朗在霍尔木兹海峡收取费用",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:12",
-      "date": "2026-08-04",
-      "summary": "特朗普表态阻止伊朗收费，地缘风险或影响油价。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "霍尔木兹海峡",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590374"
-    },
-    {
-      "id": "20b718817347",
-      "title": "特朗普：美国代理司法部长布兰奇将会做得很好",
-      "source": "格隆汇",
-      "category": "市场情绪",
-      "stars": 2,
-      "time": "02:12",
-      "date": "2026-08-04",
-      "summary": "特朗普表态支持代理司法部长，市场影响有限。",
-      "tags": [
-        "特朗普",
-        "美国政治"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590373"
-    },
-    {
-      "id": "76cc996985de",
-      "title": "特朗普：伊朗谈判第二阶段为去核化",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:07",
-      "date": "2026-08-04",
-      "summary": "特朗普称伊朗谈判下一阶段聚焦去核化，地缘风险或影响市场。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "去核化",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590372"
-    },
-    {
-      "id": "093afefd6410",
-      "title": "特朗普：霍尔木兹海峡可能最迟明天重新开放",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 5,
-      "time": "02:06",
-      "date": "2026-08-04",
-      "summary": "特朗普称霍尔木兹海峡或明天重开，影响全球油市。",
-      "tags": [
-        "特朗普",
-        "霍尔木兹海峡",
-        "原油",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590371"
-    },
-    {
-      "id": "f9b7476cb286",
-      "title": "特朗普：霍尔木兹海峡可能最迟明天重新开放",
-      "source": "金十数据",
-      "category": "海外联动",
-      "stars": 5,
-      "time": "02:05",
-      "date": "2026-08-04",
-      "summary": "特朗普称霍尔木兹海峡或明天重开，油价或受冲击。",
-      "tags": [
-        "特朗普",
-        "霍尔木兹海峡",
-        "原油"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "429a87df7b08",
-      "title": "特朗普：霍尔木兹海峡可能最迟明天重开",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 5,
-      "time": "02:05",
-      "date": "2026-08-04",
-      "summary": "特朗普称霍尔木兹海峡或明日重开，影响油价。",
-      "tags": [
-        "霍尔木兹海峡",
-        "特朗普",
-        "伊朗",
-        "油价"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "0f3a1074b90a",
-      "title": "特朗普：无核化谈判将需要一段时间",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "02:04",
-      "date": "2026-08-04",
-      "summary": "特朗普称无核化谈判需时，市场影响有限。",
-      "tags": [
-        "特朗普",
-        "无核化",
-        "谈判"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590369"
-    },
-    {
-      "id": "4131ce2d6975",
-      "title": "特朗普：伊朗谈判进展迅速，今日或明日有结果",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:03",
-      "date": "2026-08-04",
-      "summary": "特朗普称伊朗谈判进展快，结果即将公布，影响市场情绪。",
-      "tags": [
-        "特朗普",
-        "伊朗谈判",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590368"
-    },
-    {
-      "id": "dfed4efaee40",
-      "title": "特朗普：伊朗谈判进展迅速，今日或明日有结果",
-      "source": "金十数据",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:02",
-      "date": "2026-08-04",
-      "summary": "特朗普称伊朗谈判快，今明或有结果，影响油市。",
-      "tags": [
-        "特朗普",
-        "伊朗谈判",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "834d7a50a4cd",
-      "title": "特朗普：这是伊朗的最后机会",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "02:02",
-      "date": "2026-08-04",
-      "summary": "特朗普对伊朗发出最后通牒，地缘风险升温。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590367"
-    },
-    {
-      "id": "a850777f3e21",
-      "title": "特朗普：这是伊朗的最后机会",
-      "source": "金十数据",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:01",
-      "date": "2026-08-04",
-      "summary": "特朗普对伊朗发出最后通牒，地缘风险升温。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "9fd87dcbc646",
-      "title": "特朗普称应伊朗要求进行谈判",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:01",
-      "date": "2026-08-04",
-      "summary": "特朗普表示谈判是应伊朗要求，地缘局势缓和信号。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "谈判"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590366"
-    },
-    {
-      "id": "fb3c906ef8a1",
-      "title": "特朗普：伊朗谈判正在进行中",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "02:00",
-      "date": "2026-08-04",
-      "summary": "特朗普称伊朗谈判进行中，地缘风险或影响市场。",
-      "tags": [
-        "特朗普",
-        "伊朗谈判",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590365"
-    },
-    {
-      "id": "6643c9ae9ac1",
-      "title": "特朗普称应伊朗要求对话，今明两天或知进展",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "01:59",
-      "date": "2026-08-04",
-      "summary": "特朗普称应伊朗要求对话，谈判进展今明揭晓。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "谈判"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144304"
-    },
-    {
-      "id": "84dcd48bc894",
-      "title": "特朗普：伊朗谈判正在进行中",
-      "source": "金十数据",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "01:59",
-      "date": "2026-08-04",
-      "summary": "特朗普称伊朗谈判进行中，地缘风险或扰动市场。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "谈判",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "86b7093ebad7",
-      "title": "特朗普称与伊朗谈判正在进行，今日或明日可知进展",
-      "source": "财联社电报",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "01:59",
-      "date": "2026-08-04",
-      "summary": "特朗普称与伊朗谈判进行中，今日或明日有进展。",
-      "tags": [
-        "特朗普",
-        "伊朗谈判",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "507d72e1e837",
-      "title": "Mousterian与三星重工签署美国浮式数据中心工程合同",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "01:59",
-      "date": "2026-08-04",
-      "summary": "Mousterian与三星重工合作，启动美国浮式数据中心项目。",
-      "tags": [
-        "数据中心",
-        "三星重工",
-        "美国"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "abbbb5c53efa",
-      "title": "Mousterian与三星重工签约，启动美国浮式数据中心项目",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "01:58",
-      "date": "2026-08-04",
-      "summary": "Mousterian与三星重工合作，部署美国浮式数据中心。",
-      "tags": [
-        "数据中心",
-        "三星重工",
-        "美国"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590364"
-    },
-    {
-      "id": "28d698053229",
-      "title": "委内瑞拉代总统称年底前交付4000套住房",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "01:57",
-      "date": "2026-08-04",
-      "summary": "委内瑞拉计划年底前交付4000套住房，对A股影响有限。",
-      "tags": [
-        "委内瑞拉",
-        "住房"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144303"
-    },
-    {
-      "id": "a7543aeba819",
-      "title": "特朗普称赞国防部长赫格塞思表现出色",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 1,
-      "time": "01:56",
-      "date": "2026-08-04",
-      "summary": "特朗普夸国防部长干得好，与股市无关。",
-      "tags": [
-        "特朗普",
-        "国防部长"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590363"
-    },
-    {
-      "id": "666d29aa898b",
-      "title": "特朗普：美国与委内瑞拉冲突顺利，与伊朗冲突进展顺利",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "01:55",
-      "date": "2026-08-04",
-      "summary": "特朗普称美与委、伊冲突顺利，地缘风险或影响市场。",
-      "tags": [
-        "特朗普",
-        "地缘政治",
-        "伊朗",
-        "委内瑞拉"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590362"
-    },
-    {
-      "id": "dcd5e9547079",
-      "title": "Meta受邀赴白宫讨论AI安全测试",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "01:52",
-      "date": "2026-08-04",
-      "summary": "Meta受邀赴白宫谈AI安全，关注海外科技监管动态。",
-      "tags": [
-        "Meta",
-        "AI安全",
-        "白宫"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590360"
-    },
-    {
-      "id": "324dc7cadf28",
-      "title": "巴西6月石油产量创纪录，缓解中东供应中断影响",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "01:51",
-      "date": "2026-08-04",
-      "summary": "巴西石油产量创新高，填补中东缺口。",
-      "tags": [
-        "巴西",
-        "石油产量",
-        "中东供应"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2590359"
-    },
-    {
-      "id": "92552f186c6c",
-      "title": "特朗普：伊朗冲突进展非常顺利",
-      "source": "金十数据",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "01:48",
-      "date": "2026-08-04",
-      "summary": "特朗普称伊朗冲突进展顺利，地缘风险或影响市场。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "15d15d1f1576",
-      "title": "特朗普称美以与伊朗冲突解决方案推进顺利",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "01:48",
-      "date": "2026-08-04",
-      "summary": "特朗普表示美以与伊朗冲突解决方案进展良好。",
-      "tags": [
-        "特朗普",
-        "伊朗",
-        "中东局势"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144302"
-    },
-    {
-      "id": "5378e87a5089",
-      "title": "伊朗经济部长：已制定两年经济韧性计划，预算资金无忧",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "01:47",
-      "date": "2026-08-04",
-      "summary": "伊朗称有两年经济计划，预算没问题。",
-      "tags": [
-        "伊朗",
-        "经济计划"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144301"
-    },
-    {
-      "id": "f5c5f668dc94",
-      "title": "AI热潮持续，新兴市场ETF单周吸金创2月以来新高",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "01:45",
-      "date": "2026-08-04",
-      "summary": "新兴市场ETF单周吸金45亿美元，创2月来新高，AI概念股受追捧。",
-      "tags": [
-        "AI",
-        "新兴市场",
-        "ETF",
-        "资金流入"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3144300"
     }
   ]
 }
