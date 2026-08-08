@@ -1,46 +1,310 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-08-08T12:37:05.416430+08:00",
+  "fetched_at": "2026-08-08T13:43:47.070229+08:00",
   "total_count": 500,
-  "today_count": 280,
+  "today_count": 296,
   "major_count": 144,
-  "watched_count": 10,
+  "watched_count": 12,
   "sources_used": 14,
   "news": [
     {
+      "id": "2b357d2d5f9d",
+      "title": "自然资源部提升浙江地质灾害防御响应至Ⅲ级，启动安徽Ⅳ级响应",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "13:37",
+      "date": "2026-08-08",
+      "summary": "受台风影响，自然资源部提升浙江地质灾害防御响应等级。",
+      "tags": [
+        "地质灾害",
+        "台风",
+        "应急响应"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310611.html"
+    },
+    {
+      "id": "748fa8f155a9",
+      "title": "日媒：中国企业高校研发总投入超美国，居世界第一",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "13:36",
+      "date": "2026-08-08",
+      "summary": "中国研发投入超美国，全球第一，利好科技产业。",
+      "tags": [
+        "研发投入",
+        "中国",
+        "美国"
+      ],
+      "watched": true,
+      "url": "https://www.yicai.com/news/103310607.html"
+    },
+    {
+      "id": "4ee43b415222",
+      "title": "水利部：全国13条河流仍维持超警",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "13:36",
+      "date": "2026-08-08",
+      "summary": "水利部称13条河流超警，未来三天或发编号洪水。",
+      "tags": [
+        "防汛",
+        "洪水"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310609.html"
+    },
+    {
+      "id": "3a367d2e9a7f",
+      "title": "空调业新冷年开盘惯例生变：美的退出，格力、海尔继续",
+      "source": "第一财经",
+      "category": "市场情绪",
+      "stars": 3,
+      "time": "13:34",
+      "date": "2026-08-08",
+      "summary": "空调行业渠道变革，美的退出开盘，格力海尔继续。",
+      "tags": [
+        "空调行业",
+        "渠道变革"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310603.html"
+    },
+    {
+      "id": "cd4ebb6feb42",
+      "title": "90后农民工讨薪涉刑案发回重审",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "13:32",
+      "date": "2026-08-08",
+      "summary": "农民工讨薪涉刑案因事实不清发回重审。",
+      "tags": [
+        "农民工",
+        "讨薪",
+        "司法"
+      ],
+      "watched": false,
+      "url": "https://china.caixin.com/2026-08-08/102472611.html"
+    },
+    {
+      "id": "18f15bc57752",
+      "title": "台风“白海豚”预计9至10日登陆浙闽沿海",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 1,
+      "time": "13:32",
+      "date": "2026-08-08",
+      "summary": "台风“白海豚”将登陆浙闽沿海，注意防范。",
+      "tags": [
+        "台风",
+        "天气"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310605.html"
+    },
+    {
+      "id": "c6b9df841349",
+      "title": "摩根大通：第二季度美欧EPS超预期",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "13:26",
+      "date": "2026-08-08",
+      "summary": "摩根大通称美欧Q2盈利超预期，下调展望比例低。",
+      "tags": [
+        "摩根大通",
+        "财报季",
+        "EPS超预期"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2600908"
+    },
+    {
+      "id": "4691dd5504f1",
+      "title": "湖北首家宇树科技产业学院成立",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 2,
+      "time": "13:22",
+      "date": "2026-08-08",
+      "summary": "湖北成立宇树科技产业学院，培养机器人人才。",
+      "tags": [
+        "宇树科技",
+        "产业学院",
+        "机器人"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2600907"
+    },
+    {
+      "id": "de6052632d28",
+      "title": "央行副行长会见加拿大养老基金高管",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "13:09",
+      "date": "2026-08-08",
+      "summary": "央行副行长会见外资金融机构，交流经济政策。",
+      "tags": [
+        "央行",
+        "外资",
+        "养老基金"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2600905"
+    },
+    {
+      "id": "8f156e170b1b",
+      "title": "阿拉斯加发生5.5级地震",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 1,
+      "time": "12:55",
+      "date": "2026-08-08",
+      "summary": "阿拉斯加地震，对市场影响小。",
+      "tags": [
+        "地震",
+        "阿拉斯加"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2600901"
+    },
+    {
+      "id": "dfae8743a452",
+      "title": "杭台高铁温玉段开通运营",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 2,
+      "time": "12:53",
+      "date": "2026-08-08",
+      "summary": "杭台高铁温玉段开通，玉环进入高铁时代。",
+      "tags": [
+        "高铁",
+        "交通"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2600900"
+    },
+    {
+      "id": "5a3b12a11097",
+      "title": "西澳黑德兰港必和必拓码头工人开始罢工",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "12:48",
+      "date": "2026-08-08",
+      "summary": "必和必拓码头工人罢工24小时，影响待评估。",
+      "tags": [
+        "必和必拓",
+        "罢工",
+        "铁矿石"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2600899"
+    },
+    {
+      "id": "a9996d09c6f3",
+      "title": "四川珙县发生3.4级地震",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 1,
+      "time": "12:43",
+      "date": "2026-08-08",
+      "summary": "四川珙县小地震，无重大影响。",
+      "tags": [
+        "地震",
+        "四川"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310602.html"
+    },
+    {
+      "id": "55b946edbf03",
+      "title": "贵州山脚树矿难近三年 矿长涉罪被罢免人大代表",
+      "source": "财新网",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "12:36",
+      "date": "2026-08-08",
+      "summary": "矿难追责，矿长被罢免人大代表，事件影响有限。",
+      "tags": [
+        "矿难",
+        "追责"
+      ],
+      "watched": false,
+      "url": "https://china.caixin.com/2026-08-08/102472595.html"
+    },
+    {
       "id": "161bbe5d9411",
-      "title": "美官员：霍尔木兹海峡协议预计很快达成",
+      "title": "美官员：霍尔木兹海峡协议或很快达成",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 4,
       "time": "12:32",
       "date": "2026-08-08",
-      "summary": "霍尔木兹海峡协议或达成，油价地缘风险或缓解。",
+      "summary": "美官员称霍尔木兹海峡协议有望很快达成，影响油运。",
       "tags": [
         "霍尔木兹海峡",
         "伊朗",
         "美国",
-        "地缘政治"
+        "原油"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146966"
     },
     {
-      "id": "74317cc22dc6",
-      "title": "贝森特：霍尔木兹海峡将逐步失去战略重要性",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "12:24",
+      "id": "4a5913210dec",
+      "title": "受台风影响福建沿海40条航线停航",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "12:32",
       "date": "2026-08-08",
-      "summary": "美财长称霍尔木兹海峡重要性将下降，能源运输或改道。",
+      "summary": "台风致福建航线停航，影响局部交通。",
+      "tags": [
+        "台风",
+        "停航"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310598.html"
+    },
+    {
+      "id": "74317cc22dc6",
+      "title": "贝森特称霍尔木兹海峡将逐步失去战略重要性",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "12:30",
+      "date": "2026-08-08",
+      "summary": "美财长称霍尔木兹海峡重要性将下降，影响能源运输格局。",
       "tags": [
         "霍尔木兹海峡",
         "能源运输",
         "地缘政治"
       ],
       "watched": false,
-      "url": "https://www.gelonghui.com/live/2600892"
+      "url": "https://www.yicai.com/news/103310596.html"
+    },
+    {
+      "id": "a6185e608cbe",
+      "title": "非农意外负值，美联储鹰派或歇，市场异动频发",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "12:30",
+      "date": "2026-08-08",
+      "summary": "非农爆冷，美联储或转鸽，市场多事之秋。",
+      "tags": [
+        "非农",
+        "美联储",
+        "市场异动"
+      ],
+      "watched": false,
+      "url": "https://xnews.jin10.com/details/226891"
     },
     {
       "id": "e101c6af24ea",
@@ -54,7 +318,8 @@
       "tags": [
         "星链",
         "马斯克",
-        "乌克兰"
+        "乌克兰",
+        "俄罗斯"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146964"
@@ -67,7 +332,7 @@
       "stars": 3,
       "time": "12:13",
       "date": "2026-08-08",
-      "summary": "国内金饰价格回升，周生生等品牌报价超1300元/克。",
+      "summary": "国内金饰价格重回1300元，周生生报1315元/克。",
       "tags": [
         "黄金",
         "金饰价格"
@@ -83,7 +348,7 @@
       "stars": 3,
       "time": "12:04",
       "date": "2026-08-08",
-      "summary": "德银预计英国二季度GDP增速0.4%，但下行风险增加。",
+      "summary": "德银预计英国二季度GDP增长0.4%，但下行风险增加。",
       "tags": [
         "英国GDP",
         "德意志银行"
@@ -115,11 +380,11 @@
       "stars": 3,
       "time": "12:03",
       "date": "2026-08-08",
-      "summary": "市场监管总局发布数据，新兴产业企业增长稳定。",
+      "summary": "上半年新兴产业新设企业40万户，新质生产力发展势头良好。",
       "tags": [
         "新兴产业",
         "经营主体",
-        "政策数据"
+        "新质生产力"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2600884"
@@ -129,10 +394,10 @@
       "title": "禁令让铜价飞涨，但效果可能被夸大了！",
       "source": "金十数据",
       "category": "市场异动",
-      "stars": 3,
+      "stars": 4,
       "time": "12:02",
       "date": "2026-08-08",
-      "summary": "刚果和印尼禁令推高铜价，但实际影响有限，需警惕市场炒作。",
+      "summary": "刚果和印尼禁令推高铜价，但实际影响或有限，需警惕市场炒作。",
       "tags": [
         "铜价",
         "禁令",
@@ -182,10 +447,11 @@
       "stars": 2,
       "time": "11:56",
       "date": "2026-08-08",
-      "summary": "特朗普回应弹劾传闻，自夸政绩，市场影响有限。",
+      "summary": "特朗普自夸政绩，投资额称史上最高，但无实质市场影响。",
       "tags": [
         "特朗普",
-        "政治"
+        "政治言论",
+        "投资"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2600878"
@@ -198,10 +464,10 @@
       "stars": 3,
       "time": "11:46",
       "date": "2026-08-08",
-      "summary": "交通部启动台风二级响应，浙江沿海停航停运。",
+      "summary": "交通运输部提升台风防御至二级，浙江沿海停航停运。",
       "tags": [
         "台风",
-        "交通",
+        "交通运输",
         "停航"
       ],
       "watched": false,
@@ -215,7 +481,7 @@
       "stars": 2,
       "time": "11:43",
       "date": "2026-08-08",
-      "summary": "国铁南昌局启动应急响应应对台风，停运部分列车。",
+      "summary": "国铁南昌局应对台风启动应急响应，停运部分列车。",
       "tags": [
         "台风",
         "铁路",
@@ -226,10 +492,10 @@
     },
     {
       "id": "c1fdcc6d36f0",
-      "title": "乌称基辅拉响防空警报 俄称多地有导弹来袭",
+      "title": "基辅拉响防空警报，俄多地导弹来袭",
       "source": "华尔街见闻",
       "category": "海外联动",
-      "stars": 4,
+      "stars": 3,
       "time": "11:38",
       "date": "2026-08-08",
       "summary": "俄乌冲突升级，多地防空警报，影响市场情绪。",
@@ -243,17 +509,17 @@
     },
     {
       "id": "729fdb7c4ab8",
-      "title": "朋友圈AI功能灰度测试，腾讯客服回应逐步开放",
+      "title": "微信灰度测试朋友圈AI功能，腾讯客服回应",
       "source": "格隆汇",
       "category": "市场异动",
       "stars": 2,
       "time": "11:36",
       "date": "2026-08-08",
-      "summary": "微信朋友圈AI功能灰度测试中，腾讯客服称逐步开放。",
+      "summary": "微信朋友圈AI功能灰度测试中，影响有限。",
       "tags": [
         "微信",
         "AI",
-        "腾讯"
+        "灰度测试"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2600871"
@@ -263,14 +529,14 @@
       "title": "哥伦比亚新总统宣布加强打击毒品犯罪",
       "source": "第一财经",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "11:30",
       "date": "2026-08-08",
-      "summary": "哥伦比亚新总统宣布将加强打击毒品犯罪，恢复国家安全。",
+      "summary": "哥伦比亚新总统宣布将加强打击毒品犯罪，影响全球毒品市场。",
       "tags": [
         "哥伦比亚",
         "毒品犯罪",
-        "国家安全"
+        "政策"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103310582.html"
@@ -286,7 +552,8 @@
       "summary": "香港保监局称关注内地税务政策，市场勿过度解读。",
       "tags": [
         "香港保险",
-        "税务政策"
+        "税务",
+        "监管回应"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2600868"
@@ -310,13 +577,13 @@
     },
     {
       "id": "76845f708af6",
-      "title": "北京楼市新政：非京籍五环内购房社保降至一年，公积金最高可贷340万",
+      "title": "北京楼市新政：非京籍五环内社保降至一年，公积金最高可贷340万",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "11:12",
       "date": "2026-08-08",
-      "summary": "北京优化楼市政策，降低非京籍购房门槛，提高公积金贷款额度。",
+      "summary": "北京放宽购房社保要求，公积金贷款额度提高，利好楼市。",
       "tags": [
         "北京楼市",
         "购房政策",
@@ -327,30 +594,30 @@
     },
     {
       "id": "aeca454aadb2",
-      "title": "寒武纪上半年净利润翻倍，但营收增速放缓",
+      "title": "寒武纪上半年净利润同比翻倍 营收增速逐季放缓",
       "source": "财新网",
       "category": "公司公告",
-      "stars": 4,
+      "stars": 3,
       "time": "11:07",
       "date": "2026-08-08",
-      "summary": "寒武纪中报净利大增，但增速放缓且遭下调目标价。",
+      "summary": "寒武纪中报净利翻倍但增速放缓，摩根士丹利下调目标价。",
       "tags": [
         "寒武纪",
         "业绩",
-        "AI芯片"
+        "目标价"
       ],
       "watched": true,
       "url": "https://www.caixin.com/2026-08-08/102472531.html"
     },
     {
       "id": "bbefb51a533d",
-      "title": "泰国学生枪击案及难民涌入西班牙飞地",
+      "title": "泰国学生枪杀案及难民涌入西班牙飞地",
       "source": "财新网",
       "category": "海外联动",
-      "stars": 1,
+      "stars": 2,
       "time": "11:07",
       "date": "2026-08-08",
-      "summary": "泰国校园枪击和西班牙难民事件，与金融市场无关。",
+      "summary": "泰国校园枪击和西班牙难民危机，与A股关联度低。",
       "tags": [
         "国际事件",
         "社会新闻"
@@ -369,8 +636,8 @@
       "summary": "台风白海豚将登陆，多省暴雨，气象局升级应急响应。",
       "tags": [
         "台风",
-        "暴雨",
-        "应急响应"
+        "应急响应",
+        "暴雨"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103310580.html"
@@ -383,7 +650,7 @@
       "stars": 1,
       "time": "11:06",
       "date": "2026-08-08",
-      "summary": "陕西柞水发生泥石流，已致2人死亡，1人失联。",
+      "summary": "陕西柞水泥石流致2死1失联，搜救进行中。",
       "tags": [
         "自然灾害",
         "陕西"
@@ -399,7 +666,7 @@
       "stars": 2,
       "time": "11:05",
       "date": "2026-08-08",
-      "summary": "加纳内阁调整，填补坠机遇难空缺，影响有限。",
+      "summary": "加纳内阁调整，无关A股，信息量低。",
       "tags": [
         "加纳",
         "内阁调整"
@@ -409,13 +676,13 @@
     },
     {
       "id": "2ac8e2ffd6dd",
-      "title": "雪佛兰或退出中国市场，通用汽车未正面回应",
+      "title": "雪佛兰或退出中国市场？通用汽车未正面回应",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 3,
       "time": "11:03",
       "date": "2026-08-08",
-      "summary": "雪佛兰可能停止在华销售，通用未明确回应。",
+      "summary": "雪佛兰可能停售，通用未明确回应，但续约上汽通用。",
       "tags": [
         "雪佛兰",
         "通用汽车",
@@ -432,7 +699,7 @@
       "stars": 3,
       "time": "10:55",
       "date": "2026-08-08",
-      "summary": "全球首款千安时储能电芯下线，产业园量产填补空白。",
+      "summary": "全球首款千安时长时储能电芯在菏泽量产，填补山东空白。",
       "tags": [
         "储能",
         "新能源",
@@ -449,11 +716,11 @@
       "stars": 3,
       "time": "10:54",
       "date": "2026-08-08",
-      "summary": "深圳出台19条措施优化口岸营商环境，提升贸易便利化。",
+      "summary": "深圳出台19条措施优化口岸营商环境，提升通关效率。",
       "tags": [
+        "深圳",
         "口岸",
-        "营商环境",
-        "深圳"
+        "营商环境"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146958"
@@ -466,7 +733,7 @@
       "stars": 3,
       "time": "10:53",
       "date": "2026-08-08",
-      "summary": "伦理学家强调临床试验安全第一，批评伦理审查失职。",
+      "summary": "伦理学家强调临床研究安全第一，批评伦理审查失职。",
       "tags": [
         "基因编辑",
         "临床试验",
@@ -513,14 +780,14 @@
       "title": "伊朗总统称与美谈判从未让步",
       "source": "第一财经",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "10:47",
       "date": "2026-08-08",
-      "summary": "伊朗总统称对美谈判未让步，呼吁伊斯兰团结。",
+      "summary": "伊朗总统强调谈判未让步，呼吁伊斯兰国家团结，地缘风险升温。",
       "tags": [
         "伊朗",
         "美国",
-        "谈判"
+        "地缘政治"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103310534.html"
@@ -561,7 +828,7 @@
     },
     {
       "id": "67cc5046072b",
-      "title": "土耳其称沙土巴防务协议与北约不冲突",
+      "title": "土耳其称沙土巴防务协议与北约条款不冲突",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 3,
@@ -769,10 +1036,10 @@
       "stars": 2,
       "time": "10:00",
       "date": "2026-08-08",
-      "summary": "央企高管被查，影响有限。",
+      "summary": "东方电气原高管被查，反腐消息，对市场影响有限。",
       "tags": [
-        "央企反腐",
-        "东方电气"
+        "反腐",
+        "央企"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146955"
@@ -814,30 +1081,31 @@
       "title": "中国大宗商品指数周涨1.19% 白银领涨9.61%",
       "source": "财新网",
       "category": "市场异动",
-      "stars": 3,
+      "stars": 4,
       "time": "09:55",
       "date": "2026-08-08",
-      "summary": "大宗商品指数上涨，白银领涨，宏观与现货共振。",
+      "summary": "宏观利多与现货偏紧共振，银价突破上行。",
       "tags": [
         "大宗商品",
-        "白银"
+        "白银",
+        "上涨"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-08/102472486.html"
     },
     {
       "id": "8b55823fd3b5",
-      "title": "东北禁止新能源跨集团集中报价",
+      "title": "东北明确新能源集中报价仅限同省同集团",
       "source": "华尔街见闻",
       "category": "宏观政策",
       "stars": 4,
       "time": "09:54",
       "date": "2026-08-08",
-      "summary": "东北新能源报价新规，仅限同省同集团，影响市场。",
+      "summary": "东北新能源报价新规，禁止跨集团跨省抬价。",
       "tags": [
         "新能源",
-        "电力政策",
-        "东北"
+        "电力市场",
+        "监管政策"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146954"
@@ -916,12 +1184,12 @@
       "stars": 4,
       "time": "09:28",
       "date": "2026-08-08",
-      "summary": "英伟达将投资30亿美元给黑石支持的电力公司Lancium，该公司为Stargate供电。",
+      "summary": "英伟达拟投30亿美元给黑石支持的电力公司，助力AI算力。",
       "tags": [
         "英伟达",
         "黑石",
         "Lancium",
-        "Stargate"
+        "AI算力"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146953"
@@ -995,17 +1263,17 @@
     },
     {
       "id": "2fd4b92127e7",
-      "title": "上海国投先导投资智微凌峰基金",
+      "title": "上海国投先导参与投资智微凌峰基金",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 3,
       "time": "09:12",
       "date": "2026-08-08",
-      "summary": "上海国资联合半导体龙头设30亿基金，聚焦卡脖子领域。",
+      "summary": "上海国投投资半导体基金，聚焦卡脖子领域。",
       "tags": [
         "半导体",
-        "产业基金",
-        "国资"
+        "产业资本",
+        "基金投资"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146952"
@@ -1102,11 +1370,11 @@
       "stars": 4,
       "time": "09:03",
       "date": "2026-08-08",
-      "summary": "美联储理事沃什言论引发市场疑虑，影响政策预期。",
+      "summary": "沃什淡化利率工具，引发市场疑虑。",
       "tags": [
         "美联储",
         "货币政策",
-        "市场预期"
+        "信任危机"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-08/102472462.html"
@@ -1115,7 +1383,7 @@
       "id": "bd7ffd1ef12b",
       "title": "韩国股市高杠杆镜鉴",
       "source": "财新网",
-      "category": "海外联动",
+      "category": "宏观政策",
       "stars": 4,
       "time": "09:01",
       "date": "2026-08-08",
@@ -1152,7 +1420,7 @@
       "stars": 4,
       "time": "08:59",
       "date": "2026-08-08",
-      "summary": "绿色信贷从规模扩张转向高质量发展，政策驱动减弱。",
+      "summary": "绿色信贷转向高质量发展，政策驱动减弱。",
       "tags": [
         "绿色信贷",
         "高质量发展",
@@ -1203,11 +1471,11 @@
       "stars": 3,
       "time": "08:57",
       "date": "2026-08-08",
-      "summary": "美国计划年底测试天基反导系统，2027年飞行测试。",
+      "summary": "美国计划年底测试天基反导系统，关注军工航天板块。",
       "tags": [
-        "美国",
         "反导系统",
-        "军事"
+        "军工",
+        "航天"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146949"
@@ -1220,7 +1488,7 @@
       "stars": 4,
       "time": "08:55",
       "date": "2026-08-08",
-      "summary": "日本防卫省计划申请8.9万亿日元防卫预算，创历史新高。",
+      "summary": "日本防卫省申请创纪录预算，或影响亚太安全格局。",
       "tags": [
         "日本",
         "防卫预算",
@@ -1231,7 +1499,7 @@
     },
     {
       "id": "25a06bc34eff",
-      "title": "海南爆发历史最大赤潮 渔业基础研究与防范应对亟待提升",
+      "title": "海南爆发历史最大赤潮 渔业研究防范亟待提升",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
@@ -1242,7 +1510,7 @@
         "赤潮",
         "海南",
         "渔业",
-        "海洋牧场"
+        "环境保护"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-08/102472458.html"
@@ -1305,11 +1573,11 @@
       "stars": 3,
       "time": "08:51",
       "date": "2026-08-08",
-      "summary": "AI推动游戏数量爆发，中国市场成应用场景。",
+      "summary": "AI推动游戏数量爆发，中国市场成落地场景。",
       "tags": [
         "生成式AI",
         "游戏开发",
-        "盗版"
+        "中国市场"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-08/102472456.html"
@@ -1335,17 +1603,17 @@
       "id": "52d01845bc15",
       "title": "AI基建带动光通信需求爆发，中国产业链机遇与挑战并存",
       "source": "财新网",
-      "category": "市场情绪",
+      "category": "宏观政策",
       "stars": 4,
       "time": "08:48",
       "date": "2026-08-08",
-      "summary": "AI基建拉动光通信需求，中国产业链面临机遇与挑战。",
+      "summary": "AI基建拉动光通信需求，中国产业链面临机遇和挑战。",
       "tags": [
         "AI基建",
         "光通信",
-        "产业链"
+        "中际旭创"
       ],
-      "watched": false,
+      "watched": true,
       "url": "https://database.caixin.com/2026-08-08/102472455.html"
     },
     {
@@ -1373,7 +1641,7 @@
       "stars": 3,
       "time": "08:48",
       "date": "2026-08-08",
-      "summary": "黎以谈判在边界和人员获释上有进展，但停火等议题待解。",
+      "summary": "黎以谈判在边界和人员获释上取得积极进展。",
       "tags": [
         "黎巴嫩",
         "以色列",
@@ -1441,11 +1709,11 @@
       "stars": 4,
       "time": "08:43",
       "date": "2026-08-08",
-      "summary": "社保缴费基数合规与减负矛盾凸显，政策执行需平衡。",
+      "summary": "社保缴费基数严查，企业合规与减负矛盾凸显。",
       "tags": [
-        "社保缴费",
-        "企业减负",
-        "政策平衡"
+        "社保",
+        "缴费基数",
+        "企业减负"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-08/102472454.html"
@@ -1590,13 +1858,13 @@
       "title": "浙江海事局启动沿海Ⅰ级防台应急响应",
       "source": "华尔街见闻",
       "category": "海外联动",
-      "stars": 3,
+      "stars": 2,
       "time": "08:31",
       "date": "2026-08-08",
-      "summary": "台风白海豚来袭，浙江启动一级防台响应。",
+      "summary": "台风影响浙江沿海，海事局启动一级响应。",
       "tags": [
         "台风",
-        "防台应急"
+        "海事"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3146946"
@@ -1638,7 +1906,7 @@
     },
     {
       "id": "d3ff7561b036",
-      "title": "贷款利率定价基准换锚 利率市场化再进一步",
+      "title": "贷款利率定价基准“换锚” 利率市场化再进一步",
       "source": "华尔街见闻",
       "category": "宏观政策",
       "stars": 4,
@@ -1788,16 +2056,17 @@
     },
     {
       "id": "f028ab3720c9",
-      "title": "青少年乒乓球赛事现严重赛风赛纪问题，乒协发文",
+      "title": "财新闻｜青少年乒乓球赛事现严重赛风赛纪问题，乒协发文",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 1,
       "time": "08:15",
       "date": "2026-08-08",
-      "summary": "乒协针对青少年赛事赛风赛纪问题发文，与金融无关。",
+      "summary": "乒协发文整治赛风赛纪，另有U17足球晋级、金价预测等新闻。",
       "tags": [
         "乒乓球",
-        "赛风赛纪"
+        "赛风赛纪",
+        "乒协"
       ],
       "watched": false,
       "url": "https://mini.caixin.com/2026-08-08/102472450.html"
@@ -1824,14 +2093,13 @@
       "title": "全国人大常委会：六名将领涉嫌严重违纪违法被罢免全国人大代表",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "08:06",
       "date": "2026-08-08",
-      "summary": "六名将领因违纪违法被罢免人大代表资格。",
+      "summary": "六名将领因违纪违法被罢免人大代表资格，反映军队反腐力度。",
       "tags": [
-        "违纪违法",
-        "人大代表",
-        "军队"
+        "军队反腐",
+        "人大罢免"
       ],
       "watched": false,
       "url": "https://china.caixin.com/2026-08-08/102472447.html"
@@ -8139,274 +8407,6 @@
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103310065.html"
-    },
-    {
-      "id": "44de14099ded",
-      "title": "宁波航运交易所：南美西航线运价大涨，运价指数周涨16.3%",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "19:24",
-      "date": "2026-08-07",
-      "summary": "本周南美西航线运价大涨，宁波出口集装箱运价指数周涨3.2%。",
-      "tags": [
-        "航运",
-        "运价指数"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2599979"
-    },
-    {
-      "id": "90a1c032505d",
-      "title": "泰凌微终止发行股份购买资产并撤回申请",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "19:20",
-      "date": "2026-08-07",
-      "summary": "泰凌微终止收购磐启微电子，撤回申请文件。",
-      "tags": [
-        "并购重组",
-        "终止"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310069.html"
-    },
-    {
-      "id": "e86b78544663",
-      "title": "奥康国际上半年扭亏为盈",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "19:20",
-      "date": "2026-08-07",
-      "summary": "奥康国际上半年净利1757万，同比扭亏，但营收降近三成。",
-      "tags": [
-        "奥康国际",
-        "半年报",
-        "扭亏为盈"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310067.html"
-    },
-    {
-      "id": "b3a3ffdbba4a",
-      "title": "立昂微拟3.18亿元受让金瑞泓11.47%股权",
-      "source": "华尔街见闻",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "19:19",
-      "date": "2026-08-07",
-      "summary": "立昂微3.18亿收购金瑞泓部分股权。",
-      "tags": [
-        "立昂微",
-        "股权转让"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3146691"
-    },
-    {
-      "id": "7462ac26245a",
-      "title": "沪指四连阳，短期能否上攻4000点？",
-      "source": "第一财经",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "19:19",
-      "date": "2026-08-07",
-      "summary": "沪指连涨四天，市场关注能否突破4000点。",
-      "tags": [
-        "沪指",
-        "4000点",
-        "四连阳"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310057.html"
-    },
-    {
-      "id": "548b2e08d272",
-      "title": "央行7月增持黄金近20吨，储备超7600万盎司",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "19:18",
-      "date": "2026-08-07",
-      "summary": "央行连续增持黄金，储备创新高，利好金价。",
-      "tags": [
-        "央行",
-        "黄金储备",
-        "增持"
-      ],
-      "watched": false,
-      "url": "https://finance.caixin.com/2026-08-07/102472383.html"
-    },
-    {
-      "id": "86d51a3875d6",
-      "title": "非农预期与失业率数据将影响美联储政策重新定价",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "19:16",
-      "date": "2026-08-07",
-      "summary": "非农数据或成美联储政策风向标",
-      "tags": [
-        "非农",
-        "失业率",
-        "美联储"
-      ],
-      "watched": false,
-      "url": "https://xnews.jin10.com/details/226741"
-    },
-    {
-      "id": "9e307e4bd23f",
-      "title": "7月进出口增速高位回落，涨价动力能否持续？",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "19:15",
-      "date": "2026-08-07",
-      "summary": "7月进出口增速回落，涨价动力存疑。",
-      "tags": [
-        "进出口",
-        "增速回落",
-        "涨价动力"
-      ],
-      "watched": false,
-      "url": "https://economy.caixin.com/2026-08-07/102472379.html"
-    },
-    {
-      "id": "e3ee9ba499a1",
-      "title": "公平竞争审查制度实施两年，破除地方保护成效显著",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "19:15",
-      "date": "2026-08-07",
-      "summary": "公平竞争审查制度实施两年，有效破除地方保护，促进市场公平竞争。",
-      "tags": [
-        "公平竞争",
-        "地方保护",
-        "政策"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310042.html"
-    },
-    {
-      "id": "71a8c9c32892",
-      "title": "2026全球智能制造与电子产品博览会12月举办",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "19:15",
-      "date": "2026-08-07",
-      "summary": "智能制造博览会12月珠海澳门举办，关注度一般。",
-      "tags": [
-        "智能制造",
-        "博览会"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3146689"
-    },
-    {
-      "id": "335b63e7380a",
-      "title": "氧化铒价格年内大涨77%",
-      "source": "华尔街见闻",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "19:14",
-      "date": "2026-08-07",
-      "summary": "氧化铒价格大涨，需求激增，机构看好稀土回暖。",
-      "tags": [
-        "稀土",
-        "氧化铒",
-        "价格上涨"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3146687"
-    },
-    {
-      "id": "5ed96d524d44",
-      "title": "水利部启动洪水防御Ⅳ级应急响应",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "19:14",
-      "date": "2026-08-07",
-      "summary": "水利部针对6省市启动洪水防御应急响应",
-      "tags": [
-        "洪水",
-        "应急响应",
-        "水利部"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3146688"
-    },
-    {
-      "id": "d7385cc46cc1",
-      "title": "自然资源部启动浙江海洋灾害三级应急响应",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "19:13",
-      "date": "2026-08-07",
-      "summary": "自然资源部启动浙江海洋灾害三级应急响应，部署防御台风。",
-      "tags": [
-        "海洋灾害",
-        "应急响应",
-        "台风防御"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310053.html"
-    },
-    {
-      "id": "265d680415ac",
-      "title": "现货黄金日内涨幅扩大至2%",
-      "source": "第一财经",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "19:12",
-      "date": "2026-08-07",
-      "summary": "现货黄金涨2%，报4325美元每盎司。",
-      "tags": [
-        "黄金",
-        "现货",
-        "涨幅"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310049.html"
-    },
-    {
-      "id": "2f680d1ca016",
-      "title": "立昂微2026年上半年扭亏为盈，净利润8397万元",
-      "source": "华尔街见闻",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "19:11",
-      "date": "2026-08-07",
-      "summary": "立昂微上半年扭亏，净赚8397万，营收增25.7%。",
-      "tags": [
-        "立昂微",
-        "扭亏为盈",
-        "业绩公告"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3146685"
-    },
-    {
-      "id": "0657c217b7ca",
-      "title": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "19:11",
-      "date": "2026-08-07",
-      "summary": "黄金价格大涨2%，报4325美元每盎司。",
-      "tags": [
-        "黄金",
-        "现货",
-        "涨幅"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2599960"
     }
   ]
 }
