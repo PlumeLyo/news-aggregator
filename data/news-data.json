@@ -1,21 +1,304 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-08-09T22:08:24.348768+08:00",
+  "fetched_at": "2026-08-09T23:03:17.578376+08:00",
   "total_count": 500,
-  "today_count": 376,
-  "major_count": 129,
-  "watched_count": 14,
+  "today_count": 393,
+  "major_count": 131,
+  "watched_count": 17,
   "sources_used": 14,
   "news": [
     {
-      "id": "2c2ca17c56ee",
-      "title": "上海地铁因台风明天4条线路停运",
+      "id": "5ab264677419",
+      "title": "金十数据整理：周日重要消息汇总",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "22:59",
+      "date": "2026-08-09",
+      "summary": "周日国内外重要消息汇总，包括台风、CPI、公司动态等。",
+      "tags": [
+        "国内新闻",
+        "国际新闻",
+        "汇总"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "dce378d87b92",
+      "title": "美国纽约一船只倾覆致2人死亡",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 1,
+      "time": "22:59",
+      "date": "2026-08-09",
+      "summary": "纽约港船只倾覆，2人死亡，事故调查中。",
+      "tags": [
+        "美国",
+        "船只倾覆"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601804"
+    },
+    {
+      "id": "3af430968d8a",
+      "title": "台风“白海豚”减弱为强热带风暴",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 1,
+      "time": "22:56",
+      "date": "2026-08-09",
+      "summary": "台风减弱，对市场影响极小。",
+      "tags": [
+        "台风",
+        "天气"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601803"
+    },
+    {
+      "id": "46f159521794",
+      "title": "伊朗议会批准霍尔木兹海峡安全纲要",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "22:51",
+      "date": "2026-08-09",
+      "summary": "伊朗议会批准霍尔木兹海峡安全计划，影响全球油运。",
+      "tags": [
+        "伊朗",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3147119"
+    },
+    {
+      "id": "a253bc573529",
+      "title": "伊朗批准霍尔木兹海峡安全战略计划",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "22:51",
+      "date": "2026-08-09",
+      "summary": "伊朗批准霍尔木兹海峡安全计划，影响油运和地缘风险。",
+      "tags": [
+        "伊朗",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601800"
+    },
+    {
+      "id": "00466fb0ffdb",
+      "title": "上海发布台风天交通出行通告",
       "source": "第一财经",
       "category": "宏观政策",
       "stars": 3,
+      "time": "22:33",
+      "date": "2026-08-09",
+      "summary": "受台风影响，上海交通调整，早高峰出行需注意。",
+      "tags": [
+        "台风",
+        "交通管制"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103311034.html"
+    },
+    {
+      "id": "5d87151d43d7",
+      "title": "埃及土耳其外交部磋商地区安全",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "22:32",
+      "date": "2026-08-09",
+      "summary": "埃及土耳其讨论地区安全，影响有限。",
+      "tags": [
+        "埃及",
+        "土耳其",
+        "外交"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601798"
+    },
+    {
+      "id": "ad759fd0025f",
+      "title": "2026国际基础科学大会在京开幕",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "22:31",
+      "date": "2026-08-09",
+      "summary": "基础科学大会开幕，与金融市场关联度低。",
+      "tags": [
+        "国际会议",
+        "科学"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3147118"
+    },
+    {
+      "id": "f50f946456f3",
+      "title": "宇树科技中签率远低于长鑫科技",
+      "source": "华尔街见闻",
+      "category": "市场情绪",
+      "stars": 4,
+      "time": "22:29",
+      "date": "2026-08-09",
+      "summary": "宇树科技中签率极低，预计上市首日盈利可观。",
+      "tags": [
+        "宇树科技",
+        "中签率",
+        "科创板"
+      ],
+      "watched": true,
+      "url": "https://wallstreetcn.com/livenews/3147117"
+    },
+    {
+      "id": "b86f0f0bd59a",
+      "title": "木头姐：AI正驱动美国经济进入通缩与高生产率新周期",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "22:25",
+      "date": "2026-08-09",
+      "summary": "木头姐称AI提升生产率，美国经济面临技术通缩而非通胀。",
+      "tags": [
+        "AI",
+        "通缩",
+        "美国经济"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601793"
+    },
+    {
+      "id": "3bccbac1c86b",
+      "title": "也门政府谴责胡塞武装袭击摩卡港",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "22:25",
+      "date": "2026-08-09",
+      "summary": "也门政府谴责胡塞武装袭击摩卡港，地缘风险或影响航运。",
+      "tags": [
+        "地缘政治",
+        "航运"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601794"
+    },
+    {
+      "id": "0883dc9d0846",
+      "title": "木头姐：AI驱动美国经济进入通缩高生产率新周期",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "22:23",
+      "date": "2026-08-09",
+      "summary": "木头姐称就业疲软掩盖结构变化，AI提升生产率，风险是通缩。",
+      "tags": [
+        "AI",
+        "美国经济",
+        "通缩",
+        "生产率"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3147116"
+    },
+    {
+      "id": "a23b7e52ecbd",
+      "title": "胡塞武装向摩卡市民用目标发射30枚弹道导弹",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "22:16",
+      "date": "2026-08-09",
+      "summary": "也门胡塞武装袭击摩卡市，地缘风险升级。",
+      "tags": [
+        "地缘政治",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "73dd7b99e46c",
+      "title": "胡塞武装向摩卡市民用目标发射30枚弹道导弹",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "22:16",
+      "date": "2026-08-09",
+      "summary": "也门胡塞武装袭击摩卡市，地缘风险或影响油价。",
+      "tags": [
+        "地缘政治",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601791"
+    },
+    {
+      "id": "a11582fc6b98",
+      "title": "浙江运河水系发生今年第1号洪水",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "22:15",
+      "date": "2026-08-09",
+      "summary": "台风引发洪水，关注水利影响。",
+      "tags": [
+        "台风",
+        "洪水",
+        "浙江"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103311029.html"
+    },
+    {
+      "id": "04d1170878ac",
+      "title": "德国部分州放宽卡车限行措施",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "22:14",
+      "date": "2026-08-09",
+      "summary": "德国多州放宽卡车限行以缓解运输瓶颈。",
+      "tags": [
+        "德国",
+        "卡车限行",
+        "运输"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3147115"
+    },
+    {
+      "id": "8fe90e5c2b21",
+      "title": "瑞士再保险就热浪风险发出警告",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "22:13",
+      "date": "2026-08-09",
+      "summary": "瑞士再保险CEO称热浪风险被低估，需提高警惕。",
+      "tags": [
+        "热浪",
+        "风险",
+        "保险"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3147114"
+    },
+    {
+      "id": "2c2ca17c56ee",
+      "title": "上海地铁因台风停运4条线路",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 2,
       "time": "22:01",
       "date": "2026-08-09",
-      "summary": "受台风影响，上海地铁多条线路停运，出行注意。",
+      "summary": "受台风影响，上海地铁部分线路停运，影响出行。",
       "tags": [
         "上海地铁",
         "台风",
@@ -32,24 +315,24 @@
       "stars": 3,
       "time": "22:00",
       "date": "2026-08-09",
-      "summary": "宇树科技申购在即，中签率低但收益预期高。",
+      "summary": "宇树科技申购在即，预计中签率低，首日涨幅或带来高收益。",
       "tags": [
         "宇树科技",
         "新股申购",
-        "中签收益"
+        "中签率"
       ],
-      "watched": false,
+      "watched": true,
       "url": "https://wallstreetcn.com/livenews/3147113"
     },
     {
       "id": "9dee70ffc078",
-      "title": "叙利亚与俄罗斯就两处军事基地达成谅解备忘录",
+      "title": "叙利亚与俄罗斯就两处俄军事基地达成谅解备忘录",
       "source": "华尔街见闻",
       "category": "海外联动",
-      "stars": 4,
+      "stars": 3,
       "time": "21:58",
       "date": "2026-08-09",
-      "summary": "俄叙调整军事基地，部分转民用，影响地缘格局。",
+      "summary": "俄叙调整军事基地，部分转民用，3个月内完成。",
       "tags": [
         "叙利亚",
         "俄罗斯",
@@ -66,7 +349,7 @@
       "stars": 3,
       "time": "21:57",
       "date": "2026-08-09",
-      "summary": "俄称伊朗核电站建设继续，专家已返回。",
+      "summary": "伊朗核电站建设继续，俄专家返回，影响有限。",
       "tags": [
         "伊朗",
         "核电站",
@@ -83,7 +366,7 @@
       "stars": 3,
       "time": "21:55",
       "date": "2026-08-09",
-      "summary": "法国干旱致卢瓦尔河水位低，或限制取水。",
+      "summary": "法国干旱致卢瓦尔河水位大降，或限制取水。",
       "tags": [
         "法国",
         "干旱",
@@ -120,7 +403,8 @@
       "summary": "塞浦路斯或于2028年向欧洲供气，影响能源市场。",
       "tags": [
         "能源",
-        "欧洲供气"
+        "欧洲",
+        "天然气"
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2601775"
@@ -144,13 +428,13 @@
     },
     {
       "id": "5338a5b71c90",
-      "title": "美财长干预债市，华尔街担忧“卖出美国”情绪升温",
+      "title": "美财长干预债市，华尔街担忧“卖出美国”",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 4,
       "time": "21:38",
       "date": "2026-08-09",
-      "summary": "美财长干预债市，市场信心动摇，担忧情绪升温。",
+      "summary": "美财长干预债市，华尔街担忧美债信心动摇。",
       "tags": [
         "美债",
         "干预",
@@ -158,6 +442,23 @@
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3147107"
+    },
+    {
+      "id": "ba6f36ee540e",
+      "title": "南非开普敦三起枪击致11人死亡",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 2,
+      "time": "21:38",
+      "date": "2026-08-09",
+      "summary": "南非开普敦枪击案致11死，与金融市场关联弱。",
+      "tags": [
+        "南非",
+        "枪击",
+        "社会事件"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2601763"
     },
     {
       "id": "f99133719b28",
@@ -175,23 +476,6 @@
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103311013.html"
-    },
-    {
-      "id": "ba6f36ee540e",
-      "title": "南非开普敦三起枪击致11人死亡",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "21:37",
-      "date": "2026-08-09",
-      "summary": "南非开普敦枪击事件致11人死，警方调查中。",
-      "tags": [
-        "南非",
-        "枪击",
-        "治安"
-      ],
-      "watched": false,
-      "url": ""
     },
     {
       "id": "5ebf3f62e011",
@@ -217,7 +501,7 @@
       "stars": 4,
       "time": "21:36",
       "date": "2026-08-09",
-      "summary": "苹果测试中国存储芯片，缓解内存短缺。",
+      "summary": "苹果测试长鑫存储芯片，缓解内存短缺。",
       "tags": [
         "苹果",
         "长鑫存储",
@@ -229,18 +513,18 @@
     {
       "id": "5a7846522444",
       "title": "哈马斯称坚持加沙停火协议路线图",
-      "source": "财联社电报",
-      "category": "市场异动",
+      "source": "华尔街见闻",
+      "category": "海外联动",
       "stars": 3,
-      "time": "21:35",
+      "time": "21:33",
       "date": "2026-08-09",
-      "summary": "哈马斯重申推进停火，地缘局势缓和信号。",
+      "summary": "哈马斯重申推进加沙停火，强调全面执行协议。",
       "tags": [
-        "地缘政治",
-        "停火协议"
+        "哈马斯",
+        "加沙停火"
       ],
       "watched": false,
-      "url": ""
+      "url": "https://wallstreetcn.com/livenews/3147105"
     },
     {
       "id": "8d7641558a58",
@@ -270,11 +554,11 @@
       "date": "2026-08-09",
       "summary": "远大医药核药获FDA快速通道，加速上市进程。",
       "tags": [
+        "医药",
         "FDA",
-        "创新药",
-        "远大医药"
+        "创新药"
       ],
-      "watched": false,
+      "watched": true,
       "url": "https://www.yicai.com/news/103311021.html"
     },
     {
@@ -285,18 +569,17 @@
       "stars": 2,
       "time": "21:30",
       "date": "2026-08-09",
-      "summary": "数学家张寿武获基础科学奖章，称不敢与AI交流。",
+      "summary": "数学家获国际奖项，与金融关联弱。",
       "tags": [
         "数学家",
-        "基础科学奖章",
-        "AI"
+        "基础科学奖"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3147103"
     },
     {
       "id": "3d996642ff0c",
-      "title": "欧菲光澄清实控人利益输送传闻不实",
+      "title": "欧菲光澄清利益输送传闻不实",
       "source": "第一财经",
       "category": "公司公告",
       "stars": 2,
@@ -331,10 +614,10 @@
       "title": "白宫经济顾问：通胀数据快速回落",
       "source": "格隆汇",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "21:28",
       "date": "2026-08-09",
-      "summary": "白宫经济顾问称通胀快速回落，利好市场。",
+      "summary": "白宫称通胀快速回落，利好市场情绪。",
       "tags": [
         "通胀",
         "美国经济"
@@ -363,11 +646,11 @@
       "id": "649c02706c8e",
       "title": "宇树科技周一申购，具身智能赛道将迎估值锚",
       "source": "第一财经",
-      "category": "市场情绪",
+      "category": "公司公告",
       "stars": 4,
       "time": "21:27",
       "date": "2026-08-09",
-      "summary": "宇树科技周一申购，或冲刺千亿估值，具身智能赛道迎估值锚。",
+      "summary": "宇树科技周一申购，或冲刺千亿估值，具身智能赛道迎锚点。",
       "tags": [
         "宇树科技",
         "具身智能",
@@ -384,7 +667,7 @@
       "stars": 3,
       "time": "21:27",
       "date": "2026-08-09",
-      "summary": "分析中国投资收益差额长期为负的成因及利弊。",
+      "summary": "中国投资收益差额长期为负是渐进开放结果，利大于弊。",
       "tags": [
         "投资收益",
         "国际收支"
@@ -400,7 +683,7 @@
       "stars": 4,
       "time": "21:26",
       "date": "2026-08-09",
-      "summary": "创新药进医保，增长确定性增强，行业迎价值兑现期。",
+      "summary": "创新药进医保，增长确定性增强，行业迎来价值兑现期。",
       "tags": [
         "创新药",
         "医保"
@@ -410,13 +693,13 @@
     },
     {
       "id": "7261d2eca7df",
-      "title": "散户狂投杠杆ETF，韩股脆弱狂欢后谁是赢家？",
+      "title": "散户狂投杠杆ETF，韩股狂欢后谁赢？",
       "source": "第一财经",
       "category": "市场情绪",
       "stars": 3,
       "time": "21:26",
       "date": "2026-08-09",
-      "summary": "韩国散户杠杆投资引发市场波动，信心恢复需时间。",
+      "summary": "韩国散户杠杆投资，市场情绪脆弱。",
       "tags": [
         "韩国股市",
         "杠杆ETF",
@@ -427,16 +710,16 @@
     },
     {
       "id": "6120a38bf38d",
-      "title": "卡戴珊内衣品牌中国首店选址上海",
+      "title": "卡戴珊内衣品牌中国首店落户上海",
       "source": "第一财经",
       "category": "市场情绪",
       "stars": 2,
       "time": "21:26",
       "date": "2026-08-09",
-      "summary": "耐克与SKIMS合作品牌在上海开首店，商业动态，影响有限。",
+      "summary": "耐克与卡戴珊合作品牌在上海开首店，商业动态，影响有限。",
       "tags": [
-        "消费",
-        "品牌开店"
+        "消费品牌",
+        "开店"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103310970.html"
@@ -449,7 +732,7 @@
       "stars": 4,
       "time": "21:24",
       "date": "2026-08-09",
-      "summary": "美国通胀快速下降，利好全球市场。",
+      "summary": "美国通胀快速下降，利好市场情绪。",
       "tags": [
         "美国通胀",
         "经济顾问"
@@ -462,10 +745,10 @@
       "title": "土耳其恢复黑海船舶通行",
       "source": "华尔街见闻",
       "category": "海外联动",
-      "stars": 3,
+      "stars": 4,
       "time": "21:22",
       "date": "2026-08-09",
-      "summary": "土耳其恢复黑海船舶通行，原油油轮等已通过海峡。",
+      "summary": "土耳其恢复黑海通行，原油运输或受影响。",
       "tags": [
         "土耳其",
         "黑海",
@@ -482,7 +765,7 @@
       "stars": 3,
       "time": "21:20",
       "date": "2026-08-09",
-      "summary": "塞浦路斯或于2028年起向欧洲供气，能源多元化。",
+      "summary": "塞浦路斯或于2028年向欧洲供气，能源多元化。",
       "tags": [
         "能源",
         "欧洲",
@@ -493,31 +776,30 @@
     },
     {
       "id": "363fb050996d",
-      "title": "下周重要事件与数据预告：美国CPI、成品油调价及京东腾讯财报",
+      "title": "下周重要事件与数据预告：美国CPI重磅来袭，京东腾讯等财报公布",
       "source": "金十数据",
       "category": "市场异动",
       "stars": 4,
       "time": "21:15",
       "date": "2026-08-09",
-      "summary": "下周关注美国CPI、成品油调价及京东腾讯财报。",
+      "summary": "下周美国CPI等数据来袭，京东腾讯财报公布，关注市场波动。",
       "tags": [
         "美国CPI",
-        "成品油调价",
-        "京东财报",
-        "腾讯财报"
+        "财报",
+        "经济数据"
       ],
       "watched": false,
       "url": ""
     },
     {
       "id": "cfd33246690c",
-      "title": "欧菲光澄清：不存在压低售价转移利润行为",
+      "title": "欧菲光澄清不存在转移利润行为",
       "source": "华尔街见闻",
       "category": "公司公告",
       "stars": 3,
       "time": "21:15",
       "date": "2026-08-09",
-      "summary": "欧菲光回应举报，否认向实控人转移利润。",
+      "summary": "欧菲光否认压低售价转移利润，称技术独立。",
       "tags": [
         "欧菲光",
         "澄清公告",
@@ -528,18 +810,17 @@
     },
     {
       "id": "bfee7505f1d4",
-      "title": "哈马斯呼吁美国向以色列施压，促其遵守加沙和平路线图",
+      "title": "哈马斯呼吁美国向以色列施压遵守加沙和平路线图",
       "source": "华尔街见闻",
       "category": "海外联动",
-      "stars": 4,
+      "stars": 3,
       "time": "21:14",
       "date": "2026-08-09",
-      "summary": "哈马斯促美国施压以色列遵守加沙和平计划。",
+      "summary": "哈马斯促美施压以色列遵守加沙和平计划。",
       "tags": [
         "哈马斯",
         "以色列",
-        "加沙和平",
-        "美国"
+        "加沙和平"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3147097"
@@ -596,23 +877,6 @@
       "url": "https://wallstreetcn.com/livenews/3147095"
     },
     {
-      "id": "8354ab31bf20",
-      "title": "五粮液关注低度酒及轻饮酒类消费趋势",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "21:06",
-      "date": "2026-08-09",
-      "summary": "五粮液表示关注低度酒市场，已有相关产品。",
-      "tags": [
-        "五粮液",
-        "低度酒",
-        "消费趋势"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
       "id": "c23b3d90104f",
       "title": "7月CPI预期回落，花旗与美银对9月加息前景分歧",
       "source": "格隆汇",
@@ -628,6 +892,22 @@
       ],
       "watched": false,
       "url": "https://www.gelonghui.com/live/2601751"
+    },
+    {
+      "id": "8354ab31bf20",
+      "title": "五粮液关注低度酒消费趋势",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 2,
+      "time": "21:02",
+      "date": "2026-08-09",
+      "summary": "五粮液表示关注低度酒市场，已有相关产品。",
+      "tags": [
+        "五粮液",
+        "低度酒"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103311007.html"
     },
     {
       "id": "b8902af94c41",
@@ -665,17 +945,17 @@
     },
     {
       "id": "2c004f293493",
-      "title": "消费者需要更加公平普惠的航空运输服务",
+      "title": "航空运输服务需更公平普惠",
       "source": "第一财经",
       "category": "宏观政策",
       "stars": 4,
       "time": "20:52",
       "date": "2026-08-09",
-      "summary": "民航局等发布十五五规划，提升服务公平普惠。",
+      "summary": "民航局等发布十五五规划，提升服务普惠性。",
       "tags": [
         "民航",
         "规划",
-        "公平普惠"
+        "普惠"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103311001.html"
@@ -699,13 +979,13 @@
     },
     {
       "id": "42c735867719",
-      "title": "首个全国产10万卡AI超集群投用，全国算力一张网加速成形",
+      "title": "首个全国产10万卡AI超集群投用，全国算力“一张网”加速成形",
       "source": "第一财经",
       "category": "宏观政策",
       "stars": 4,
       "time": "20:48",
       "date": "2026-08-09",
-      "summary": "国产AI算力重大突破，全国算力网络加速建设。",
+      "summary": "全国算力网加速，国产AI超集群投用，利好算力产业链。",
       "tags": [
         "AI算力",
         "国产化",
@@ -816,6 +1096,38 @@
       "url": "https://www.gelonghui.com/live/2601733"
     },
     {
+      "id": "22be79d43bf2",
+      "title": "浙江省甬江发生2026年第1号洪水",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "20:36",
+      "date": "2026-08-09",
+      "summary": "甬江洪水，水利部启动应急响应",
+      "tags": [
+        "洪水",
+        "应急响应"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310998.html"
+    },
+    {
+      "id": "36f43e71b912",
+      "title": "湖北发布黄色山洪灾害气象预警",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "20:35",
+      "date": "2026-08-09",
+      "summary": "湖北发山洪预警，注意防汛。",
+      "tags": [
+        "山洪预警",
+        "湖北"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103310996.html"
+    },
+    {
       "id": "a9ef2f449e0f",
       "title": "公司战略转型半导体设备，覆盖头部客户受益扩产",
       "source": "财联社电报",
@@ -875,30 +1187,13 @@
       "stars": 1,
       "time": "20:26",
       "date": "2026-08-09",
-      "summary": "河南西平刑案嫌犯潜逃9日后落网。",
+      "summary": "河南刑案嫌犯落网，与金融无关。",
       "tags": [
         "刑案",
-        "落网"
+        "社会"
       ],
       "watched": false,
       "url": "https://china.caixin.com/2026-08-09/102472757.html"
-    },
-    {
-      "id": "22be79d43bf2",
-      "title": "浙江省甬江发生2026年第1号洪水",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "20:24",
-      "date": "2026-08-09",
-      "summary": "台风引发甬江洪水，水利部启动应急响应。",
-      "tags": [
-        "洪水",
-        "台风",
-        "应急响应"
-      ],
-      "watched": false,
-      "url": ""
     },
     {
       "id": "19feb866c407",
@@ -941,7 +1236,7 @@
       "stars": 4,
       "time": "20:21",
       "date": "2026-08-09",
-      "summary": "北京楼市新政，公积金贷款额度提高，限购松绑。",
+      "summary": "北京楼市新政松绑，公积金贷款额度提高，利好购房者。",
       "tags": [
         "北京",
         "公积金",
@@ -1034,23 +1329,6 @@
       "url": ""
     },
     {
-      "id": "36f43e71b912",
-      "title": "湖北发布黄色山洪灾害气象预警",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "20:05",
-      "date": "2026-08-09",
-      "summary": "湖北部分地区发布山洪预警，注意防灾。",
-      "tags": [
-        "山洪预警",
-        "湖北",
-        "气象灾害"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
       "id": "d91d56e987b0",
       "title": "也门胡塞武装袭击摩卡港致七人死亡",
       "source": "格隆汇",
@@ -1103,20 +1381,20 @@
     },
     {
       "id": "c7b1be79a8a1",
-      "title": "国家防总启动防汛防台风四级应急响应",
-      "source": "财联社电报",
-      "category": "市场异动",
+      "title": "国家防总对上海江西启动防汛防台风四级应急响应",
+      "source": "第一财经",
+      "category": "宏观政策",
       "stars": 3,
-      "time": "20:01",
+      "time": "20:00",
       "date": "2026-08-09",
-      "summary": "台风白海豚登陆，国家防总启动应急响应，关注相关影响。",
+      "summary": "台风登陆，防总启动应急响应，关注相关影响。",
       "tags": [
         "台风",
         "应急响应",
         "防汛"
       ],
       "watched": false,
-      "url": ""
+      "url": "https://www.yicai.com/news/103310987.html"
     },
     {
       "id": "e42894961d86",
@@ -1473,7 +1751,7 @@
     },
     {
       "id": "dd94b7ca37d9",
-      "title": "境外保险征税引关注，跨境财富布局需重新考量",
+      "title": "境外保险征税？跨境财富布局需重新考量",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
@@ -2602,7 +2880,8 @@
       "summary": "医药板块周涨6.27%，医疗服务领涨近16%。",
       "tags": [
         "医药",
-        "CXO"
+        "CXO",
+        "市场异动"
       ],
       "watched": false,
       "url": "https://www.caixin.com/2026-08-09/102472750.html"
@@ -2989,17 +3268,17 @@
     },
     {
       "id": "051c509e3ae5",
-      "title": "QDII、国投白银LOF被爆炒高溢价，明确退市时间表",
+      "title": "QDII、国投白银LOF被明确退市，高溢价炒作风险加剧",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 5,
       "time": "15:51",
       "date": "2026-08-09",
-      "summary": "监管明确部分LOF退市，QDII和商品期货LOF受影响",
+      "summary": "沪深交易所明确部分LOF退市安排，高溢价品种风险加大。",
       "tags": [
         "LOF退市",
         "QDII",
-        "监管政策"
+        "商品期货"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-09/102472745.html"
@@ -3324,12 +3603,13 @@
       "title": "财经作家叶檀患癌后谈生命和解",
       "source": "财新网",
       "category": "市场情绪",
-      "stars": 2,
+      "stars": 1,
       "time": "14:55",
       "date": "2026-08-09",
-      "summary": "叶檀分享患癌后生活感悟，与财经无关。",
+      "summary": "财经作家叶檀分享患癌后生活感悟，与财经市场无关。",
       "tags": [
         "叶檀",
+        "癌症",
         "生活感悟"
       ],
       "watched": false,
@@ -4043,12 +4323,11 @@
       "stars": 4,
       "time": "11:34",
       "date": "2026-08-09",
-      "summary": "7月通胀数据低于预期，PPI结束改善趋势，需关注政策动向。",
+      "summary": "7月CPI、PPI低于预期，PPI结束改善，通胀压力缓解。",
       "tags": [
         "CPI",
         "PPI",
-        "通胀",
-        "经济数据"
+        "通胀"
       ],
       "watched": false,
       "url": "https://economy.caixin.com/2026-08-09/102472709.html"
@@ -4399,7 +4678,7 @@
       "stars": 3,
       "time": "10:41",
       "date": "2026-08-09",
-      "summary": "火箭残骸撞月球，引发对太空垃圾和SpaceX商业帝国的关注。",
+      "summary": "火箭残骸撞月球，引发太空垃圾与SpaceX商业帝国讨论。",
       "tags": [
         "太空垃圾",
         "SpaceX",
@@ -4500,9 +4779,9 @@
       "stars": 1,
       "time": "09:57",
       "date": "2026-08-09",
-      "summary": "古玩鉴赏文章，与金融无关。",
+      "summary": "介绍龙泉窑三足炉文物细节，与金融无关。",
       "tags": [
-        "古玩",
+        "文物",
         "瓷器"
       ],
       "watched": false,
@@ -4533,10 +4812,11 @@
       "stars": 3,
       "time": "09:37",
       "date": "2026-08-09",
-      "summary": "多家公司获美国关税退税，央行连续增持黄金。",
+      "summary": "美国关税退税落地，多家公司收到退税。",
       "tags": [
-        "关税退税",
-        "央行增持黄金"
+        "关税",
+        "退税",
+        "上市公司"
       ],
       "watched": false,
       "url": "https://mini.caixin.com/2026-08-09/102472638.html"
@@ -5099,14 +5379,14 @@
       "title": "哥伦比亚新总统：拉美亲特朗普右翼再添一员",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 4,
       "time": "08:00",
       "date": "2026-08-09",
-      "summary": "哥伦比亚新总统面临执政挑战，政治联盟未获多数席位。",
+      "summary": "哥伦比亚新总统执政面临挑战，影响拉美政治格局。",
       "tags": [
         "哥伦比亚",
-        "右翼",
-        "执政挑战"
+        "拉美政治",
+        "右翼"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-09/102472607.html"
@@ -7042,11 +7322,10 @@
       "stars": 4,
       "time": "20:46",
       "date": "2026-08-08",
-      "summary": "离岸信托补税新规执行口径待明确，高净值人群面临税务不确定性。",
+      "summary": "离岸信托补税新规执行口径待明确，高净值人群面临困惑。",
       "tags": [
         "离岸信托",
-        "税收政策",
-        "高净值人群"
+        "税收政策"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-08/102472626.html"
@@ -8094,293 +8373,6 @@
       ],
       "watched": false,
       "url": ""
-    },
-    {
-      "id": "2ecd5aae1750",
-      "title": "阿联酋ADNOC船只霍尔木兹海峡遭导弹袭击",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 5,
-      "time": "18:24",
-      "date": "2026-08-08",
-      "summary": "ADNOC船遭袭，地缘风险升级，油价或波动。",
-      "tags": [
-        "地缘政治",
-        "原油",
-        "霍尔木兹海峡"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "013ecfa4c095",
-      "title": "外国游客“中国游三件套”火了，入境游热度攀升",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "18:20",
-      "date": "2026-08-08",
-      "summary": "入境游火爆，免签政策带动外国游客增长",
-      "tags": [
-        "入境游",
-        "免签政策"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310651.html"
-    },
-    {
-      "id": "7005b4700abf",
-      "title": "伊朗革命卫队：霍尔木兹海峡重开取决于美国接受条件",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "18:19",
-      "date": "2026-08-08",
-      "summary": "伊朗称海峡重开需美方完全接受条件，地缘风险升温。",
-      "tags": [
-        "地缘政治",
-        "原油",
-        "霍尔木兹海峡"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "4127653c5a4f",
-      "title": "国家海洋预报台继续发布海浪红色警报",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "18:15",
-      "date": "2026-08-08",
-      "summary": "海浪红色警报发布，注意防范。",
-      "tags": [
-        "海浪警报",
-        "自然灾害",
-        "防范措施"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310658.html"
-    },
-    {
-      "id": "d3d7358cfe79",
-      "title": "温州防台风应急响应升至Ⅰ级",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 2,
-      "time": "18:15",
-      "date": "2026-08-08",
-      "summary": "台风影响温州，应急响应升级，关注当地上市公司。",
-      "tags": [
-        "台风",
-        "应急响应"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310663.html"
-    },
-    {
-      "id": "4c82044ddd8b",
-      "title": "国家海洋预报台升级风暴潮警报为橙色",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 2,
-      "time": "18:15",
-      "date": "2026-08-08",
-      "summary": "台风影响沿海，风暴潮预警升级，关注相关风险。",
-      "tags": [
-        "台风",
-        "风暴潮",
-        "预警"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310661.html"
-    },
-    {
-      "id": "92901361290f",
-      "title": "霍尔木兹海峡关闭致伊拉克石油出口骤降75%",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 5,
-      "time": "18:14",
-      "date": "2026-08-08",
-      "summary": "霍尔木兹海峡关闭，伊拉克石油出口骤降75%，影响全球供应。",
-      "tags": [
-        "霍尔木兹海峡",
-        "石油出口",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "e62c58922ff9",
-      "title": "伊拉克新管道日输送200万桶",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "18:11",
-      "date": "2026-08-08",
-      "summary": "伊拉克新管道日输送200万桶，影响油市",
-      "tags": [
-        "伊拉克",
-        "石油管道",
-        "原油供应"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2601006"
-    },
-    {
-      "id": "c626dda3aaf6",
-      "title": "伊拉克与伊朗谈判石油出口，拟建输油管道",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:48",
-      "date": "2026-08-08",
-      "summary": "伊拉克正与伊朗谈判石油出口，拟建150亿美元管道。",
-      "tags": [
-        "石油",
-        "伊拉克",
-        "伊朗"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3146989"
-    },
-    {
-      "id": "f9b8bcb79e73",
-      "title": "伊拉克与伊朗谈判石油出口，安排未生效",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:46",
-      "date": "2026-08-08",
-      "summary": "伊拉克与伊朗谈判石油出口，但尚未生效。",
-      "tags": [
-        "石油",
-        "伊拉克",
-        "伊朗"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2600995"
-    },
-    {
-      "id": "c89af892967a",
-      "title": "苹果Mac电脑Apple智能支持使用阿里千问",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:46",
-      "date": "2026-08-08",
-      "summary": "苹果国行Mac将支持阿里千问，Siri可调用其回答。",
-      "tags": [
-        "苹果",
-        "阿里千问",
-        "AI"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "4980a35cfbfc",
-      "title": "伊拉克与伊朗谈判石油出口，尚未生效",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:45",
-      "date": "2026-08-08",
-      "summary": "伊拉克正与伊朗谈判石油出口，但未生效。",
-      "tags": [
-        "石油",
-        "伊拉克",
-        "伊朗"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "5f517d6780a0",
-      "title": "日本福岛核电站火警未发现异常",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "17:31",
-      "date": "2026-08-08",
-      "summary": "福岛核电站火警警报，无明火无辐射异常。",
-      "tags": [
-        "日本",
-        "核电站",
-        "火警"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2600992"
-    },
-    {
-      "id": "bd94fdd7cbcd",
-      "title": "印度与行业龙头签署备忘录扶持初创企业",
-      "source": "格隆汇",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "17:27",
-      "date": "2026-08-08",
-      "summary": "印度与龙头合作扶持初创，关注相关板块。",
-      "tags": [
-        "印度",
-        "初创企业",
-        "备忘录"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2600990"
-    },
-    {
-      "id": "14618ea2a991",
-      "title": "江苏启动海洋灾害四级应急响应",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "17:27",
-      "date": "2026-08-08",
-      "summary": "受台风影响，江苏南通启动海洋灾害应急响应。",
-      "tags": [
-        "台风",
-        "海洋灾害",
-        "应急响应"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "84973fb82e55",
-      "title": "新疆调整4A及以上景区自驾服务费统一按车收费",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "17:22",
-      "date": "2026-08-08",
-      "summary": "新疆景区自驾服务费改为按车收，惠及游客。",
-      "tags": [
-        "旅游政策",
-        "新疆",
-        "自驾服务费"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103310648.html"
-    },
-    {
-      "id": "49a9f8d76d64",
-      "title": "印度监管警告帝亚吉欧威士忌标签误导",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "17:06",
-      "date": "2026-08-08",
-      "summary": "印度警告帝亚吉欧威士忌标签误导，影响有限。",
-      "tags": [
-        "印度",
-        "帝亚吉欧",
-        "监管"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2600984"
     }
   ]
 }
