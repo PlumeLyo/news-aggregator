@@ -1,12 +1,882 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-08-17T19:52:34.561426+08:00",
+  "fetched_at": "2026-08-17T20:43:14.545746+08:00",
   "total_count": 500,
   "today_count": 500,
-  "major_count": 96,
-  "watched_count": 40,
+  "major_count": 103,
+  "watched_count": 42,
   "sources_used": 14,
   "news": [
+    {
+      "id": "333ac90192ec",
+      "title": "法国10年期国债收益率升至2009年以来最高",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "20:41",
+      "date": "2026-08-17",
+      "summary": "法国国债收益率创新高，市场关注。",
+      "tags": [
+        "法国",
+        "国债收益率"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616352"
+    },
+    {
+      "id": "72fd5579d6d9",
+      "title": "英伟达：OpenAI承诺2030年前大规模部署其AI基础设施",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "20:41",
+      "date": "2026-08-17",
+      "summary": "OpenAI承诺2030年前大规模部署英伟达AI基础设施。",
+      "tags": [
+        "英伟达",
+        "OpenAI",
+        "AI基础设施"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616351"
+    },
+    {
+      "id": "9282bdea0153",
+      "title": "英伟达：OpenAI承诺2030年前大规模部署其AI基础设施",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "20:40",
+      "date": "2026-08-17",
+      "summary": "OpenAI承诺大规模部署英伟达AI基础设施，利好英伟达。",
+      "tags": [
+        "英伟达",
+        "OpenAI",
+        "AI基础设施"
+      ],
+      "watched": true,
+      "url": ""
+    },
+    {
+      "id": "2bab88bde797",
+      "title": "美股三大股指期货走低",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "20:40",
+      "date": "2026-08-17",
+      "summary": "美股期货走低，纳指涨幅收窄。",
+      "tags": [
+        "美股",
+        "期货"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616350"
+    },
+    {
+      "id": "69f070523694",
+      "title": "OpenAI利用模型保障代码安全，持续投资安全架构",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:39",
+      "date": "2026-08-17",
+      "summary": "OpenAI用模型加强代码安全，投资防御措施。",
+      "tags": [
+        "OpenAI",
+        "网络安全",
+        "AI"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150523"
+    },
+    {
+      "id": "33541f2c7adc",
+      "title": "德国10年期国债收益率创2011年5月以来新高",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "20:39",
+      "date": "2026-08-17",
+      "summary": "德国长期国债收益率升至多年高位，反映市场利率预期变化。",
+      "tags": [
+        "德国国债",
+        "收益率",
+        "利率"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616349"
+    },
+    {
+      "id": "771751b5609a",
+      "title": "美团启动2027届校园招聘，新增AI原生岗位",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "20:38",
+      "date": "2026-08-17",
+      "summary": "美团校招新增AI岗位，覆盖全球，但非重大市场事件。",
+      "tags": [
+        "美团",
+        "校园招聘",
+        "AI岗位"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150521"
+    },
+    {
+      "id": "6244af6967d2",
+      "title": "数字人民币运营机构扩容至30家",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "20:36",
+      "date": "2026-08-17",
+      "summary": "央行新增8家银行运营数字人民币，机构扩容至30家。",
+      "tags": [
+        "数字人民币",
+        "银行",
+        "央行"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321511.html"
+    },
+    {
+      "id": "361c7d09f6e7",
+      "title": "英伟达向SB Energy投资15亿美元",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "20:36",
+      "date": "2026-08-17",
+      "summary": "英伟达投资SB Energy，获俄亥俄数据中心容量，OpenAI将成客户。",
+      "tags": [
+        "英伟达",
+        "SB Energy",
+        "数据中心",
+        "OpenAI"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616341"
+    },
+    {
+      "id": "b76e7e78e056",
+      "title": "德国10年期国债收益率创2011年5月以来新高",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "20:35",
+      "date": "2026-08-17",
+      "summary": "德国长期国债收益率飙升，创多年新高，市场关注。",
+      "tags": [
+        "德国国债",
+        "收益率",
+        "欧洲市场"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "2705c0f3e1ed",
+      "title": "招商蛇口高管涉酒局事件被免职",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:35",
+      "date": "2026-08-17",
+      "summary": "招商蛇口浙江总经理因酒局事件被免职，正在接受调查。",
+      "tags": [
+        "招商蛇口",
+        "高管免职",
+        "地产"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321494.html"
+    },
+    {
+      "id": "35e32754c545",
+      "title": "英伟达将向SB Energy投资15亿美元",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "20:34",
+      "date": "2026-08-17",
+      "summary": "英伟达投资SB Energy，锁定电力容量，利好AI算力。",
+      "tags": [
+        "英伟达",
+        "SB Energy",
+        "数据中心",
+        "电力"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150520"
+    },
+    {
+      "id": "c51b964f8c65",
+      "title": "银行违规设考核指标频频被罚，谁在虚增存贷款规模",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "20:31",
+      "date": "2026-08-17",
+      "summary": "监管密集处罚银行信贷违规，关注存贷款虚增问题。",
+      "tags": [
+        "银行监管",
+        "信贷违规",
+        "存贷款"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321532.html"
+    },
+    {
+      "id": "c2dab9339172",
+      "title": "加拿大7月CPI年率3%超预期",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "20:31",
+      "date": "2026-08-17",
+      "summary": "加拿大通胀超预期，或影响全球加息预期。",
+      "tags": [
+        "加拿大",
+        "CPI",
+        "通胀"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616335"
+    },
+    {
+      "id": "e90644ad36c7",
+      "title": "加拿大7月核心CPI年率2.3%",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "20:31",
+      "date": "2026-08-17",
+      "summary": "加拿大核心CPI略升，前值2.1%，月率0.2%。",
+      "tags": [
+        "加拿大",
+        "CPI",
+        "通胀"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616338"
+    },
+    {
+      "id": "f8df7c81f4ef",
+      "title": "加拿大7月CPI同比3%符合预期",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:30",
+      "date": "2026-08-17",
+      "summary": "加拿大通胀符合预期，对市场影响有限。",
+      "tags": [
+        "加拿大",
+        "CPI",
+        "通胀"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150519"
+    },
+    {
+      "id": "9afadaa1f58b",
+      "title": "加拿大6月海外投资者净买入证券408.3亿加元",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:30",
+      "date": "2026-08-17",
+      "summary": "加拿大外资大幅流入，前值79亿，关注加元及大宗商品。",
+      "tags": [
+        "加拿大",
+        "外资流入",
+        "证券"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150518"
+    },
+    {
+      "id": "b2afd08f559a",
+      "title": "加拿大7月CPI环比增长0.5%符合预期",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:30",
+      "date": "2026-08-17",
+      "summary": "加拿大7月CPI环比涨0.5%，符合预期，前值降0.4%。",
+      "tags": [
+        "加拿大",
+        "CPI",
+        "通胀"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150517"
+    },
+    {
+      "id": "ec21c2201701",
+      "title": "美国8月纽约联储制造业指数20.6远超预期",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:30",
+      "date": "2026-08-17",
+      "summary": "美国8月纽约联储制造业指数20.6，远超预期10，前值15.6。",
+      "tags": [
+        "美国经济",
+        "制造业指数"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150516"
+    },
+    {
+      "id": "a9bad19234d9",
+      "title": "美国8月纽约联储制造业指数20.6，远超预期",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "20:30",
+      "date": "2026-08-17",
+      "summary": "美国8月纽约联储制造业指数大超预期，经济数据强劲。",
+      "tags": [
+        "美国经济",
+        "制造业指数"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616334"
+    },
+    {
+      "id": "f02d1f1761a1",
+      "title": "特朗普威胁轰炸阿曼以重开霍尔木兹海峡",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 5,
+      "time": "20:29",
+      "date": "2026-08-17",
+      "summary": "特朗普威胁若阿曼阻碍，将轰炸以重开海峡，中东局势升级。",
+      "tags": [
+        "特朗普",
+        "霍尔木兹海峡",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150515"
+    },
+    {
+      "id": "2954b6b1da96",
+      "title": "中美AI竞争路线分化：中国开源抢先，美国专注闭源",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "20:29",
+      "date": "2026-08-17",
+      "summary": "AI竞争核心在用户规模，开源路线或助中国扩大话语权。",
+      "tags": [
+        "AI",
+        "中美竞争",
+        "开源"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/video/103321527.html"
+    },
+    {
+      "id": "92ab2b0c3bb9",
+      "title": "伊朗设定美国履约最后期限，威胁升级霍尔木兹海峡局势",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "20:29",
+      "date": "2026-08-17",
+      "summary": "伊朗给美国数周期限，若外交失败将升级紧张局势。",
+      "tags": [
+        "伊朗",
+        "美国",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616331"
+    },
+    {
+      "id": "16cf27b5ce64",
+      "title": "伊朗政策转向全面进攻性，威胁霍尔木兹海峡升级局势",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "20:28",
+      "date": "2026-08-17",
+      "summary": "伊朗转向进攻性政策，威胁升级霍尔木兹海峡局势。",
+      "tags": [
+        "伊朗",
+        "地缘政治",
+        "霍尔木兹海峡"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150514"
+    },
+    {
+      "id": "3bcdc01d5146",
+      "title": "睿创微纳上半年净利润12.59亿元，同比增258.78%",
+      "source": "格隆汇",
+      "category": "公司公告",
+      "stars": 4,
+      "time": "20:28",
+      "date": "2026-08-17",
+      "summary": "睿创微纳中报业绩大增，净利同比增258.78%，拟派现。",
+      "tags": [
+        "业绩增长",
+        "高分红"
+      ],
+      "watched": true,
+      "url": "https://www.gelonghui.com/live/2616330"
+    },
+    {
+      "id": "a1935991041a",
+      "title": "英联股份上半年净利润同比增长28.5%",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:28",
+      "date": "2026-08-17",
+      "summary": "英联股份半年报显示净利润增长28.5%，主要靠易开盖板块。",
+      "tags": [
+        "英联股份",
+        "半年报",
+        "业绩增长"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321529.html"
+    },
+    {
+      "id": "8bfb9a51ecfb",
+      "title": "哈马斯称特朗普言论确认停火承诺，呼吁施压以色列",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:28",
+      "date": "2026-08-17",
+      "summary": "哈马斯称特朗普言论确认停火承诺，呼吁施压以色列。",
+      "tags": [
+        "中东局势",
+        "停火协议"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616329"
+    },
+    {
+      "id": "b521a6c6069c",
+      "title": "伊朗政策转向全面进攻性",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "20:27",
+      "date": "2026-08-17",
+      "summary": "伊朗决定从防御转向全面进攻，地缘风险升级。",
+      "tags": [
+        "伊朗",
+        "地缘政治",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616328"
+    },
+    {
+      "id": "ac4a87eacd47",
+      "title": "利比亚再次遭遇大范围停电",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "20:26",
+      "date": "2026-08-17",
+      "summary": "利比亚多地停电，影响当地民生，对金融市场影响有限。",
+      "tags": [
+        "利比亚",
+        "停电"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321524.html"
+    },
+    {
+      "id": "ce2f2feb1d3f",
+      "title": "宁德时代宜春锂矿项目迎重要进展",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 4,
+      "time": "20:25",
+      "date": "2026-08-17",
+      "summary": "宁德时代最大锂矿复产关键一步，影响锂供应。",
+      "tags": [
+        "宁德时代",
+        "锂矿",
+        "复产"
+      ],
+      "watched": true,
+      "url": "https://www.yicai.com/news/103321515.html"
+    },
+    {
+      "id": "6b014a130485",
+      "title": "特朗普要求伊朗举白旗投降",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:23",
+      "date": "2026-08-17",
+      "summary": "特朗普称不急于结束与伊朗战争，要求伊朗投降。",
+      "tags": [
+        "特朗普",
+        "伊朗",
+        "中东局势"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150512"
+    },
+    {
+      "id": "689d69fdf7a7",
+      "title": "宇树科技将于8月19日科创板上市",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:22",
+      "date": "2026-08-17",
+      "summary": "宇树科技8月19日科创板上市。",
+      "tags": [
+        "科创板",
+        "上市"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321510.html"
+    },
+    {
+      "id": "44d7356398ad",
+      "title": "盈新发展拟定增募资不超17.79亿元",
+      "source": "华尔街见闻",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:21",
+      "date": "2026-08-17",
+      "summary": "盈新发展拟募资17.79亿用于封测及存储项目。",
+      "tags": [
+        "定增",
+        "存储",
+        "封测"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150510"
+    },
+    {
+      "id": "6eadf0a391b0",
+      "title": "美股盘前股指期货涨跌不一 芯片股普涨",
+      "source": "第一财经",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:21",
+      "date": "2026-08-17",
+      "summary": "美股期货涨跌不一，芯片股普涨，关注地缘政治。",
+      "tags": [
+        "美股",
+        "芯片股",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321508.html"
+    },
+    {
+      "id": "956b412ebdff",
+      "title": "瑞丰高材拟4-5亿元收购觅拓新材51%股权",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:19",
+      "date": "2026-08-17",
+      "summary": "瑞丰高材拟现金收购及增资取得觅拓新材控股权，布局电子材料。",
+      "tags": [
+        "并购",
+        "电子材料"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321506.html"
+    },
+    {
+      "id": "6bf53ac46c6a",
+      "title": "盈新发展拟定增募资不超17.79亿元",
+      "source": "格隆汇",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:19",
+      "date": "2026-08-17",
+      "summary": "盈新发展拟募资17.79亿用于封测等项目。",
+      "tags": [
+        "定增",
+        "存储芯片"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2616312"
+    },
+    {
+      "id": "8b47efed7b04",
+      "title": "跃岭股份拟1.11亿元转让中石光芯5%股权",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:18",
+      "date": "2026-08-17",
+      "summary": "跃岭股份转让中石光芯股权，交易金额约1.11亿元。",
+      "tags": [
+        "股权转让",
+        "跃岭股份"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321504.html"
+    },
+    {
+      "id": "601cc3c3026b",
+      "title": "威尔高上半年净利润同比下降2.01%",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 2,
+      "time": "20:18",
+      "date": "2026-08-17",
+      "summary": "威尔高半年报：营收增37%，净利微降，AI电源订单占比高。",
+      "tags": [
+        "威尔高",
+        "半年报",
+        "业绩"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321502.html"
+    },
+    {
+      "id": "8396e460aa59",
+      "title": "宇树科技8月19日科创板上市",
+      "source": "华尔街见闻",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:16",
+      "date": "2026-08-17",
+      "summary": "宇树科技宣布8月19日科创板上市。",
+      "tags": [
+        "科创板",
+        "上市"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150507"
+    },
+    {
+      "id": "e9b52bb6c241",
+      "title": "银轮股份：数据中心换热器与多家客户合作",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:15",
+      "date": "2026-08-17",
+      "summary": "银轮股份数据中心换热器与多家客户合作，部分送样验证。",
+      "tags": [
+        "银轮股份",
+        "数据中心",
+        "换热器"
+      ],
+      "watched": true,
+      "url": "https://www.yicai.com/news/103321496.html"
+    },
+    {
+      "id": "122464c65e81",
+      "title": "国家防总向新疆增调抗旱物资",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "20:15",
+      "date": "2026-08-17",
+      "summary": "国家防总支援新疆抗旱，调拨物资。",
+      "tags": [
+        "抗旱",
+        "新疆",
+        "政策"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321492.html"
+    },
+    {
+      "id": "d73dccb5099a",
+      "title": "宁德时代宜春锂矿项目迎重要进展",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "20:13",
+      "date": "2026-08-17",
+      "summary": "宁德时代宜春锂矿环评拟受理，复产关键一步。",
+      "tags": [
+        "宁德时代",
+        "锂矿",
+        "复产"
+      ],
+      "watched": true,
+      "url": "https://wallstreetcn.com/livenews/3150506"
+    },
+    {
+      "id": "8bf5761e0c8c",
+      "title": "天华新能2026年上半年扭亏为盈，净利润22.92亿元",
+      "source": "华尔街见闻",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:12",
+      "date": "2026-08-17",
+      "summary": "天华新能上半年扭亏，净利22.92亿，营收大增125%。",
+      "tags": [
+        "天华新能",
+        "业绩扭亏",
+        "净利润"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150505"
+    },
+    {
+      "id": "296323e03a58",
+      "title": "芯动联科2026年上半年净利润同比降76.36%",
+      "source": "华尔街见闻",
+      "category": "公司公告",
+      "stars": 2,
+      "time": "20:11",
+      "date": "2026-08-17",
+      "summary": "芯动联科上半年业绩大幅下滑，净利润降七成多。",
+      "tags": [
+        "业绩下滑",
+        "芯动联科"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150504"
+    },
+    {
+      "id": "0907a3b335ad",
+      "title": "大盘临近4000点 加仓追涨还是见好就收？",
+      "source": "第一财经",
+      "category": "市场情绪",
+      "stars": 3,
+      "time": "20:10",
+      "date": "2026-08-17",
+      "summary": "大盘逼近4000点，投资者纠结该加仓还是止盈。",
+      "tags": [
+        "大盘",
+        "投资策略"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321453.html"
+    },
+    {
+      "id": "aaf8c210db13",
+      "title": "今日股市0817丨指数全线放量反弹 新的上升趋势开启了吗？",
+      "source": "第一财经",
+      "category": "市场情绪",
+      "stars": 3,
+      "time": "20:09",
+      "date": "2026-08-17",
+      "summary": "股市放量反弹，关注趋势是否开启。",
+      "tags": [
+        "股市",
+        "反弹",
+        "趋势"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321450.html"
+    },
+    {
+      "id": "bdb132eb6ed5",
+      "title": "美国海军授予雷神公司229亿美元战斧导弹合同",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:07",
+      "date": "2026-08-17",
+      "summary": "美国海军给雷神大单，生产战斧导弹。",
+      "tags": [
+        "军工",
+        "美国"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150501"
+    },
+    {
+      "id": "e3f506be6e4f",
+      "title": "张家界上半年扭亏为盈，净利润3.08亿元",
+      "source": "第一财经",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:07",
+      "date": "2026-08-17",
+      "summary": "张家界上半年扭亏，赚了3.08亿。",
+      "tags": [
+        "张家界",
+        "扭亏为盈",
+        "半年报"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103321484.html"
+    },
+    {
+      "id": "5c74477709cc",
+      "title": "以色列利库德集团举行党内初选",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "20:06",
+      "date": "2026-08-17",
+      "summary": "以色列执政党初选，为议会选举做准备。",
+      "tags": [
+        "以色列",
+        "利库德集团",
+        "议会选举"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150499"
+    },
+    {
+      "id": "104018c62302",
+      "title": "和邦生物上半年净利润同比增634.3%",
+      "source": "华尔街见闻",
+      "category": "公司公告",
+      "stars": 3,
+      "time": "20:06",
+      "date": "2026-08-17",
+      "summary": "和邦生物上半年净利大增634%，但营收下滑。",
+      "tags": [
+        "业绩预告",
+        "净利润增长"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150498"
+    },
+    {
+      "id": "beb71cb75948",
+      "title": "Strategy：8月10日至16日期间未进行任何比特币买卖",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "20:04",
+      "date": "2026-08-17",
+      "summary": "Strategy本周未买卖比特币，影响有限。",
+      "tags": [
+        "比特币",
+        "Strategy"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150497"
+    },
+    {
+      "id": "f379c296941a",
+      "title": "特朗普特使推动美国优先石油交易",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "20:02",
+      "date": "2026-08-17",
+      "summary": "特朗普特使推动委内瑞拉石油交易，影响油市。",
+      "tags": [
+        "特朗普",
+        "委内瑞拉",
+        "石油"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3150496"
+    },
     {
       "id": "81fc74c074b7",
       "title": "美伊停火延长非破冰，国际金价看涨动能需关注三指标",
@@ -49,11 +919,10 @@
       "stars": 4,
       "time": "19:46",
       "date": "2026-08-17",
-      "summary": "央行新增8家银行参与数字人民币运营，机构总数达30家。",
+      "summary": "央行新增8家银行运营数字人民币，总数达30家。",
       "tags": [
         "数字人民币",
-        "央行",
-        "银行"
+        "银行扩容"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-17/102475124.html"
@@ -1187,7 +2056,7 @@
     },
     {
       "id": "e052595ac4c9",
-      "title": "1—7月投资同比降幅扩大至6.7%，新旧动能分化",
+      "title": "1—7月投资同比降幅扩大至6.7% 新旧动能投资明显分化",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
@@ -1196,8 +2065,8 @@
       "summary": "投资降幅扩大，结构分化，关注质量效益。",
       "tags": [
         "固定资产投资",
-        "经济转型",
-        "政策影响"
+        "经济数据",
+        "新旧动能"
       ],
       "watched": false,
       "url": "https://economy.caixin.com/2026-08-17/102475108.html"
@@ -1340,7 +2209,7 @@
       "id": "2d3c5ea07d70",
       "title": "陈燕妮：乘银风号去格陵兰｜纪行",
       "source": "财新网",
-      "category": "市场情绪",
+      "category": "宏观政策",
       "stars": 1,
       "time": "18:48",
       "date": "2026-08-17",
@@ -1394,10 +2263,10 @@
       "stars": 4,
       "time": "18:45",
       "date": "2026-08-17",
-      "summary": "7月工业增速回落，受天气矿难拖累，出口高位回落。",
+      "summary": "7月工业增速放缓，受天气和矿难影响，但AI支撑。",
       "tags": [
         "工业增加值",
-        "经济数据"
+        "宏观经济"
       ],
       "watched": false,
       "url": "https://economy.caixin.com/2026-08-17/102475014.html"
@@ -2390,13 +3259,13 @@
     },
     {
       "id": "947846c2e598",
-      "title": "个保法守门人条款细化规定征求意见",
+      "title": "个保法守门人条款细化规定征求意见，外部成员任监督委员会负责人",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
       "time": "17:08",
       "date": "2026-08-17",
-      "summary": "网信办拟要求大型平台设独立监督委员会，强化个保。",
+      "summary": "网信办拟要求大型平台设个保监督委员会，外部成员占多数。",
       "tags": [
         "个人信息保护",
         "大型平台",
@@ -2642,7 +3511,7 @@
     },
     {
       "id": "3f0173cecdfc",
-      "title": "7月社零增速放缓至0.6%，消费复苏承压",
+      "title": "7月社零增速放缓至0.6%",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
@@ -3811,16 +4680,17 @@
     },
     {
       "id": "a80853b7d9f3",
-      "title": "信托暴雷十余年后代销银行被判赔偿投资者损失20%",
+      "title": "信托暴雷十余年后 代销银行被判赔偿投资者损失20%",
       "source": "财新网",
-      "category": "市场情绪",
+      "category": "公司公告",
       "stars": 3,
       "time": "15:41",
       "date": "2026-08-17",
-      "summary": "银行未做风险测评推荐信托，被判赔偿投资者损失20%。",
+      "summary": "银行代销信托产品未尽责，被判赔偿投资者损失。",
       "tags": [
         "信托",
-        "银行责任"
+        "银行",
+        "赔偿"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-17/102474957.html"
@@ -4045,7 +4915,7 @@
     },
     {
       "id": "584d760007b3",
-      "title": "泰国拟向外国旅客征收450泰铢旅游费 最快2027年首季实施",
+      "title": "泰国拟征450泰铢旅游费，最快2027年实施",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 4,
@@ -4678,23 +5548,24 @@
     },
     {
       "id": "b1a7bf92361b",
-      "title": "草根公益机构面临备案难、募捐中断困境",
+      "title": "草根公益机构生存困境引关注",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 2,
       "time": "14:59",
       "date": "2026-08-17",
-      "summary": "公益机构生存困难，反映社会管理趋严。",
+      "summary": "公益机构资金困难，反映社会领域政策影响。",
       "tags": [
         "公益",
-        "社会管理"
+        "资金",
+        "社会政策"
       ],
       "watched": false,
       "url": "https://photos.caixin.com/2026-08-17/102474822.html"
     },
     {
       "id": "63e30be1bcc9",
-      "title": "最高法披露许垚故意杀人案，系游族网络CEO被害案",
+      "title": "最高法披露许垚故意杀人案 作案动机系长期矛盾",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 2,
@@ -4702,8 +5573,8 @@
       "date": "2026-08-17",
       "summary": "最高法公布游族CEO被害案详情，凶手已伏法。",
       "tags": [
-        "法律案件",
-        "游族网络"
+        "司法案件",
+        "社会新闻"
       ],
       "watched": false,
       "url": "https://companies.caixin.com/2026-08-17/102474818.html"
@@ -5150,13 +6021,13 @@
     },
     {
       "id": "1cd0395bbc35",
-      "title": "大西洋观察│以色列的10月选择",
+      "title": "以色列10月选战：安全与生存权成焦点",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "14:38",
       "date": "2026-08-17",
-      "summary": "以色列2026年大选将受安全考量和反犹情绪影响。",
+      "summary": "以色列大选临近，安全与生存权成关键议题。",
       "tags": [
         "以色列",
         "大选",
@@ -5418,13 +6289,13 @@
     },
     {
       "id": "b0a07569590f",
-      "title": "香港财政司长陈茂波：国际航空枢纽与“机场城市”未来",
+      "title": "香港财政司长：国际航空枢纽与机场城市未来",
       "source": "财新网",
       "category": "宏观政策",
       "stars": 3,
       "time": "14:24",
       "date": "2026-08-17",
-      "summary": "香港机场将发展成综合旅游服务地标，潜力巨大。",
+      "summary": "香港机场将发展成综合旅游地标，潜力巨大。",
       "tags": [
         "香港",
         "航空枢纽",
@@ -5788,11 +6659,11 @@
       "stars": 3,
       "time": "14:09",
       "date": "2026-08-17",
-      "summary": "讨论AI开源与闭源竞争，提出市场手段限制模型外流。",
+      "summary": "开源模型外流引关注，市场手段限制或成趋势",
       "tags": [
         "AI",
-        "开源",
-        "闭源"
+        "开源模型",
+        "产业政策"
       ],
       "watched": false,
       "url": "https://opinion.caixin.com/2026-08-17/102474790.html"
@@ -5873,11 +6744,11 @@
       "stars": 4,
       "time": "14:06",
       "date": "2026-08-17",
-      "summary": "美伊互指违约，海峡通船量下降，影响原油供应。",
+      "summary": "美伊协议到期未续，海峡通行量降6.25%，影响航运和油价。",
       "tags": [
-        "美伊关系",
-        "霍尔木兹海峡",
-        "原油供应"
+        "地缘政治",
+        "航运",
+        "原油"
       ],
       "watched": false,
       "url": "https://database.caixin.com/2026-08-17/102474784.html"
@@ -6868,19 +7739,19 @@
     },
     {
       "id": "e40284ed3a16",
-      "title": "宇树科技暗盘出价三倍触及账户监管红线",
+      "title": "宇树科技暗盘交易出价三倍 触及账户监管红线",
       "source": "财新网",
       "category": "市场异动",
       "stars": 3,
       "time": "12:36",
       "date": "2026-08-17",
-      "summary": "新股暗盘私下收购不受法律保护，风险高。",
+      "summary": "宇树科技未上市先现暗盘交易，出价高企引监管关注。",
       "tags": [
-        "新股",
-        "暗盘",
-        "监管"
+        "宇树科技",
+        "暗盘交易",
+        "监管红线"
       ],
-      "watched": false,
+      "watched": true,
       "url": "https://finance.caixin.com/2026-08-17/102474759.html"
     },
     {
@@ -6967,17 +7838,17 @@
     },
     {
       "id": "54df94adf2be",
-      "title": "泰国青少年枪击案背后：枪支管控困境",
+      "title": "泰国青少年枪击案背后枪支管控困境",
       "source": "财新网",
       "category": "宏观政策",
-      "stars": 3,
+      "stars": 2,
       "time": "12:32",
       "date": "2026-08-17",
-      "summary": "泰国枪支管控政策收紧，但枪击案仍频发，反映深层社会问题。",
+      "summary": "泰国枪击案频发，枪支管控政策收紧但问题犹存。",
       "tags": [
         "泰国",
         "枪支管控",
-        "社会安全"
+        "社会事件"
       ],
       "watched": false,
       "url": "https://international.caixin.com/2026-08-17/102474754.html"
@@ -7494,877 +8365,6 @@
       ],
       "watched": true,
       "url": ""
-    },
-    {
-      "id": "45dbee4dc86c",
-      "title": "印度央行提前关闭特别美元存款窗口，5年期国债收益率升幅扩大至8个基点",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "12:07",
-      "date": "2026-08-17",
-      "summary": "印度央行提前关闭特别美元存款窗口，国债收益率上升。",
-      "tags": [
-        "印度央行",
-        "国债收益率",
-        "美元存款"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150215"
-    },
-    {
-      "id": "abb7f6a4558a",
-      "title": "力传感器从高配变标配，资本涌向机器人产业上游",
-      "source": "第一财经",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "12:06",
-      "date": "2026-08-17",
-      "summary": "机器人零部件受资本关注，上游企业成投资热点。",
-      "tags": [
-        "机器人",
-        "传感器",
-        "融资"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103320289.html"
-    },
-    {
-      "id": "05d702be669e",
-      "title": "刘遵义：镕基总理，我最尊敬的人",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 2,
-      "time": "12:05",
-      "date": "2026-08-17",
-      "summary": "怀念朱镕基总理，个人回忆文章，与当前市场无关。",
-      "tags": [
-        "人物回忆",
-        "宏观政策"
-      ],
-      "watched": false,
-      "url": "https://opinion.caixin.com/2026-08-17/102474752.html"
-    },
-    {
-      "id": "6a7aa3baa582",
-      "title": "农银汇理首只ETF提前结束募集",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "12:04",
-      "date": "2026-08-17",
-      "summary": "农银汇理首只ETF提前结束募集，市场关注度提升。",
-      "tags": [
-        "ETF",
-        "基金募集"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "095915c85ecb",
-      "title": "吉利汽车上半年净利润90.9亿元同比降1.8%，营收1736亿元增15%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "12:02",
-      "date": "2026-08-17",
-      "summary": "吉利汽车上半年净利润略降但超预期，营收增长15%。",
-      "tags": [
-        "吉利汽车",
-        "财报",
-        "净利润",
-        "营收"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150214"
-    },
-    {
-      "id": "a9c3d9b248d3",
-      "title": "钉钉全球商业总裁杨猛将离任，下一站蚂蚁集团",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "12:02",
-      "date": "2026-08-17",
-      "summary": "钉钉高管杨猛离职，将加入蚂蚁集团。",
-      "tags": [
-        "钉钉",
-        "蚂蚁集团",
-        "高管变动"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150213"
-    },
-    {
-      "id": "82c070f61850",
-      "title": "三北工程攻坚战年均完成建设任务8000万亩以上",
-      "source": "华尔街见闻",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "12:00",
-      "date": "2026-08-17",
-      "summary": "三北工程三年年均建设超8000万亩，生态经济效益显著。",
-      "tags": [
-        "三北工程",
-        "生态建设",
-        "政策"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150211"
-    },
-    {
-      "id": "ea84ece6e37a",
-      "title": "港股午评：恒指涨1.61%，恒生科技指数涨2.01%",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "12:00",
-      "date": "2026-08-17",
-      "summary": "港股午盘大涨，芯片股和有色金属领涨。",
-      "tags": [
-        "港股",
-        "芯片股",
-        "有色金属"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "07350277eef6",
-      "title": "IDC：2025年中国AI视频云市场两大赛道规模近10亿元",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "12:00",
-      "date": "2026-08-17",
-      "summary": "IDC报告称AI视频云市场爆发，智能媒体生产增速427%。",
-      "tags": [
-        "AI视频云",
-        "IDC报告",
-        "内容工业革命"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150212"
-    },
-    {
-      "id": "abe2af722a0f",
-      "title": "阿里灵犀互娱确认易主，信宸资本收购达成",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "12:00",
-      "date": "2026-08-17",
-      "summary": "阿里旗下灵犀互娱被信宸资本收购，交易落定。",
-      "tags": [
-        "阿里",
-        "灵犀互娱",
-        "收购"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103320607.html"
-    },
-    {
-      "id": "3d8a0801e5b9",
-      "title": "中国10年国债收益率刷新逾一年低点",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "11:59",
-      "date": "2026-08-17",
-      "summary": "中国10年期国债收益率创逾一年新低，市场关注。",
-      "tags": [
-        "国债收益率",
-        "中国债市"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150208"
-    },
-    {
-      "id": "d64de3b82ca3",
-      "title": "中南文化拟调整重组方案，新增购买江阴热电50%股权",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "11:58",
-      "date": "2026-08-17",
-      "summary": "中南文化调整重组，新增收购江阴热电股权。",
-      "tags": [
-        "中南文化",
-        "重大资产重组",
-        "股权收购"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103320622.html"
-    },
-    {
-      "id": "983225e07f1b",
-      "title": "阿里Qwen3.8-27B登顶Hugging Face榜首，开源两天下载破百万",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "11:56",
-      "date": "2026-08-17",
-      "summary": "阿里大模型登顶全球开源榜，下载量破百万。",
-      "tags": [
-        "阿里",
-        "大模型",
-        "开源"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150206"
-    },
-    {
-      "id": "b5042636a621",
-      "title": "8月17日午间涨停分析",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "11:55",
-      "date": "2026-08-17",
-      "summary": "午盘78股涨停，封板率87%，大消费、电网等板块活跃。",
-      "tags": [
-        "涨停",
-        "连板",
-        "封板率"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "853d5484c5b6",
-      "title": "神州半导体落子光谷，开展半导体射频电源等研发",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "11:55",
-      "date": "2026-08-17",
-      "summary": "神州半导体在光谷建研发中心，明年一季度运营。",
-      "tags": [
-        "半导体",
-        "光谷",
-        "研发中心"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "716a41ed248f",
-      "title": "中南文化拟调整重组方案，新增购买江阴热电50%股权",
-      "source": "财联社电报",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "11:54",
-      "date": "2026-08-17",
-      "summary": "中南文化调整重组，新增收购江阴热电，股票停牌。",
-      "tags": [
-        "并购重组",
-        "停牌"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "b3c39b0032ef",
-      "title": "美7月零售销售低于预期 国际金价震荡收涨",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "11:54",
-      "date": "2026-08-17",
-      "summary": "美国零售数据不佳，金价震荡收涨。",
-      "tags": [
-        "美国零售",
-        "黄金",
-        "经济数据"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/video/103320612.html"
-    },
-    {
-      "id": "52a7b490c694",
-      "title": "行业重心转向规模制造 人形机器人打开成长空间",
-      "source": "第一财经",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "11:54",
-      "date": "2026-08-17",
-      "summary": "人形机器人行业转向规模制造，带来成长机会。",
-      "tags": [
-        "人形机器人",
-        "规模制造"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/video/103320610.html"
-    },
-    {
-      "id": "7214b475320d",
-      "title": "杠杆出清行情或近尾声 全球科技股再迎资金流入",
-      "source": "第一财经",
-      "category": "市场情绪",
-      "stars": 4,
-      "time": "11:53",
-      "date": "2026-08-17",
-      "summary": "杠杆出清近尾声，全球科技股获资金流入。",
-      "tags": [
-        "杠杆出清",
-        "科技股",
-        "资金流入"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/video/103320608.html"
-    },
-    {
-      "id": "5d6b275dc216",
-      "title": "机构策略：挖掘景气确定性较强的方向",
-      "source": "第一财经",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "11:52",
-      "date": "2026-08-17",
-      "summary": "机构建议关注景气度高的板块，提供投资参考。",
-      "tags": [
-        "机构策略",
-        "景气方向"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/video/103320606.html"
-    },
-    {
-      "id": "07db3642b1be",
-      "title": "水利部：全国45条河流仍维持超警",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "11:51",
-      "date": "2026-08-17",
-      "summary": "水利部称45条河流超警，太湖或发大洪水。",
-      "tags": [
-        "防汛",
-        "洪水",
-        "水利部"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "071e6cfcd165",
-      "title": "通光线缆子公司预中标1.07亿元南方电网项目",
-      "source": "财联社电报",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "11:51",
-      "date": "2026-08-17",
-      "summary": "通光线缆子公司预中标南方电网1.07亿项目，占营收4.2%。",
-      "tags": [
-        "中标",
-        "南方电网",
-        "通光线缆"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "51e61de4a903",
-      "title": "日本10年期国债收益率升至近30年最高",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "11:49",
-      "date": "2026-08-17",
-      "summary": "日本国债收益率飙升，市场预期央行或加息。",
-      "tags": [
-        "日本国债",
-        "收益率",
-        "央行加息"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150203"
-    },
-    {
-      "id": "346c6ca0ef73",
-      "title": "公募调研热情升温，上周调研次数超540次",
-      "source": "华尔街见闻",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "11:48",
-      "date": "2026-08-17",
-      "summary": "公募调研活跃，上周调研546次，环比增42%。",
-      "tags": [
-        "公募调研",
-        "市场情绪"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150202"
-    },
-    {
-      "id": "58c724f7476b",
-      "title": "海鸥住工筹划控制权变更，股票停牌",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "11:46",
-      "date": "2026-08-17",
-      "summary": "海鸥住工控股股东筹划控制权变更，股票停牌。",
-      "tags": [
-        "控制权变更",
-        "停牌"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103320602.html"
-    },
-    {
-      "id": "15e14b2a3776",
-      "title": "通光线缆子公司预中标南方电网1.07亿元项目",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 2,
-      "time": "11:46",
-      "date": "2026-08-17",
-      "summary": "通光线缆子公司预中标南方电网项目，金额约1.07亿元。",
-      "tags": [
-        "通光线缆",
-        "中标",
-        "南方电网"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103320604.html"
-    },
-    {
-      "id": "8b1c0527a839",
-      "title": "海鸥住工筹划控制权变更停牌",
-      "source": "金十数据",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "11:44",
-      "date": "2026-08-17",
-      "summary": "海鸥住工因筹划控制权变更停牌，预计不超2个交易日。",
-      "tags": [
-        "控制权变更",
-        "停牌"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "982f11632ee1",
-      "title": "美联储加息预期骤降 股债逻辑分裂 AI芯片融资幽灵负债 机器人算力重塑SpaceX成长逻辑",
-      "source": "第一财经",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "11:38",
-      "date": "2026-08-17",
-      "summary": "通胀降温加息退潮，股债背离暗藏分歧，AI与机器人成新焦点。",
-      "tags": [
-        "美联储",
-        "加息预期",
-        "股债背离",
-        "AI芯片"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/video/103320575.html"
-    },
-    {
-      "id": "111fc641e881",
-      "title": "A股午评：科创50涨3%，粮食概念、芯片股走强",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "11:35",
-      "date": "2026-08-17",
-      "summary": "A股半日放量上涨，科创50领涨，粮食和芯片股活跃。",
-      "tags": [
-        "A股",
-        "科创50",
-        "粮食概念",
-        "芯片股"
-      ],
-      "watched": true,
-      "url": ""
-    },
-    {
-      "id": "95e3ff07b580",
-      "title": "美国经济数据降温，金价获支撑，本周关注美联储表态",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "11:34",
-      "date": "2026-08-17",
-      "summary": "美国经济数据降温，金价回撤获支撑，本周看美联储表态。",
-      "tags": [
-        "黄金",
-        "美联储",
-        "经济数据"
-      ],
-      "watched": false,
-      "url": "https://xnews.jin10.com/details/227601"
-    },
-    {
-      "id": "8f336eac7ddd",
-      "title": "A股主要指数早盘集体上涨，科创50领涨",
-      "source": "华尔街见闻",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "11:31",
-      "date": "2026-08-17",
-      "summary": "A股早盘全线上涨，科创50涨超3%",
-      "tags": [
-        "A股",
-        "早盘",
-        "上涨"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150199"
-    },
-    {
-      "id": "35e38b6887f9",
-      "title": "科创50半日涨超3%，芯片农业股走强",
-      "source": "华尔街见闻",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "11:30",
-      "date": "2026-08-17",
-      "summary": "科创50大涨，芯片农业股领涨，市场情绪积极。",
-      "tags": [
-        "科创50",
-        "芯片",
-        "农业股"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150198"
-    },
-    {
-      "id": "8cb1e7651a0d",
-      "title": "早盘期货主力合约涨多跌少，集运欧线涨近9%",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "11:30",
-      "date": "2026-08-17",
-      "summary": "早盘期货多数上涨，集运欧线领涨近9%。",
-      "tags": [
-        "期货",
-        "集运欧线",
-        "乙二醇"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "ecb515accb25",
-      "title": "国债期货早盘收盘多数下跌",
-      "source": "华尔街见闻",
-      "category": "市场情绪",
-      "stars": 2,
-      "time": "11:30",
-      "date": "2026-08-17",
-      "summary": "国债期货早盘小幅下跌，影响有限。",
-      "tags": [
-        "国债期货",
-        "市场行情"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150196"
-    },
-    {
-      "id": "c9ab0b7bbd95",
-      "title": "珠海多个口岸明起实施通关便利措施",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "11:29",
-      "date": "2026-08-17",
-      "summary": "珠海口岸通关新措施，便利粤港澳人员往来。",
-      "tags": [
-        "珠海口岸",
-        "通关便利",
-        "粤港澳大湾区"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150195"
-    },
-    {
-      "id": "7eb83238132f",
-      "title": "美元受三大主题支撑，未来数月走弱空间有限；日央行加息预期与日元走势负相关，摩根大通维持日元中长期看空预测",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "11:28",
-      "date": "2026-08-17",
-      "summary": "美元短期有支撑，日元中长期看空。",
-      "tags": [
-        "美元",
-        "日元",
-        "摩根大通"
-      ],
-      "watched": false,
-      "url": "https://xnews.jin10.com/details/227587"
-    },
-    {
-      "id": "4cad033cd173",
-      "title": "APEC第三次高官会今起在大连举行",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "11:23",
-      "date": "2026-08-17",
-      "summary": "APEC高官会在大连召开，为领导人会议做准备。",
-      "tags": [
-        "APEC",
-        "高官会",
-        "大连"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150193"
-    },
-    {
-      "id": "848d7a5aaeb0",
-      "title": "我国成功发射SEO卫星",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "11:23",
-      "date": "2026-08-17",
-      "summary": "我国成功发射SEO卫星，进入预定轨道。",
-      "tags": [
-        "航天",
-        "卫星"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150194"
-    },
-    {
-      "id": "a8750635825d",
-      "title": "郭德纲被举报，谁的压力最大",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 2,
-      "time": "11:12",
-      "date": "2026-08-17",
-      "summary": "娱乐事件引发政策讨论，参考价值有限。",
-      "tags": [
-        "娱乐",
-        "举报"
-      ],
-      "watched": false,
-      "url": "https://opinion.caixin.com/2026-08-17/102474734.html"
-    },
-    {
-      "id": "4c9477e042ae",
-      "title": "药明康德A+H齐创历史新高，总市值突破5000亿",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "11:10",
-      "date": "2026-08-17",
-      "summary": "药明康德股价大涨，市值创新高。",
-      "tags": [
-        "药明康德",
-        "创新高",
-        "市值"
-      ],
-      "watched": true,
-      "url": "https://wallstreetcn.com/livenews/3150191"
-    },
-    {
-      "id": "8565c4e97569",
-      "title": "财政部8月18日开展国债做市支持操作，随卖6.2亿元",
-      "source": "华尔街见闻",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "11:07",
-      "date": "2026-08-17",
-      "summary": "财政部将进行国债做市操作，方向随卖，规模6.2亿。",
-      "tags": [
-        "国债",
-        "做市支持"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150190"
-    },
-    {
-      "id": "aeea36c0173f",
-      "title": "1-7月全国铁路固定资产投资4406亿元",
-      "source": "华尔街见闻",
-      "category": "宏观政策",
-      "stars": 3,
-      "time": "11:07",
-      "date": "2026-08-17",
-      "summary": "铁路投资同比增长1.8%，基建稳步推进。",
-      "tags": [
-        "铁路",
-        "固定资产投资"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150189"
-    },
-    {
-      "id": "1e45f556085f",
-      "title": "中信资本收购阿里旗下灵犀互娱已生效",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "11:05",
-      "date": "2026-08-17",
-      "summary": "阿里出售灵犀互娱，中信资本接手。",
-      "tags": [
-        "阿里",
-        "中信资本",
-        "游戏"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150188"
-    },
-    {
-      "id": "32a525588ce5",
-      "title": "我国稀土检测技术取得重要进展",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "11:03",
-      "date": "2026-08-17",
-      "summary": "稀土检测技术突破，提升产品质量把控。",
-      "tags": [
-        "稀土",
-        "检测技术"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150187"
-    },
-    {
-      "id": "90d6c6b8b089",
-      "title": "美国AI烧钱模式的边界",
-      "source": "财新网",
-      "category": "宏观政策",
-      "stars": 4,
-      "time": "11:02",
-      "date": "2026-08-17",
-      "summary": "AI资本开支可持续性存疑，关注盈利与加息影响。",
-      "tags": [
-        "AI",
-        "资本开支",
-        "美联储"
-      ],
-      "watched": false,
-      "url": "https://opinion.caixin.com/2026-08-17/102474732.html"
-    },
-    {
-      "id": "935d7582921f",
-      "title": "SHIBOR利率小幅波动，隔夜和7天期微降",
-      "source": "华尔街见闻",
-      "category": "市场情绪",
-      "stars": 2,
-      "time": "11:01",
-      "date": "2026-08-17",
-      "summary": "SHIBOR利率微降，市场流动性平稳。",
-      "tags": [
-        "SHIBOR",
-        "利率",
-        "流动性"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150186"
-    },
-    {
-      "id": "057e0b53935f",
-      "title": "罗牛山等“牛”字股涨停，动画电影《牛来》反向走红",
-      "source": "华尔街见闻",
-      "category": "市场情绪",
-      "stars": 1,
-      "time": "10:54",
-      "date": "2026-08-17",
-      "summary": "牛字股涨停，电影《牛来》意外走红，纯属娱乐。",
-      "tags": [
-        "牛字股",
-        "涨停",
-        "动画电影"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150183"
-    },
-    {
-      "id": "985ca8183e14",
-      "title": "深成指、创业板指涨超1%，科创50涨超3%，农业、半导体等领涨",
-      "source": "华尔街见闻",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "10:52",
-      "date": "2026-08-17",
-      "summary": "A股主要指数上涨，科创50领涨，农业、半导体等板块活跃。",
-      "tags": [
-        "A股",
-        "科创50",
-        "半导体"
-      ],
-      "watched": true,
-      "url": "https://wallstreetcn.com/livenews/3150182"
-    },
-    {
-      "id": "50919efd6cb1",
-      "title": "习近平：实现中华民族伟大复兴前景光明",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "10:45",
-      "date": "2026-08-17",
-      "summary": "习近平讲话强调民族复兴前景，政策信号温和。",
-      "tags": [
-        "习近平",
-        "民族复兴",
-        "政策讲话"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150179"
-    },
-    {
-      "id": "8afa120f7572",
-      "title": "恒生科技指数涨2%，商汤涨超8%，华虹宏力涨超7%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "10:44",
-      "date": "2026-08-17",
-      "summary": "港股科技股大涨，商汤和华虹领涨。",
-      "tags": [
-        "港股",
-        "科技股"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3150177"
-    },
-    {
-      "id": "18ecd85ee952",
-      "title": "味之素削减中国大陆ABF供货30%，冲击芯片封装供应链",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "10:40",
-      "date": "2026-08-17",
-      "summary": "味之素削减大陆ABF供货30%，影响芯片封装。",
-      "tags": [
-        "ABF",
-        "芯片封装",
-        "供应链"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2615325"
-    },
-    {
-      "id": "f17fa9d1a75f",
-      "title": "野村降腾讯目标价至695港元，称AI支出为战略性利好",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "10:40",
-      "date": "2026-08-17",
-      "summary": "野村维持腾讯买入评级，目标价降至695港元，看好AI投入。",
-      "tags": [
-        "腾讯",
-        "野村",
-        "AI支出"
-      ],
-      "watched": true,
-      "url": "https://www.gelonghui.com/live/2615324"
     }
   ]
 }
