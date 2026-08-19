@@ -1,28 +1,536 @@
 {
   "version": "2.0",
-  "fetched_at": "2026-08-20T03:26:06.301701+08:00",
+  "fetched_at": "2026-08-20T03:51:31.187768+08:00",
   "total_count": 500,
-  "today_count": 138,
-  "major_count": 145,
-  "watched_count": 16,
+  "today_count": 167,
+  "major_count": 146,
+  "watched_count": 13,
   "sources_used": 14,
   "news": [
     {
+      "id": "15289ad45f8c",
+      "title": "Marvell因AI芯片交易协议大涨8%，谷歌可购至多122亿美元股份",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "03:44",
+      "date": "2026-08-20",
+      "summary": "Marvell与谷歌达成AI芯片协议，股价大涨8%。",
+      "tags": [
+        "AI芯片",
+        "谷歌",
+        "Marvell"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151920"
+    },
+    {
+      "id": "b5f3d06b3566",
+      "title": "特朗普谈债券市场：美国人无需担忧波动",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:44",
+      "date": "2026-08-20",
+      "summary": "特朗普安抚市场，称债券波动无需担忧。",
+      "tags": [
+        "特朗普",
+        "债券市场",
+        "市场波动"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151921"
+    },
+    {
+      "id": "357083353c7c",
+      "title": "特朗普：利率水平太荒谬了",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "03:43",
+      "date": "2026-08-20",
+      "summary": "特朗普批评利率过高，可能影响美联储政策预期。",
+      "tags": [
+        "特朗普",
+        "利率",
+        "美联储"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621289"
+    },
+    {
+      "id": "d86985c5e14d",
+      "title": "特朗普：美国人不应担心债券市场波动性",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "03:42",
+      "date": "2026-08-20",
+      "summary": "特朗普安抚市场，称无需担忧债市波动。",
+      "tags": [
+        "特朗普",
+        "债券市场",
+        "波动性"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621288"
+    },
+    {
+      "id": "6a8dd1bc84f0",
+      "title": "特朗普：美国人不应担心债券市场波动性",
+      "source": "金十数据",
+      "category": "市场情绪",
+      "stars": 3,
+      "time": "03:41",
+      "date": "2026-08-20",
+      "summary": "特朗普安抚市场，称无需担忧债市波动。",
+      "tags": [
+        "特朗普",
+        "债券市场",
+        "波动性"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "6f91e7d58d4e",
+      "title": "特朗普称霍尔木兹海峡开放，船只通行正常",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:40",
+      "date": "2026-08-20",
+      "summary": "特朗普称海峡开放，船只通行正常，但媒体未报道。",
+      "tags": [
+        "特朗普",
+        "伊朗",
+        "霍尔木兹海峡"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151919"
+    },
+    {
+      "id": "174b546e3cc1",
+      "title": "特朗普称赞美联储主席沃什表现出色",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "03:40",
+      "date": "2026-08-20",
+      "summary": "特朗普夸美联储主席沃什干得好，市场关注。",
+      "tags": [
+        "特朗普",
+        "美联储",
+        "沃什"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621287"
+    },
+    {
+      "id": "2841d357e64a",
+      "title": "OpenAI CFO称公司或于2027年上市",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "03:39",
+      "date": "2026-08-20",
+      "summary": "OpenAI CFO称可能2027年上市，或更早。",
+      "tags": [
+        "OpenAI",
+        "IPO",
+        "科技公司"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151918"
+    },
+    {
+      "id": "5820e6ea190a",
+      "title": "特朗普：有权切断与任何国家的业务往来",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "03:39",
+      "date": "2026-08-20",
+      "summary": "特朗普称有权切断与任何国家的业务往来，影响市场情绪。",
+      "tags": [
+        "特朗普",
+        "国际关系",
+        "市场影响"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621285"
+    },
+    {
+      "id": "2cb43ecf7280",
+      "title": "特朗普：可能降低对加拿大部分关税",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "03:38",
+      "date": "2026-08-20",
+      "summary": "特朗普称可能降低对加拿大关税，影响市场情绪。",
+      "tags": [
+        "特朗普",
+        "关税",
+        "加拿大"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621284"
+    },
+    {
+      "id": "1ec6592824ba",
+      "title": "特朗普：霍尔木兹海峡重要性将不如以往",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "03:37",
+      "date": "2026-08-20",
+      "summary": "特朗普称霍尔木兹海峡重要性下降，影响能源市场。",
+      "tags": [
+        "特朗普",
+        "霍尔木兹海峡",
+        "能源"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621281"
+    },
+    {
+      "id": "63c9d7923892",
+      "title": "特朗普：与伊朗协议未如预期实现",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:37",
+      "date": "2026-08-20",
+      "summary": "特朗普称与伊朗协议未达预期，影响市场情绪。",
+      "tags": [
+        "特朗普",
+        "伊朗",
+        "协议"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621283"
+    },
+    {
+      "id": "8f039e162f38",
+      "title": "特朗普：霍尔木兹海峡船只通行未来或放缓",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "03:37",
+      "date": "2026-08-20",
+      "summary": "特朗普称霍尔木兹海峡船只通行未来或放缓，影响油运。",
+      "tags": [
+        "特朗普",
+        "霍尔木兹海峡",
+        "油运"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621282"
+    },
+    {
+      "id": "47654e50ff0a",
+      "title": "特朗普：可能继续封锁霍尔木兹海峡",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 5,
+      "time": "03:36",
+      "date": "2026-08-20",
+      "summary": "特朗普称可能封锁霍尔木兹海峡，地缘风险升级。",
+      "tags": [
+        "特朗普",
+        "霍尔木兹海峡",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621279"
+    },
+    {
+      "id": "df3959c6400f",
+      "title": "特朗普：加拿大贸易中农民无需支付关税",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 4,
+      "time": "03:36",
+      "date": "2026-08-20",
+      "summary": "特朗普称农民对加贸易免关税，利好农业板块。",
+      "tags": [
+        "特朗普",
+        "加拿大",
+        "关税",
+        "农业"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621280"
+    },
+    {
+      "id": "9187ff508b8a",
+      "title": "皮尤调查：美国年轻人对AI态度日益敌视",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:35",
+      "date": "2026-08-20",
+      "summary": "美国年轻人担忧AI致失业，态度转敌视。",
+      "tags": [
+        "AI",
+        "就业",
+        "美国"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151917"
+    },
+    {
+      "id": "41b46b529ece",
+      "title": "现货黄金站上4510美元/盎司，日内涨4.06%",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "03:35",
+      "date": "2026-08-20",
+      "summary": "黄金大涨，站上4510美元，日内涨超4%。",
+      "tags": [
+        "黄金",
+        "现货",
+        "上涨"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621276"
+    },
+    {
+      "id": "77907117699a",
+      "title": "特朗普支持任期限制",
+      "source": "格隆汇",
+      "category": "宏观政策",
+      "stars": 2,
+      "time": "03:35",
+      "date": "2026-08-20",
+      "summary": "特朗普表态支持任期限制，影响有限。",
+      "tags": [
+        "特朗普",
+        "任期限制"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621278"
+    },
+    {
+      "id": "d69edbeaaa52",
+      "title": "特朗普：关于伊朗制裁，我们拭目以待",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 2,
+      "time": "03:35",
+      "date": "2026-08-20",
+      "summary": "特朗普对伊朗制裁表态模糊，市场影响有限。",
+      "tags": [
+        "特朗普",
+        "伊朗制裁",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621277"
+    },
+    {
+      "id": "8615765ee656",
+      "title": "特朗普：美国已就储备大规模比特币及其他加密货币展开讨论",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 5,
+      "time": "03:34",
+      "date": "2026-08-20",
+      "summary": "特朗普称美国将讨论储备比特币，重大政策信号。",
+      "tags": [
+        "比特币",
+        "特朗普",
+        "加密货币"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151916"
+    },
+    {
+      "id": "070aacce9260",
+      "title": "OpenAI CFO称公司或于2027年上市",
+      "source": "格隆汇",
+      "category": "市场异动",
+      "stars": 4,
+      "time": "03:34",
+      "date": "2026-08-20",
+      "summary": "OpenAI CFO称2027年或更早上市，IPO是里程碑。",
+      "tags": [
+        "OpenAI",
+        "IPO",
+        "科技股"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621275"
+    },
+    {
+      "id": "8f7c06381545",
+      "title": "特朗普称美加贸易谈判达成有利协议",
+      "source": "格隆汇",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:33",
+      "date": "2026-08-20",
+      "summary": "特朗普表示美加贸易谈判达成互利协议。",
+      "tags": [
+        "特朗普",
+        "贸易谈判",
+        "加拿大"
+      ],
+      "watched": false,
+      "url": "https://www.gelonghui.com/live/2621273"
+    },
+    {
+      "id": "9ab8b915d119",
+      "title": "特朗普：美加贸易谈判可能达成协议",
+      "source": "金十数据",
+      "category": "市场异动",
+      "stars": 3,
+      "time": "03:32",
+      "date": "2026-08-20",
+      "summary": "特朗普称美加谈判或达成协议，市场关注。",
+      "tags": [
+        "特朗普",
+        "贸易谈判",
+        "加拿大"
+      ],
+      "watched": false,
+      "url": ""
+    },
+    {
+      "id": "6af8814459f4",
+      "title": "特朗普下周将与AI行业人士会晤",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:30",
+      "date": "2026-08-20",
+      "summary": "特朗普计划下周与AI行业人士会面，关注政策动向。",
+      "tags": [
+        "特朗普",
+        "AI",
+        "政策"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151915"
+    },
+    {
+      "id": "c80d2a23c637",
+      "title": "美元指数下跌0.83%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:28",
+      "date": "2026-08-20",
+      "summary": "美元指数下跌，市场情绪波动。",
+      "tags": [
+        "美元指数",
+        "外汇市场"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151914"
+    },
+    {
+      "id": "d4a8a38aa522",
+      "title": "美国通过霍尔木兹海峡运输石油行动见效",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "03:27",
+      "date": "2026-08-20",
+      "summary": "美军建通道，每日运油千万桶，规模达战前一半。",
+      "tags": [
+        "霍尔木兹海峡",
+        "石油运输",
+        "美国军事行动"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151913"
+    },
+    {
+      "id": "5d312030de45",
+      "title": "伦敦基本金属多数上涨，LME期铜涨0.46%",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "03:26",
+      "date": "2026-08-20",
+      "summary": "伦敦金属市场多数品种上涨，铜镍锡锌铝均走高，铅微跌。",
+      "tags": [
+        "伦敦金属",
+        "LME",
+        "铜价",
+        "镍价"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151912"
+    },
+    {
+      "id": "2fc315202a09",
+      "title": "税务部门为机器人企业提供全生命周期涉税辅导",
+      "source": "华尔街见闻",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "03:23",
+      "date": "2026-08-20",
+      "summary": "税务辅导助机器人企业享政策红利",
+      "tags": [
+        "税务",
+        "机器人",
+        "政策红利"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151911"
+    },
+    {
+      "id": "ea26e3818b6d",
+      "title": "特朗普呼吁国会通过《清晰法案》",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "03:20",
+      "date": "2026-08-20",
+      "summary": "特朗普要求国会通过《清晰法案》，影响加密监管。",
+      "tags": [
+        "特朗普",
+        "加密法案"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151910"
+    },
+    {
       "id": "bfa8b98c2afa",
-      "title": "美国商品期货交易委员会主席：明天会议将公布监管路径细节",
+      "title": "美国商品期货交易委员会主席：明天将公布监管路径细节",
       "source": "华尔街见闻",
       "category": "海外联动",
       "stars": 3,
       "time": "03:19",
       "date": "2026-08-20",
-      "summary": "美CFTC主席称明日会议公布监管细节，关注后续影响。",
+      "summary": "美CFTC主席称明日公布监管细节，关注后续影响。",
       "tags": [
         "CFTC",
-        "监管",
-        "海外"
+        "监管"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3151909"
+    },
+    {
+      "id": "a655ac5f55e1",
+      "title": "美联储纪要：若通胀不降可能加息",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 5,
+      "time": "03:19",
+      "date": "2026-08-20",
+      "summary": "美联储纪要显示若通胀不降可能加息，风险偏上行。",
+      "tags": [
+        "美联储",
+        "加息",
+        "通胀"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103325525.html"
     },
     {
       "id": "a7f3aab88c8a",
@@ -62,7 +570,7 @@
       "title": "特朗普希望利率下降",
       "source": "华尔街见闻",
       "category": "海外联动",
-      "stars": 4,
+      "stars": 3,
       "time": "03:15",
       "date": "2026-08-20",
       "summary": "特朗普表态希望降息，影响全球市场情绪。",
@@ -82,13 +590,30 @@
       "stars": 2,
       "time": "03:15",
       "date": "2026-08-20",
-      "summary": "厄瓜多尔情报头子在肯尼亚坠机身亡，与金融无关。",
+      "summary": "厄瓜多尔情报高官夫妇在肯尼亚坠机丧生，含4名美国人。",
       "tags": [
-        "事故",
-        "海外"
+        "坠机",
+        "厄瓜多尔",
+        "肯尼亚"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103325517.html"
+    },
+    {
+      "id": "774d92f8316c",
+      "title": "俄副总理：俄罗斯已开始进口燃料",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "03:15",
+      "date": "2026-08-20",
+      "summary": "俄罗斯开始进口燃料，缓解短缺，多国愿供应。",
+      "tags": [
+        "俄罗斯",
+        "燃料进口"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103325519.html"
     },
     {
       "id": "9e0bed8a6dec",
@@ -98,7 +623,7 @@
       "stars": 3,
       "time": "03:14",
       "date": "2026-08-20",
-      "summary": "白银大涨近5%，现价66美元上方",
+      "summary": "白银大涨近5%，现价66美元上方。",
       "tags": [
         "白银",
         "贵金属",
@@ -184,11 +709,11 @@
       "stars": 4,
       "time": "03:11",
       "date": "2026-08-20",
-      "summary": "金价大涨，创6月4日以来新高。",
+      "summary": "黄金突破4500美元，创6月4日以来新高，涨幅近4%。",
       "tags": [
         "黄金",
-        "现货",
-        "上涨"
+        "贵金属",
+        "市场异动"
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3151906"
@@ -432,23 +957,6 @@
       "url": "https://www.gelonghui.com/live/2621236"
     },
     {
-      "id": "774d92f8316c",
-      "title": "俄副总理：俄罗斯已开始进口燃料",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "02:54",
-      "date": "2026-08-20",
-      "summary": "俄罗斯开始进口燃料，缓解国内短缺，影响全球能源市场。",
-      "tags": [
-        "俄罗斯",
-        "燃料",
-        "进口"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
       "id": "589a44514988",
       "title": "伊朗央行行长：目前尚未有任何被冻结的资金解冻",
       "source": "华尔街见闻",
@@ -456,7 +964,7 @@
       "stars": 3,
       "time": "02:54",
       "date": "2026-08-20",
-      "summary": "伊朗央行称冻结资金未解冻，关注海外局势。",
+      "summary": "伊朗央行称冻结资金未解冻，关注地缘影响。",
       "tags": [
         "伊朗",
         "资金解冻"
@@ -522,7 +1030,7 @@
       "stars": 3,
       "time": "02:45",
       "date": "2026-08-20",
-      "summary": "布伦特原油期货收涨，报91.62美元/桶。",
+      "summary": "布伦特原油期货结算价每桶91.62美元，涨0.66%。",
       "tags": [
         "原油",
         "期货"
@@ -549,20 +1057,38 @@
       "url": "https://wallstreetcn.com/livenews/3151902"
     },
     {
-      "id": "c61c7127bfd5",
-      "title": "美军称已使65艘商船改变航线",
-      "source": "财联社电报",
-      "category": "市场异动",
+      "id": "602e29bea1a7",
+      "title": "花旗建议买入20年期美债，称回购增加预示收益率见顶",
+      "source": "第一财经",
+      "category": "宏观政策",
       "stars": 4,
-      "time": "02:38",
+      "time": "02:43",
       "date": "2026-08-20",
-      "summary": "美军海上封锁伊朗，已引导65艘商船改道，影响航运。",
+      "summary": "花旗建议买入长期美债，预计收益率将下降。",
       "tags": [
-        "中东局势",
-        "航运影响"
+        "美国国债",
+        "花旗",
+        "收益率"
       ],
       "watched": false,
-      "url": ""
+      "url": "https://www.yicai.com/news/103325515.html"
+    },
+    {
+      "id": "c61c7127bfd5",
+      "title": "美军称已使65艘商船改变航线",
+      "source": "华尔街见闻",
+      "category": "海外联动",
+      "stars": 4,
+      "time": "02:39",
+      "date": "2026-08-20",
+      "summary": "美军海上封锁伊朗，已迫使65艘商船改道。",
+      "tags": [
+        "地缘政治",
+        "航运",
+        "伊朗"
+      ],
+      "watched": false,
+      "url": "https://wallstreetcn.com/livenews/3151901"
     },
     {
       "id": "ec323be538f5",
@@ -850,23 +1376,6 @@
       "url": "https://wallstreetcn.com/livenews/3151896"
     },
     {
-      "id": "602e29bea1a7",
-      "title": "花旗建议买入20年期美债，称回购增加预示收益率见顶",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "02:20",
-      "date": "2026-08-20",
-      "summary": "花旗建议买入20年期美债，认为收益率可能见顶。",
-      "tags": [
-        "美国国债",
-        "花旗",
-        "收益率"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
       "id": "2801228a7a3c",
       "title": "优步、VERNE和小马智行在克罗地亚推出自动驾驶服务",
       "source": "财联社电报",
@@ -1000,23 +1509,6 @@
       "url": ""
     },
     {
-      "id": "a655ac5f55e1",
-      "title": "美联储会议纪要：若通胀不降可能加息",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 5,
-      "time": "02:02",
-      "date": "2026-08-20",
-      "summary": "美联储纪要暗示可能加息，通胀风险上行。",
-      "tags": [
-        "美联储",
-        "加息",
-        "通胀"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151894"
-    },
-    {
       "id": "cb490d544fde",
       "title": "美联储纪要显示多位官员倾向加息，称通胀居高不下需行动",
       "source": "财联社电报",
@@ -1032,6 +1524,22 @@
       ],
       "watched": false,
       "url": ""
+    },
+    {
+      "id": "e1a728d86efc",
+      "title": "英伟达拟投资AI数据供应商Mercor，估值200亿美元",
+      "source": "第一财经",
+      "category": "海外联动",
+      "stars": 3,
+      "time": "01:57",
+      "date": "2026-08-20",
+      "summary": "英伟达计划投资AI数据公司Mercor，估值200亿美元。",
+      "tags": [
+        "英伟达",
+        "AI投资"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103325511.html"
     },
     {
       "id": "7f1635fd3f94",
@@ -1068,17 +1576,34 @@
       "url": "https://www.yicai.com/news/103325507.html"
     },
     {
+      "id": "5587bf1ea4bf",
+      "title": "美国20年期国债中标收益率5.204% 高于发行前交易水平",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "01:56",
+      "date": "2026-08-20",
+      "summary": "美国20年期国债拍卖收益率略高于预期，市场反应平淡。",
+      "tags": [
+        "美国国债",
+        "收益率",
+        "拍卖"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103325509.html"
+    },
+    {
       "id": "4b7bad2c9625",
       "title": "印尼东努沙登加拉省发生5.7级地震",
       "source": "第一财经",
       "category": "宏观政策",
-      "stars": 1,
+      "stars": 2,
       "time": "01:55",
       "date": "2026-08-20",
-      "summary": "印尼发生5.7级地震，影响有限。",
+      "summary": "印尼发生5.7级地震，对A股影响有限。",
       "tags": [
-        "印尼",
-        "地震"
+        "地震",
+        "印尼"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103325505.html"
@@ -1099,23 +1624,6 @@
       ],
       "watched": false,
       "url": ""
-    },
-    {
-      "id": "e1a728d86efc",
-      "title": "英伟达拟投资AI数据供应商Mercor，估值200亿美元",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "01:50",
-      "date": "2026-08-20",
-      "summary": "英伟达拟投AI数据商Mercor，估值200亿美元。",
-      "tags": [
-        "英伟达",
-        "AI数据",
-        "投资"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151892"
     },
     {
       "id": "97a8be2ecc52",
@@ -1539,7 +2047,7 @@
     },
     {
       "id": "4cf1fa55b247",
-      "title": "阿根廷机场可疑包裹疏散后恢复",
+      "title": "阿根廷机场可疑包裹疏散后恢复运营",
       "source": "第一财经",
       "category": "宏观政策",
       "stars": 1,
@@ -1548,7 +2056,8 @@
       "summary": "阿根廷机场因可疑包裹疏散，已排除威胁。",
       "tags": [
         "阿根廷",
-        "机场安全"
+        "机场",
+        "安全"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103325503.html"
@@ -1571,19 +2080,36 @@
     },
     {
       "id": "2941b3f05281",
-      "title": "受热带低压影响 广东徐闻港、海安新港客滚船今日停运",
+      "title": "受热带低压影响，广东徐闻港、海安新港客滚船今日停运",
       "source": "第一财经",
       "category": "宏观政策",
-      "stars": 1,
+      "stars": 2,
       "time": "01:15",
       "date": "2026-08-20",
-      "summary": "台风影响，徐闻港停运，船票顺延。",
+      "summary": "受热带低压影响，徐闻港、海安新港客滚船停运，请合理安排行程。",
       "tags": [
-        "台风",
-        "停运"
+        "天气影响",
+        "交通停运"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103325501.html"
+    },
+    {
+      "id": "db2ae4aedec3",
+      "title": "特朗普预计今年晚些时候会见金正恩",
+      "source": "第一财经",
+      "category": "宏观政策",
+      "stars": 3,
+      "time": "01:14",
+      "date": "2026-08-20",
+      "summary": "特朗普称预计今年晚些时候会见金正恩，或影响地缘局势。",
+      "tags": [
+        "特朗普",
+        "金正恩",
+        "地缘政治"
+      ],
+      "watched": false,
+      "url": "https://www.yicai.com/news/103325499.html"
     },
     {
       "id": "c00cc921f6d0",
@@ -1650,40 +2176,6 @@
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3151884"
-    },
-    {
-      "id": "5587bf1ea4bf",
-      "title": "美国20年期国债中标收益率5.204% 高于发行前交易水平",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "01:12",
-      "date": "2026-08-20",
-      "summary": "美国20年期国债中标收益率略高于预期，市场反应平淡。",
-      "tags": [
-        "美国国债",
-        "收益率",
-        "发行"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "db2ae4aedec3",
-      "title": "特朗普预计今年晚些时候会见金正恩",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "01:10",
-      "date": "2026-08-20",
-      "summary": "特朗普称今年晚些时候或见金正恩，地缘局势受关注。",
-      "tags": [
-        "特朗普",
-        "金正恩",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": ""
     },
     {
       "id": "eac05a99ea0f",
@@ -2358,13 +2850,13 @@
     },
     {
       "id": "621672a03bf0",
-      "title": "特朗普称可能恢复与伊朗谈判",
+      "title": "特朗普称或恢复与伊朗谈判",
       "source": "第一财经",
       "category": "宏观政策",
       "stars": 3,
       "time": "23:55",
       "date": "2026-08-19",
-      "summary": "特朗普称或恢复与伊朗谈判，但要求放弃核武。",
+      "summary": "特朗普称可能恢复与伊朗谈判，但要求其弃核。",
       "tags": [
         "特朗普",
         "伊朗",
@@ -2378,13 +2870,13 @@
       "title": "受热带低压影响 海口“三港”将于明日16时起停运",
       "source": "第一财经",
       "category": "宏观政策",
-      "stars": 2,
+      "stars": 3,
       "time": "23:54",
       "date": "2026-08-19",
-      "summary": "海口三港因热带低压停运，影响出行。",
+      "summary": "海口三港因热带低压明日停运，请合理安排行程。",
       "tags": [
         "热带低压",
-        "港口停运"
+        "海口停运"
       ],
       "watched": false,
       "url": "https://www.yicai.com/news/103325460.html"
@@ -2581,11 +3073,11 @@
       "stars": 3,
       "time": "23:33",
       "date": "2026-08-19",
-      "summary": "恒瑞医药上半年业绩增速放缓，6亿美元首付款延迟至三季度确认。",
+      "summary": "恒瑞医药上半年业绩微降，授权收入延迟确认影响增速。",
       "tags": [
         "恒瑞医药",
         "业绩",
-        "对外授权"
+        "授权收入"
       ],
       "watched": true,
       "url": "https://www.yicai.com/news/103325457.html"
@@ -2734,7 +3226,7 @@
       "stars": 4,
       "time": "23:23",
       "date": "2026-08-19",
-      "summary": "临港新片区打造词元出海全球枢纽，数据跨境升级2.0。",
+      "summary": "临港新片区打造词元出海枢纽，数据跨境升级2.0。",
       "tags": [
         "数据跨境",
         "临港新片区",
@@ -4292,15 +4784,15 @@
       "id": "f395e09eccea",
       "title": "恒大清盘人质疑港证监越权与普华永道和解",
       "source": "财新网",
-      "category": "公司公告",
+      "category": "宏观政策",
       "stars": 4,
       "time": "22:04",
       "date": "2026-08-19",
-      "summary": "恒大清盘人质疑港证监越权，与普华永道和解忽视债权人利益。",
+      "summary": "恒大清盘人告港证监越权，和解损害债权人利益。",
       "tags": [
         "恒大",
-        "清盘",
-        "港证监"
+        "香港证监会",
+        "清盘"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-19/102475853.html"
@@ -4511,12 +5003,11 @@
       "stars": 4,
       "time": "21:53",
       "date": "2026-08-19",
-      "summary": "上海银行收购上银国际获批，要求加强并表管理。",
+      "summary": "上银国际连亏五年，上海银行提级管理直接持股。",
       "tags": [
         "上海银行",
         "上银国际",
-        "收购",
-        "并表管理"
+        "股权收购"
       ],
       "watched": false,
       "url": "https://finance.caixin.com/2026-08-19/102475846.html"
@@ -4594,10 +5085,10 @@
       "stars": 4,
       "time": "21:41",
       "date": "2026-08-19",
-      "summary": "香港ZD Group涉新股投资诈骗，警方介入调查。",
+      "summary": "香港ZD Group涉新股投资兑付危机，警方介入调查。",
       "tags": [
-        "诈骗",
         "兑付危机",
+        "诈骗",
         "香港"
       ],
       "watched": false,
@@ -5497,15 +5988,15 @@
       "id": "9a7d20ef57c7",
       "title": "日立能源投资3亿美元在华扩产变压器",
       "source": "财新网",
-      "category": "宏观政策",
+      "category": "公司公告",
       "stars": 3,
       "time": "20:44",
       "date": "2026-08-19",
       "summary": "日立能源加码中国变压器产能，应对全球需求增长。",
       "tags": [
-        "日立能源",
         "变压器",
-        "投资"
+        "投资",
+        "扩产"
       ],
       "watched": false,
       "url": "https://www.caixin.com/2026-08-19/102475838.html"
@@ -6207,7 +6698,7 @@
       "stars": 4,
       "time": "20:28",
       "date": "2026-08-19",
-      "summary": "G7国债收益率飙升，通胀与供给担忧引发久期恐慌。",
+      "summary": "G7长期国债收益率飙升，反映通胀、债务和流动性担忧。",
       "tags": [
         "国债收益率",
         "通胀预期",
@@ -6867,10 +7358,10 @@
       "stars": 2,
       "time": "19:48",
       "date": "2026-08-19",
-      "summary": "人口贩运案件公诉，涉及人身权利侵犯。",
+      "summary": "人口贩运案件公诉，涉及人身权益，与金融市场关联弱。",
       "tags": [
         "人口贩卖",
-        "公诉"
+        "司法"
       ],
       "watched": false,
       "url": "https://china.caixin.com/2026-08-19/102475830.html"
@@ -7852,7 +8343,7 @@
       "stars": 4,
       "time": "19:09",
       "date": "2026-08-19",
-      "summary": "新规拓宽房屋安全资金渠道，但缺口仍待厘清。",
+      "summary": "新规拓宽房屋安全资金渠道，但具体需求待厘清。",
       "tags": [
         "公积金",
         "房屋安全",
@@ -7910,495 +8401,6 @@
       ],
       "watched": false,
       "url": "https://wallstreetcn.com/livenews/3151749"
-    },
-    {
-      "id": "6d894ce4797b",
-      "title": "今日股市0819丨双创大跌 全市场超百股跌停 调整会不会延续？",
-      "source": "第一财经",
-      "category": "市场情绪",
-      "stars": 3,
-      "time": "19:08",
-      "date": "2026-08-19",
-      "summary": "双创大跌，超百股跌停，市场调整或延续。",
-      "tags": [
-        "股市",
-        "调整"
-      ],
-      "watched": true,
-      "url": "https://www.yicai.com/news/103324940.html"
-    },
-    {
-      "id": "de6f64605276",
-      "title": "完美世界2026年上半年由盈转亏，净亏损1.18亿元",
-      "source": "华尔街见闻",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "19:04",
-      "date": "2026-08-19",
-      "summary": "完美世界上半年亏损1.18亿，营收降25%，不派息。",
-      "tags": [
-        "完美世界",
-        "业绩亏损",
-        "游戏行业"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151748"
-    },
-    {
-      "id": "4654676318f0",
-      "title": "Moderna美股盘前大涨超80%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "19:02",
-      "date": "2026-08-19",
-      "summary": "Moderna盘前暴涨超80%，重大利好。",
-      "tags": [
-        "Moderna",
-        "盘前大涨",
-        "美股"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151747"
-    },
-    {
-      "id": "8ef23f0eca55",
-      "title": "Moderna美股盘前涨超60%",
-      "source": "第一财经",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "19:02",
-      "date": "2026-08-19",
-      "summary": "Moderna盘前大涨超60%，关注相关概念股。",
-      "tags": [
-        "Moderna",
-        "美股",
-        "盘前大涨"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103325084.html"
-    },
-    {
-      "id": "dab014ff640c",
-      "title": "盛视科技上半年净利润同比增长342.91%",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "19:01",
-      "date": "2026-08-19",
-      "summary": "盛视科技半年报净利大增，智算业务贡献收入。",
-      "tags": [
-        "业绩增长",
-        "智算业务"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103325081.html"
-    },
-    {
-      "id": "4625464b0368",
-      "title": "美国MBA抵押贷款申请活动指数周环比下降0.4%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 2,
-      "time": "19:00",
-      "date": "2026-08-19",
-      "summary": "美国抵押贷款申请小幅下降，影响有限。",
-      "tags": [
-        "美国",
-        "抵押贷款",
-        "经济数据"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151746"
-    },
-    {
-      "id": "acd29c404a20",
-      "title": "Moderna与默沙东黑色素瘤疫苗试验成功，盘前大涨",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "18:57",
-      "date": "2026-08-19",
-      "summary": "Moderna疫苗试验成功，盘前涨超50%，带动疫苗股上涨。",
-      "tags": [
-        "疫苗",
-        "临床试验",
-        "美股"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151745"
-    },
-    {
-      "id": "a913f1de4fb8",
-      "title": "Moderna与默沙东黑色素瘤疫苗试验成功，盘前大涨超30%",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "18:54",
-      "date": "2026-08-19",
-      "summary": "Moderna疫苗试验成功，盘前大涨超30%。",
-      "tags": [
-        "Moderna",
-        "默沙东",
-        "黑色素瘤疫苗"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151743"
-    },
-    {
-      "id": "d2118373a590",
-      "title": "印尼7.7级地震死亡人数升至71人",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "18:54",
-      "date": "2026-08-19",
-      "summary": "印尼地震致71人死亡，搜救持续。",
-      "tags": [
-        "印尼",
-        "地震",
-        "灾害"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "272717ecdc89",
-      "title": "小马智行Robotaxi收入占比升至三成，海外共建车队提速",
-      "source": "财新网",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "18:54",
-      "date": "2026-08-19",
-      "summary": "小马智行Robotaxi收入占比达三成，正加速海外车队扩张。",
-      "tags": [
-        "小马智行",
-        "Robotaxi",
-        "自动驾驶"
-      ],
-      "watched": false,
-      "url": "https://www.caixin.com/2026-08-19/102475811.html"
-    },
-    {
-      "id": "e626147c0f20",
-      "title": "Moderna与默沙东黑色素瘤疫苗试验成功，盘前大涨30%",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "18:53",
-      "date": "2026-08-19",
-      "summary": "Moderna疫苗试验成功，盘前涨30%。",
-      "tags": [
-        "Moderna",
-        "默沙东",
-        "疫苗",
-        "黑色素瘤"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "f561fb89dcb4",
-      "title": "Benchmark下调百度目标价至150美元",
-      "source": "财联社电报",
-      "category": "券商动态",
-      "stars": 3,
-      "time": "18:53",
-      "date": "2026-08-19",
-      "summary": "Benchmark将百度目标价从215美元下调至150美元。",
-      "tags": [
-        "百度",
-        "目标价",
-        "下调"
-      ],
-      "watched": true,
-      "url": ""
-    },
-    {
-      "id": "fc61f42c0acc",
-      "title": "Moderna盘前涨20%，黑色素瘤疫苗试验成功",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "18:52",
-      "date": "2026-08-19",
-      "summary": "Moderna与默沙东疫苗试验成功，盘前大涨20%。",
-      "tags": [
-        "Moderna",
-        "默沙东",
-        "疫苗",
-        "临床试验"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "12f9b607d08b",
-      "title": "Moderna盘前大涨30%，黑色素瘤疫苗试验成功",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "18:52",
-      "date": "2026-08-19",
-      "summary": "Moderna与默沙东疫苗试验成功，盘前大涨30%。",
-      "tags": [
-        "Moderna",
-        "疫苗",
-        "临床试验"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2620539"
-    },
-    {
-      "id": "c9023b605442",
-      "title": "乌克兰任命新国防部长",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 3,
-      "time": "18:51",
-      "date": "2026-08-19",
-      "summary": "乌克兰议会批准赫马拉任国防部长，地缘局势受关注。",
-      "tags": [
-        "乌克兰",
-        "国防部长",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151742"
-    },
-    {
-      "id": "26b159a65560",
-      "title": "伊朗威胁提高霍尔木兹海峡关税反制",
-      "source": "华尔街见闻",
-      "category": "海外联动",
-      "stars": 4,
-      "time": "18:50",
-      "date": "2026-08-19",
-      "summary": "伊朗称若利益受损，将提高海峡关税反制。",
-      "tags": [
-        "伊朗",
-        "霍尔木兹海峡",
-        "地缘政治"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151740"
-    },
-    {
-      "id": "8c18f7c6eca0",
-      "title": "金徽酒2026年半年度净利润同比下降28.24%",
-      "source": "华尔街见闻",
-      "category": "公司公告",
-      "stars": 2,
-      "time": "18:50",
-      "date": "2026-08-19",
-      "summary": "金徽酒半年净利降28%，业绩不佳。",
-      "tags": [
-        "金徽酒",
-        "业绩下滑"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151741"
-    },
-    {
-      "id": "adb36b617492",
-      "title": "莫德纳股价因黑色素瘤疫苗更新大涨11%",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "18:50",
-      "date": "2026-08-19",
-      "summary": "莫德纳疫苗进展推动股价上涨11%",
-      "tags": [
-        "莫德纳",
-        "黑色素瘤疫苗",
-        "股价上涨"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2620538"
-    },
-    {
-      "id": "69411d0153d4",
-      "title": "快手即将举行财报电话会",
-      "source": "金十数据",
-      "category": "市场异动",
-      "stars": 2,
-      "time": "18:50",
-      "date": "2026-08-19",
-      "summary": "快手十分钟后开电话会，关注业绩指引。",
-      "tags": [
-        "快手",
-        "财报电话会"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "c469fc830150",
-      "title": "华康洁净中标6139.69万元医疗专项项目",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 2,
-      "time": "18:49",
-      "date": "2026-08-19",
-      "summary": "华康洁净中标医疗项目，金额不大，影响有限。",
-      "tags": [
-        "中标",
-        "医疗建设"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103325050.html"
-    },
-    {
-      "id": "4eccef0bfa38",
-      "title": "申通快递7月业务收入同比增长25.26%",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "18:48",
-      "date": "2026-08-19",
-      "summary": "申通7月收入53.7亿，同比增25.26%。",
-      "tags": [
-        "快递",
-        "业绩增长"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103325044.html"
-    },
-    {
-      "id": "f3afc18a2deb",
-      "title": "莫德纳股价因黑色素瘤疫苗更新上涨11%",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "18:48",
-      "date": "2026-08-19",
-      "summary": "莫德纳疫苗进展推动股价大涨11%",
-      "tags": [
-        "莫德纳",
-        "疫苗",
-        "股价上涨"
-      ],
-      "watched": false,
-      "url": ""
-    },
-    {
-      "id": "0c96fce1f577",
-      "title": "中炬高新上半年净利润4.14亿元，同比增长61.25%",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "18:48",
-      "date": "2026-08-19",
-      "summary": "中炬高新半年报业绩大增，净利润同比涨超六成。",
-      "tags": [
-        "中炬高新",
-        "业绩增长",
-        "半年报"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103325048.html"
-    },
-    {
-      "id": "ef92b77cc8b0",
-      "title": "湖南裕能上半年净利润同比增长853.51%",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "18:48",
-      "date": "2026-08-19",
-      "summary": "湖南裕能半年报净利大增，业绩亮眼。",
-      "tags": [
-        "业绩增长",
-        "锂电池材料"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103325046.html"
-    },
-    {
-      "id": "3cc355b6e4ee",
-      "title": "瑞穗银行上调Snowflake、CrowdStrike目标价",
-      "source": "格隆汇",
-      "category": "市场异动",
-      "stars": 3,
-      "time": "18:48",
-      "date": "2026-08-19",
-      "summary": "瑞穗上调Snowflake和CrowdStrike目标价，利好相关美股。",
-      "tags": [
-        "目标价上调",
-        "美股",
-        "科技股"
-      ],
-      "watched": false,
-      "url": "https://www.gelonghui.com/live/2620527"
-    },
-    {
-      "id": "f7c4d601e4fc",
-      "title": "三六零上半年扭亏为盈，净利润2.16亿元",
-      "source": "财联社电报",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "18:47",
-      "date": "2026-08-19",
-      "summary": "三六零上半年扭亏，净利2.16亿，营收增9%。",
-      "tags": [
-        "三六零",
-        "业绩报告",
-        "扭亏为盈"
-      ],
-      "watched": true,
-      "url": ""
-    },
-    {
-      "id": "90deec09c3df",
-      "title": "三六零上半年扭亏为盈，净利润2.16亿元",
-      "source": "华尔街见闻",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "18:47",
-      "date": "2026-08-19",
-      "summary": "三六零上半年扭亏为盈，净利2.16亿，拟派息。",
-      "tags": [
-        "三六零",
-        "扭亏为盈",
-        "业绩公告"
-      ],
-      "watched": false,
-      "url": "https://wallstreetcn.com/livenews/3151738"
-    },
-    {
-      "id": "5c4991985d1e",
-      "title": "圆通速递上半年净利润同比增长73.44% 拟10派1.2元",
-      "source": "第一财经",
-      "category": "公司公告",
-      "stars": 3,
-      "time": "18:47",
-      "date": "2026-08-19",
-      "summary": "圆通速递半年报净利大增，拟分红。",
-      "tags": [
-        "圆通速递",
-        "业绩增长",
-        "分红"
-      ],
-      "watched": false,
-      "url": "https://www.yicai.com/news/103325039.html"
-    },
-    {
-      "id": "198aa089fdc7",
-      "title": "伊朗称若利益受损将提高霍尔木兹海峡关税反制",
-      "source": "财联社电报",
-      "category": "市场异动",
-      "stars": 4,
-      "time": "18:46",
-      "date": "2026-08-19",
-      "summary": "伊朗威胁若利益受损，将提高霍尔木兹海峡关税，影响全球油运。",
-      "tags": [
-        "伊朗",
-        "霍尔木兹海峡",
-        "地缘政治",
-        "油价"
-      ],
-      "watched": false,
-      "url": ""
     }
   ]
 }
